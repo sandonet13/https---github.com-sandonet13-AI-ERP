@@ -36,6 +36,7 @@ $routes->setAutoRoute(true);
 // $routes->post('/loginCheck', 'Auth::loginCheck');
 
 // $routes->get('/register', 'MonitoringBmsController::bms1');
+$routes->get('/(:any)', 'Home::root/$1');
 $routes->get('/', 'Login::index');
 $routes->group('', ['filter' => 'auth'], function ($routes) {
     $routes->get('/dashboard', 'Dashboard::index');

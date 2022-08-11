@@ -1158,3 +1158,23 @@ CRITICAL - 2022-08-11 11:00:10 --> Undefined variable: name
 #16 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
 #17 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
 #18 {main}
+CRITICAL - 2022-08-11 14:54:34 --> Undefined variable: name
+#0 /var/www/rddspm/app/Views/partials/topbar.php(421): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 421, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/View/View.php(424): CodeIgniter\View\View->render('partials/topbar', NULL, true)
+#4 /var/www/rddspm/app/Views/partials/menu.php(1): CodeIgniter\View\View->include('partials/topbar')
+#5 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#6 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /var/www/rddspm/system/View/View.php(424): CodeIgniter\View\View->render('partials/menu', NULL, true)
+#8 /var/www/rddspm/app/Views/ui-modals.php(16): CodeIgniter\View\View->include('partials/menu')
+#9 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#10 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('ui-modals', Array, true)
+#12 /var/www/rddspm/app/Controllers/Home.php(16): view('ui-modals')
+#13 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('ui-modals')
+#14 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#15 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#17 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#18 {main}
