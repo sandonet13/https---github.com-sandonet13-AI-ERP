@@ -1,0 +1,155 @@
+CRITICAL - 2022-08-02 01:45:31 --> unlink(/var/www/rddspm/writable/debugbar/debugbar_1659420975.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www...', '/var/www/rddspm...', 74, Array)
+#1 /var/www/rddspm/system/Debug/Toolbar/Collectors/History.php(74): unlink('/var/www/rddspm...')
+#2 /var/www/rddspm/system/Debug/Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1659422728, 20)
+#3 /var/www/rddspm/system/Debug/Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /var/www/rddspm/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 /var/www/rddspm/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 /var/www/rddspm/system/CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-02 01:45:32 --> unlink(/var/www/rddspm/writable/debugbar/debugbar_1659420975.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www...', '/var/www/rddspm...', 74, Array)
+#1 /var/www/rddspm/system/Debug/Toolbar/Collectors/History.php(74): unlink('/var/www/rddspm...')
+#2 /var/www/rddspm/system/Debug/Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1659422730, 20)
+#3 /var/www/rddspm/system/Debug/Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /var/www/rddspm/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 /var/www/rddspm/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 /var/www/rddspm/system/CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-02 01:46:39 --> unlink(/var/www/rddspm/writable/debugbar/debugbar_1659421665.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www...', '/var/www/rddspm...', 74, Array)
+#1 /var/www/rddspm/system/Debug/Toolbar/Collectors/History.php(74): unlink('/var/www/rddspm...')
+#2 /var/www/rddspm/system/Debug/Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1659422798, 20)
+#3 /var/www/rddspm/system/Debug/Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /var/www/rddspm/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 /var/www/rddspm/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 /var/www/rddspm/system/CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-02 02:54:31 --> unlink(/var/www/rddspm/writable/debugbar/debugbar_1659425258.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www...', '/var/www/rddspm...', 74, Array)
+#1 /var/www/rddspm/system/Debug/Toolbar/Collectors/History.php(74): unlink('/var/www/rddspm...')
+#2 /var/www/rddspm/system/Debug/Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1659426870, 20)
+#3 /var/www/rddspm/system/Debug/Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /var/www/rddspm/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 /var/www/rddspm/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 /var/www/rddspm/system/CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-02 21:34:46 --> Undefined variable: totalTime
+#0 /var/www/rddspm/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 40, Array)
+#1 /var/www/rddspm/system/Debug/Toolbar.php(501): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/Debug/Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /var/www/rddspm/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 /var/www/rddspm/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /var/www/rddspm/system/CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-02 23:09:26 --> Undefined variable: arrBusVol
+#0 /var/www/rddspm/app/Views/chart/Chart-data-log.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 32, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/View/View.php(424): CodeIgniter\View\View->render('chart/Chart-dat...', NULL, true)
+#4 /var/www/rddspm/app/Views/dashboard-log.php(67): CodeIgniter\View\View->include('chart/Chart-dat...')
+#5 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#6 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-log', Array, true)
+#8 /var/www/rddspm/app/Controllers/MonitoringLogController.php(21): view('dashboard-log', Array)
+#9 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->log()
+#10 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#11 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-08-02 23:10:02 --> Undefined variable: arrBusVol
+#0 /var/www/rddspm/app/Views/chart/Chart-data-log.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 32, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/View/View.php(424): CodeIgniter\View\View->render('chart/Chart-dat...', NULL, true)
+#4 /var/www/rddspm/app/Views/dashboard-log.php(67): CodeIgniter\View\View->include('chart/Chart-dat...')
+#5 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#6 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-log', Array, true)
+#8 /var/www/rddspm/app/Controllers/MonitoringLogController.php(21): view('dashboard-log', Array)
+#9 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->log()
+#10 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#11 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-08-02 23:25:28 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-log.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 76, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-log', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringLogController.php(21): view('dashboard-log', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->log()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-08-02 23:28:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '100
+FROM `data_log`' at line 1
+CRITICAL - 2022-08-02 23:28:15 --> Call to a member function getResult() on bool
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->log()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-08-02 23:28:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 100
+FROM `data_log`' at line 1
+CRITICAL - 2022-08-02 23:28:42 --> Call to a member function getResult() on bool
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->log()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-02 23:29:12 --> Trying to get property 'desc' of non-object
+#0 /var/www/rddspm/app/Views/dashboard-log.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/rddspm...', 76, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-log', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringLogController.php(21): view('dashboard-log', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->log()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-08-02 23:37:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 200
+FROM `data_log`' at line 1
+CRITICAL - 2022-08-02 23:37:31 --> Call to a member function getResult() on bool
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->log()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-08-02 23:37:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 200
+FROM `data_log`' at line 1
+CRITICAL - 2022-08-02 23:37:49 --> Call to a member function getResult() on bool
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->log()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-02 23:39:04 --> A non well formed numeric value encountered
+#0 /var/www/rddspm/system/Database/BaseBuilder.php(1330): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', '/var/www/rddspm...', 1330, Array)
+#1 /var/www/rddspm/app/Controllers/MonitoringLogController.php(19): CodeIgniter\Database\BaseBuilder->limit('0,200')
+#2 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->log()
+#3 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#4 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-02 23:41:05 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::limit() must be of the type int or null, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 19
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(19): CodeIgniter\Database\BaseBuilder->limit(200, 'desc')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->log()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-02 23:42:07 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::limit() must be of the type int or null, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 19
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(19): CodeIgniter\Database\BaseBuilder->limit(200, 'desc')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->log()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}

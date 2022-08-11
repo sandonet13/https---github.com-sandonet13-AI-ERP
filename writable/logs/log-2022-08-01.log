@@ -1,0 +1,22 @@
+CRITICAL - 2022-08-01 21:13:31 --> Array to string conversion
+#0 /var/www/rddspm/app/Views/dashboard-log.php(171): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 171, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-log', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringLogController.php(21): view('dashboard-log', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->log()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-01 21:14:13 --> Array to string conversion
+#0 /var/www/rddspm/app/Views/dashboard-log.php(172): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 172, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-log', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringLogController.php(21): view('dashboard-log', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->log()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}

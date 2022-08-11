@@ -1,0 +1,1933 @@
+CRITICAL - 2022-07-20 02:48:01 --> syntax error, unexpected '}'
+#0 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 /var/www/rddspm/app/Controllers/Home.php(16): view('index')
+#3 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('index')
+#4 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-20 03:21:40 --> syntax error, unexpected end of file
+#0 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 /var/www/rddspm/app/Controllers/Home.php(16): view('index')
+#3 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('index')
+#4 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-20 03:22:32 --> syntax error, unexpected end of file
+#0 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 /var/www/rddspm/app/Controllers/Home.php(16): view('index')
+#3 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('index')
+#4 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-20 03:22:46 --> syntax error, unexpected end of file
+#0 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 /var/www/rddspm/app/Controllers/Home.php(16): view('index')
+#3 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('index')
+#4 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-20 03:53:34 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 38, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('index')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('index')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 03:54:23 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 38, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('index')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('index')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 04:10:58 --> Undefined variable: measurement
+#0 /var/www/rddspm/app/Views/index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 38, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('index')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('index')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 04:48:56 --> Undefined variable: monitoring_bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 04:56:35 --> Undefined variable: monitoring_bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 04:59:47 --> Undefined variable: monitoring_bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 05:12:01 --> Undefined variable: monitoring_bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 05:12:02 --> Undefined variable: monitoring_bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 05:12:38 --> Undefined variable: monitoring_bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 05:13:50 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 05:13:51 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 05:13:53 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 05:15:06 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 05:15:06 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 05:15:08 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 05:15:09 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 05:15:10 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 05:15:11 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 05:15:12 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 05:15:12 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 05:15:28 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 05:15:29 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 05:15:30 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 05:18:00 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 66, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 05:21:23 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 66, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 05:21:24 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 66, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 05:28:36 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 66, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 05:31:08 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 66, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 05:31:09 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 66, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 05:31:10 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 66, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 05:31:17 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 66, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 05:31:19 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 66, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 05:31:20 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 66, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 05:31:21 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 66, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 05:32:22 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 08:07:53 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 08:09:52 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 08:27:19 --> Undefined index: Pack1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/rddspm...', 64, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(15): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 08:31:26 --> Undefined index: Pack1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/rddspm...', 64, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(15): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 20:26:43 --> Undefined variable: power
+#0 /var/www/rddspm/app/Views/index.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 108, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('index')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('index')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 20:28:31 --> Undefined variable: pwr
+#0 /var/www/rddspm/app/Views/index.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 136, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('index')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('index')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 20:28:48 --> Undefined variable: power
+#0 /var/www/rddspm/app/Views/index.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 136, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('index')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('index')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 20:35:18 --> You must set the database table to be used with your query.
+#0 /var/www/rddspm/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /var/www/rddspm/system/Model.php(176): CodeIgniter\Model->builder()
+#2 /var/www/rddspm/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#3 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(14): CodeIgniter\BaseModel->findAll()
+#4 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms()
+#5 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#6 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-20 20:36:30 --> Class 'App\Controllers\monitoring_bms1' not found
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-20 20:37:20 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(15): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 20:38:23 --> Class 'App\Controllers\monitoring_bms1' not found
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-20 20:49:48 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 20:49:50 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 20:49:50 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('dashboard-bms')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('dashboard-bms')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 21:00:16 --> Undefined variable: power
+#0 /var/www/rddspm/app/Views/index.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 113, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('index')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('index')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 21:00:37 --> You must set the database table to be used with your query.
+#0 /var/www/rddspm/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /var/www/rddspm/system/Model.php(176): CodeIgniter\Model->builder()
+#2 /var/www/rddspm/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#3 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(15): CodeIgniter\BaseModel->findAll()
+#4 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#5 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#6 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-20 21:01:41 --> syntax error, unexpected 'protected' (T_PROTECTED), expecting ',' or ';'
+#0 /var/www/rddspm/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/rddspm...')
+#1 /var/www/rddspm/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Moni...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Moni...')
+#3 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(14): spl_autoload_call('App\\Models\\Moni...')
+#4 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#5 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#6 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-20 21:01:43 --> syntax error, unexpected 'protected' (T_PROTECTED), expecting ',' or ';'
+#0 /var/www/rddspm/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/rddspm...')
+#1 /var/www/rddspm/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Moni...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Moni...')
+#3 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(14): spl_autoload_call('App\\Models\\Moni...')
+#4 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#5 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#6 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-20 21:02:04 --> syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';'
+#0 /var/www/rddspm/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/rddspm...')
+#1 /var/www/rddspm/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Moni...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Moni...')
+#3 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(14): spl_autoload_call('App\\Models\\Moni...')
+#4 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#5 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#6 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-20 21:02:05 --> syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';'
+#0 /var/www/rddspm/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/rddspm...')
+#1 /var/www/rddspm/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Moni...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Moni...')
+#3 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(14): spl_autoload_call('App\\Models\\Moni...')
+#4 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#5 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#6 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-20 21:02:06 --> syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';'
+#0 /var/www/rddspm/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/rddspm...')
+#1 /var/www/rddspm/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Moni...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Moni...')
+#3 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(14): spl_autoload_call('App\\Models\\Moni...')
+#4 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#5 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#6 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-20 21:05:14 --> Undefined index: Parameter
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/rddspm...', 64, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('/dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(16): view('/dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 21:05:52 --> Class 'App\Controllers\monitoring_bms1' not found
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-20 21:08:16 --> Class 'App\Controllers\monitoring_bms1' not found
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-20 21:08:17 --> Class 'App\Controllers\monitoring_bms1' not found
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-20 21:08:17 --> Class 'App\Controllers\monitoring_bms1' not found
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-20 21:08:18 --> Class 'App\Controllers\monitoring_bms1' not found
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-20 21:08:29 --> You must set the database table to be used with your query.
+#0 /var/www/rddspm/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /var/www/rddspm/system/Model.php(176): CodeIgniter\Model->builder()
+#2 /var/www/rddspm/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#3 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(15): CodeIgniter\BaseModel->findAll()
+#4 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#5 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#6 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-20 21:08:56 --> Undefined index: Parameter
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/rddspm...', 64, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('/dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(16): view('/dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 21:09:18 --> syntax error, unexpected ''config_bms_param'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE)
+#0 /var/www/rddspm/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/rddspm...')
+#1 /var/www/rddspm/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Moni...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Moni...')
+#3 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(14): spl_autoload_call('App\\Models\\Moni...')
+#4 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#5 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#6 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-20 21:09:30 --> Undefined index: Parameter
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/rddspm...', 64, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('/dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(16): view('/dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 21:09:32 --> Undefined index: Parameter
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/rddspm...', 64, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('/dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(16): view('/dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 21:09:32 --> Undefined index: Parameter
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/rddspm...', 64, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('/dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(16): view('/dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 21:09:33 --> Undefined index: Parameter
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/rddspm...', 64, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('/dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(16): view('/dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 21:10:16 --> Class 'App\Controllers\monitoring_bms1' not found
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-20 21:21:10 --> You must set the database table to be used with your query.
+#0 /var/www/rddspm/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /var/www/rddspm/system/Model.php(176): CodeIgniter\Model->builder()
+#2 /var/www/rddspm/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#3 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(18): CodeIgniter\BaseModel->findAll()
+#4 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#5 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#6 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-20 21:21:33 --> Undefined variable: db
+#0 /var/www/rddspm/app/Models/MonitoringBmsModel.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 17, Array)
+#1 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(18): App\Models\MonitoringBmsModel->monitoring_bms1()
+#2 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#3 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#4 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-20 21:22:28 --> Undefined variable: db
+#0 /var/www/rddspm/app/Models/MonitoringBmsModel.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 17, Array)
+#1 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(18): App\Models\MonitoringBmsModel->monitoring_bms1()
+#2 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#3 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#4 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-20 21:22:30 --> Undefined variable: db
+#0 /var/www/rddspm/app/Models/MonitoringBmsModel.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 17, Array)
+#1 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(18): App\Models\MonitoringBmsModel->monitoring_bms1()
+#2 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#3 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#4 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-20 21:22:57 --> syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';'
+#0 /var/www/rddspm/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/rddspm...')
+#1 /var/www/rddspm/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Moni...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Moni...')
+#3 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(17): spl_autoload_call('App\\Models\\Moni...')
+#4 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#5 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#6 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-20 21:23:14 --> Undefined variable: db
+#0 /var/www/rddspm/app/Models/MonitoringBmsModel.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 13, Array)
+#1 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(18): App\Models\MonitoringBmsModel->monitoring_bms1()
+#2 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#3 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#4 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-07-20 21:24:26 --> Not unique table/alias: 'config_bms_param'
+CRITICAL - 2022-07-20 21:24:26 --> Call to a member function findAll() on bool
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-07-20 21:25:22 --> Not unique table/alias: 'config_bms_param'
+CRITICAL - 2022-07-20 21:25:22 --> Invalid argument supplied for foreach()
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('/dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(19): view('/dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-20 21:26:37 --> Not unique table/alias: 'config_bms_param'
+CRITICAL - 2022-07-20 21:26:37 --> Array to string conversion
+#0 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 19, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-20 21:27:17 --> Not unique table/alias: 'config_bms_param'
+CRITICAL - 2022-07-20 21:27:17 --> Invalid argument supplied for foreach()
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('/dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(19): view('/dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-20 21:28:03 --> Not unique table/alias: 'config_bms_param'
+CRITICAL - 2022-07-20 21:28:03 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('/dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(19): view('/dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-20 21:28:05 --> Not unique table/alias: 'config_bms_param'
+CRITICAL - 2022-07-20 21:28:05 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('/dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(19): view('/dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-20 21:29:09 --> Not unique table/alias: 'config_bms_param'
+CRITICAL - 2022-07-20 21:29:09 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('/dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(19): view('/dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-20 21:29:11 --> Not unique table/alias: 'config_bms_param'
+CRITICAL - 2022-07-20 21:29:11 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('/dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(19): view('/dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-20 21:29:29 --> Not unique table/alias: 'config_bms_param'
+CRITICAL - 2022-07-20 21:29:29 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 65, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('/dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(19): view('/dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-20 21:30:40 --> Not unique table/alias: 'config_bms_param'
+CRITICAL - 2022-07-20 21:30:40 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('/dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(19): view('/dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-20 21:33:24 --> Not unique table/alias: 'config_bms_param'
+CRITICAL - 2022-07-20 21:33:24 --> Call to a member function getResult() on bool
+#0 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(18): App\Models\MonitoringBmsModel->monitoring_bms1()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-20 21:34:47 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('/dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(19): view('/dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 21:34:49 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('/dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(19): view('/dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 21:35:31 --> Cannot use object of type mysqli as array
+#0 /var/www/rddspm/system/View/View.php(210): include()
+#1 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('/dashboard-bms', Array, true)
+#3 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(19): view('/dashboard-bms', Array)
+#4 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#5 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#6 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-20 21:35:54 --> Cannot use object of type mysqli as array
+#0 /var/www/rddspm/system/View/View.php(210): include()
+#1 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('/dashboard-bms', Array, true)
+#3 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(19): view('/dashboard-bms', Array)
+#4 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#5 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#6 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-20 21:35:55 --> Cannot use object of type mysqli as array
+#0 /var/www/rddspm/system/View/View.php(210): include()
+#1 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('/dashboard-bms', Array, true)
+#3 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(19): view('/dashboard-bms', Array)
+#4 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#5 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#6 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-20 21:35:56 --> Cannot use object of type mysqli as array
+#0 /var/www/rddspm/system/View/View.php(210): include()
+#1 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('/dashboard-bms', Array, true)
+#3 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(19): view('/dashboard-bms', Array)
+#4 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#5 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#6 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-20 21:35:57 --> Cannot use object of type mysqli as array
+#0 /var/www/rddspm/system/View/View.php(210): include()
+#1 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('/dashboard-bms', Array, true)
+#3 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(19): view('/dashboard-bms', Array)
+#4 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#5 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#6 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-20 21:36:16 --> Cannot use object of type mysqli as array
+#0 /var/www/rddspm/system/View/View.php(210): include()
+#1 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('/dashboard-bms', Array, true)
+#3 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(19): view('/dashboard-bms', Array)
+#4 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#5 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#6 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-20 21:36:18 --> Cannot use object of type mysqli as array
+#0 /var/www/rddspm/system/View/View.php(210): include()
+#1 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('/dashboard-bms', Array, true)
+#3 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(19): view('/dashboard-bms', Array)
+#4 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#5 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#6 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-20 21:36:19 --> Cannot use object of type mysqli as array
+#0 /var/www/rddspm/system/View/View.php(210): include()
+#1 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('/dashboard-bms', Array, true)
+#3 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(19): view('/dashboard-bms', Array)
+#4 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#5 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#6 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-20 21:36:20 --> Cannot use object of type mysqli as array
+#0 /var/www/rddspm/system/View/View.php(210): include()
+#1 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('/dashboard-bms', Array, true)
+#3 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(19): view('/dashboard-bms', Array)
+#4 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#5 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#6 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-20 21:36:27 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('/dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(19): view('/dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 21:36:28 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('/dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(19): view('/dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 21:36:28 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('/dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(19): view('/dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 21:36:29 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('/dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(19): view('/dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 21:36:29 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('/dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(19): view('/dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-20 21:37:12 --> Not unique table/alias: 'config_bms_param'
+CRITICAL - 2022-07-20 21:37:12 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('/dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(19): view('/dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-20 21:37:36 --> Not unique table/alias: 'config_bms_param'
+CRITICAL - 2022-07-20 21:37:36 --> Call to a member function result() on bool
+#0 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(18): App\Models\MonitoringBmsModel->monitoring_bms1()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-20 21:39:08 --> Not unique table/alias: 'config_bms_param'
+CRITICAL - 2022-07-20 21:39:08 --> Call to a member function result() on bool
+#0 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(18): App\Models\MonitoringBmsModel->monitoring_bms1()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-20 21:39:09 --> Not unique table/alias: 'config_bms_param'
+CRITICAL - 2022-07-20 21:39:09 --> Call to a member function result() on bool
+#0 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(18): App\Models\MonitoringBmsModel->monitoring_bms1()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-20 21:39:09 --> Not unique table/alias: 'config_bms_param'
+CRITICAL - 2022-07-20 21:39:09 --> Call to a member function result() on bool
+#0 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(18): App\Models\MonitoringBmsModel->monitoring_bms1()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-20 21:39:10 --> Not unique table/alias: 'config_bms_param'
+CRITICAL - 2022-07-20 21:39:10 --> Call to a member function result() on bool
+#0 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(18): App\Models\MonitoringBmsModel->monitoring_bms1()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-20 21:39:22 --> Not unique table/alias: 'config_bms_param'
+CRITICAL - 2022-07-20 21:39:22 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('/dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(19): view('/dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-20 21:40:19 --> Not unique table/alias: 'config_bms_param'
+CRITICAL - 2022-07-20 21:40:19 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('/dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(19): view('/dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-20 21:40:21 --> Not unique table/alias: 'config_bms_param'
+CRITICAL - 2022-07-20 21:40:21 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('/dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(19): view('/dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-20 21:40:36 --> Not unique table/alias: 'config_bms_param'
+ERROR - 2022-07-20 21:41:31 --> Not unique table/alias: 'config_bms_param'
+ERROR - 2022-07-20 21:42:17 --> Not unique table/alias: 'config_bms_param'
+ERROR - 2022-07-20 21:42:38 --> Not unique table/alias: 'config_bms_param'
+ERROR - 2022-07-20 21:42:39 --> Not unique table/alias: 'config_bms_param'
+ERROR - 2022-07-20 21:42:59 --> Not unique table/alias: 'config_bms_param'
+CRITICAL - 2022-07-20 21:42:59 --> Call to a member function get_result() on bool
+#0 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(13): App\Models\MonitoringBmsModel->monitoring_bms1()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-20 21:44:38 --> Access level to App\Models\MonitoringBmsModel::$db must be protected (as in class CodeIgniter\Model) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-20 21:45:14 --> Access level to App\Models\MonitoringBmsModel::$db must be protected (as in class CodeIgniter\Model) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-07-20 21:45:25 --> Not unique table/alias: 'config_bms_param'
+CRITICAL - 2022-07-20 21:45:25 --> Call to a member function getResult() on bool
+#0 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(13): App\Models\MonitoringBmsModel->monitoring_bms1()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-20 21:47:02 --> Not unique table/alias: 'config_bms_param'
+CRITICAL - 2022-07-20 21:47:02 --> Call to a member function getResult() on bool
+#0 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(13): App\Models\MonitoringBmsModel->monitoring_bms1()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-20 21:47:27 --> Not unique table/alias: 'config_bms_param'
+CRITICAL - 2022-07-20 21:47:27 --> Call to a member function getResult() on bool
+#0 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(13): App\Models\MonitoringBmsModel->monitoring_bms1()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-20 21:47:34 --> Not unique table/alias: 'config_bms_param'
+CRITICAL - 2022-07-20 21:47:34 --> Call to a member function getResult() on bool
+#0 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(13): App\Models\MonitoringBmsModel->monitoring_bms1()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-20 21:47:58 --> Not unique table/alias: 'config_bms_param'
+CRITICAL - 2022-07-20 21:47:58 --> Call to a member function getResult() on bool
+#0 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(13): App\Models\MonitoringBmsModel->monitoring_bms1()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-20 21:47:58 --> Not unique table/alias: 'config_bms_param'
+CRITICAL - 2022-07-20 21:47:58 --> Call to a member function getResult() on bool
+#0 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(13): App\Models\MonitoringBmsModel->monitoring_bms1()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-20 21:48:07 --> Not unique table/alias: 'config_bms_param'
+CRITICAL - 2022-07-20 21:48:07 --> Call to a member function getResult() on bool
+#0 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(13): App\Models\MonitoringBmsModel->monitoring_bms1()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-20 21:48:11 --> Not unique table/alias: 'config_bms_param'
+CRITICAL - 2022-07-20 21:48:11 --> Call to a member function getResult() on bool
+#0 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(13): App\Models\MonitoringBmsModel->monitoring_bms1()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-20 21:48:15 --> Not unique table/alias: 'config_bms_param'
+CRITICAL - 2022-07-20 21:48:15 --> Call to a member function getResult() on bool
+#0 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(13): App\Models\MonitoringBmsModel->monitoring_bms1()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-20 21:48:27 --> Not unique table/alias: 'config_bms_param'
+CRITICAL - 2022-07-20 21:49:34 --> Undefined variable: power
+#0 /var/www/rddspm/app/Views/index.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 113, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('index')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('index')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 21:56:08 --> Class 'App\Models\MonitoringBmsModel' not found
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-20 22:11:18 --> Undefined property: App\Controllers\MonitoringBmsController::$db
+#0 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/rddspm...', 12, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-20 22:12:34 --> Undefined property: App\Controllers\MonitoringBmsController::$db
+#0 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/rddspm...', 12, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-20 22:17:55 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(23): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:18:23 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(23): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:18:26 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(23): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:18:29 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(23): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:22:05 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(23): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:22:16 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(23): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:22:50 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(23): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:23:06 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(23): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:23:24 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(23): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:23:41 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(23): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:24:47 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(23): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:25:31 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(23): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:28:08 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(23): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:31:50 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(25): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:33:43 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(25): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:33:53 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(25): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:33:56 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(25): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:34:07 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(25): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:34:23 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(25): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:35:09 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(25): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:35:16 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(25): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:35:20 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(25): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:35:44 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(25): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:36:35 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 62, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(25): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:38:59 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 66, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(25): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:39:37 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 67, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(25): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:40:30 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 67, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(25): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:41:33 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 67, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(25): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:46:49 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 67, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(25): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:46:50 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 67, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(25): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:46:51 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 67, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(25): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:46:51 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 67, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(25): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:46:52 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 67, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(25): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:46:52 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 67, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(25): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:46:52 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 67, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(25): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:46:53 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 67, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(25): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:46:53 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 67, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(25): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:46:53 --> Undefined variable: bms1
+#0 /var/www/rddspm/app/Views/dashboard-bms.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 67, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-bms', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringBmsController.php(25): view('dashboard-bms', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringBmsController->bms1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringBmsController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 23:03:17 --> Undefined variable: voltage_in
+#0 /var/www/rddspm/app/Views/index.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 143, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('index')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('index')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 23:10:24 --> Undefined variable: voltage_in
+#0 /var/www/rddspm/app/Views/index.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 143, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 /var/www/rddspm/app/Controllers/Home.php(16): view('index')
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('index')
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 23:11:43 --> You must set the database table to be used with your query.
+#0 /var/www/rddspm/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /var/www/rddspm/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /var/www/rddspm/app/Views/index.php(143): CodeIgniter\Model->__call('voltage_in', Array)
+#3 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#4 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#6 /var/www/rddspm/app/Controllers/Home.php(16): view('index')
+#7 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Home->root('index')
+#8 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-20 23:50:17 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-scc-1.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 48, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-scc-1', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringSccController.php(21): view('dashboard-scc-1', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringSccController->scc1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringSccController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 23:50:48 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-scc-1.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 48, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-scc-1', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringSccController.php(21): view('dashboard-scc-1', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringSccController->scc1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringSccController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 23:50:49 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-scc-1.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 48, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-scc-1', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringSccController.php(21): view('dashboard-scc-1', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringSccController->scc1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringSccController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 23:50:57 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-scc-1.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 48, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-scc-1', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringSccController.php(21): view('dashboard-scc-1', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringSccController->scc1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringSccController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 23:51:02 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-scc-1.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 48, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-scc-1', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringSccController.php(21): view('dashboard-scc-1', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringSccController->scc1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringSccController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 23:51:30 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-scc-1.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 48, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-scc-1', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringSccController.php(21): view('dashboard-scc-1', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringSccController->scc1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringSccController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 23:51:31 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-scc-1.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 48, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-scc-1', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringSccController.php(21): view('dashboard-scc-1', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringSccController->scc1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringSccController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 23:51:32 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-scc-1.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 48, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-scc-1', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringSccController.php(21): view('dashboard-scc-1', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringSccController->scc1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringSccController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 23:51:32 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-scc-1.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 48, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-scc-1', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringSccController.php(21): view('dashboard-scc-1', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringSccController->scc1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringSccController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 23:51:32 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-scc-1.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 48, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-scc-1', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringSccController.php(21): view('dashboard-scc-1', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringSccController->scc1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringSccController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 23:51:35 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-scc-1.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 48, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-scc-1', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringSccController.php(21): view('dashboard-scc-1', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringSccController->scc1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringSccController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 23:52:07 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-scc-1.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 48, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-scc-1', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringSccController.php(21): view('dashboard-scc-1', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringSccController->scc1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringSccController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 23:53:11 --> syntax error, unexpected '1' (T_LNUMBER), expecting ',' or ';'
+#0 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-scc-1', Array, true)
+#2 /var/www/rddspm/app/Controllers/MonitoringSccController.php(21): view('dashboard-scc-1', Array)
+#3 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringSccController->scc1()
+#4 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringSccController))
+#5 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-20 23:53:19 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-scc-1.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 48, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-scc-1', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringSccController.php(21): view('dashboard-scc-1', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringSccController->scc1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringSccController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 23:53:20 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-scc-1.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 48, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-scc-1', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringSccController.php(21): view('dashboard-scc-1', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringSccController->scc1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringSccController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 23:53:20 --> Undefined variable: data
+#0 /var/www/rddspm/app/Views/dashboard-scc-1.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 48, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-scc-1', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringSccController.php(21): view('dashboard-scc-1', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringSccController->scc1()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringSccController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}

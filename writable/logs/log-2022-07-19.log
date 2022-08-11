@@ -1,0 +1,42 @@
+CRITICAL - 2022-07-19 10:38:34 --> The framework needs the following extension(s) installed and loaded: curl, intl.
+#0 /var/www/rddspm/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl')
+#1 /var/www/rddspm/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/rddspm/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/rddspm/spark(45): require('/var/www/rddspm...')
+#4 {main}
+CRITICAL - 2022-07-19 10:40:13 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 /var/www/rddspm/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl')
+#1 /var/www/rddspm/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/rddspm/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/rddspm/spark(45): require('/var/www/rddspm...')
+#4 {main}
+CRITICAL - 2022-07-19 10:41:34 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 /var/www/rddspm/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl')
+#1 /var/www/rddspm/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/rddspm/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/rddspm/spark(45): require('/var/www/rddspm...')
+#4 {main}
+CRITICAL - 2022-07-19 10:42:59 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 /var/www/rddspm/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl')
+#1 /var/www/rddspm/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/rddspm/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/rddspm/spark(45): require('/var/www/rddspm...')
+#4 {main}
+CRITICAL - 2022-07-19 10:43:07 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 /var/www/rddspm/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl')
+#1 /var/www/rddspm/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/rddspm/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/rddspm/spark(45): require('/var/www/rddspm...')
+#4 {main}
+CRITICAL - 2022-07-19 10:45:34 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 /var/www/rddspm/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl')
+#1 /var/www/rddspm/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/rddspm/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/rddspm/spark(45): require('/var/www/rddspm...')
+#4 {main}
+CRITICAL - 2022-07-19 11:05:59 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 /var/www/rddspm/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl')
+#1 /var/www/rddspm/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/rddspm/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/rddspm/spark(45): require('/var/www/rddspm...')
+#4 {main}

@@ -1,0 +1,10 @@
+CRITICAL - 2022-08-05 02:17:30 --> unlink(/var/www/rddspm/writable/debugbar/debugbar_1659675972.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www...', '/var/www/rddspm...', 74, Array)
+#1 /var/www/rddspm/system/Debug/Toolbar/Collectors/History.php(74): unlink('/var/www/rddspm...')
+#2 /var/www/rddspm/system/Debug/Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1659683850, 20)
+#3 /var/www/rddspm/system/Debug/Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /var/www/rddspm/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 /var/www/rddspm/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 /var/www/rddspm/system/CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
