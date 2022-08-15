@@ -34,7 +34,7 @@ CI_ENVIRONMENT = development
 
 #--------------------------------------------------------------------
 
- app.baseURL = 'http://172.104.32.212'
+ app.baseURL = 'http://localhost:9191'
 
 # app.forceGlobalSecureRequests = false
 
