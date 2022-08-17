@@ -1,0 +1,30 @@
+ERROR - 2022-08-15 03:41:03 --> Table 'rdd.users' doesn't exist
+CRITICAL - 2022-08-15 03:41:03 --> Call to a member function getFirstRow() on bool
+#0 G:\TNT\SmartFarm\rddspm\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 G:\TNT\SmartFarm\rddspm\app\Controllers\Login.php(30): CodeIgniter\BaseModel->first()
+#2 G:\TNT\SmartFarm\rddspm\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#3 G:\TNT\SmartFarm\rddspm\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 G:\TNT\SmartFarm\rddspm\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\TNT\SmartFarm\rddspm\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 G:\TNT\SmartFarm\rddspm\system\Commands\Server\rewrite.php(43): require_once('G:\\TNT\\SmartFar...')
+#7 {main}
+ERROR - 2022-08-15 03:45:28 --> Table 'rdd.users' doesn't exist
+CRITICAL - 2022-08-15 03:45:28 --> Call to a member function getRow() on bool
+#0 G:\TNT\SmartFarm\rddspm\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin@admin.com', 'user_email', Array, NULL)
+#1 G:\TNT\SmartFarm\rddspm\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'admin@admin.com', Array, Array)
+#2 G:\TNT\SmartFarm\rddspm\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 G:\TNT\SmartFarm\rddspm\app\Controllers\Register.php(35): CodeIgniter\Controller->validate(Array)
+#4 G:\TNT\SmartFarm\rddspm\system\CodeIgniter.php(832): App\Controllers\Register->save()
+#5 G:\TNT\SmartFarm\rddspm\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 G:\TNT\SmartFarm\rddspm\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\TNT\SmartFarm\rddspm\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 G:\TNT\SmartFarm\rddspm\system\Commands\Server\rewrite.php(43): require_once('G:\\TNT\\SmartFar...')
+#9 {main}
+ERROR - 2022-08-15 03:47:08 --> Table 'smartfarm.power_batt' doesn't exist
+CRITICAL - 2022-08-15 03:47:08 --> Call to a member function getResult() on bool
+#0 G:\TNT\SmartFarm\rddspm\system\CodeIgniter.php(832): App\Controllers\MonitoringDashController->main_dashboard()
+#1 G:\TNT\SmartFarm\rddspm\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringDashController))
+#2 G:\TNT\SmartFarm\rddspm\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\TNT\SmartFarm\rddspm\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 G:\TNT\SmartFarm\rddspm\system\Commands\Server\rewrite.php(43): require_once('G:\\TNT\\SmartFar...')
+#5 {main}

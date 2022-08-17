@@ -45,7 +45,7 @@
                                         <form class="bs-example form-horizontal" method="post" action="<?php echo site_url('/update_vsatcur_scale') ?>">
                                         <div class="row mb-3">
                                             <div class="col-lg-2">
-                                                <label for="nameInput" class="form-label">MW/VSAT Current </label>
+                                                <label for="nameInput" class="form-label">MW/VSAT Currentsssss </label>
                                             </div>
                                             <div class="col-lg-2 d-flex" style="padding-bottom:1%">
                                                 <input type="number" class="form-control" value="<?php echo $load[2]->value ?>" id="nameInput" placeholder="" readonly>

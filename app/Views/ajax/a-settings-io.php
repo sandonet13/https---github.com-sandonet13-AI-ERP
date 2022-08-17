@@ -8,7 +8,7 @@
                                             <div class="col-lg-2">
                                                 <label for="nameInput" class="form-label"><?php echo $config_di[0]->parameter ?> </label>
                                             </div>
-                                            <div class="col-lg-4 d-flex">
+                                            <div class="col-lg-5 d-flex">
                                             <select class="form-control" name="fan_state">
                                                       <!-- <option value="tes</option> -->
                                                       <option value="<?php echo $config_di[0]->state_fb ?>"><?php echo $config_di[0]->state_fb ?></option>
@@ -18,7 +18,7 @@
                                                         ?>
                                             </select>
                                             </div>
-                                            <div class="col-lg-4 d-flex">
+                                            <div class="col-lg-5 d-flex">
                                             <select class="form-control" name="fan_triger">
                                                       <option value="<?php echo $config_di[0]->triger_fb ?>"><?php echo $config_di[0]->triger_fb ?></option>
                                                       <?php
@@ -26,9 +26,7 @@
                                                         else{echo '<option value="Open">Open</option>';}
                                                         ?>
                                                   </select>
-                                            </div>
-                                            <div class="col-lg-1 d-flex">
-                                                <button type="submit" id="sa-success" class=" d-flex btn btn-primary"> Set&nbsp; <i class="ri-check-line"></i> </button>
+                                                  <button type="submit" id="sa-success" style="margin-left:20px ;" class=" d-flex btn btn-primary"> Set&nbsp; <i class="ri-check-line"></i> </button>
                                             </div>
                                         </div>
                                 </form>
@@ -37,7 +35,7 @@
                                             <div class="col-lg-2">
                                                 <label for="nameInput" class="form-label"><?php echo $config_di[1]->parameter ?> </label>
                                             </div>
-                                            <div class="col-lg-4 d-flex">
+                                            <div class="col-lg-5 d-flex">
                                             <select class="form-control" name="door_state">
                                                       <!-- <option value="tes</option> -->
                                                       <option value="<?php echo $config_di[1]->state_fb ?>"><?php echo $config_di[1]->state_fb ?></option>
@@ -47,7 +45,7 @@
                                                         ?>
                                             </select>
                                             </div>
-                                            <div class="col-lg-4 d-flex">
+                                            <div class="col-lg-5 d-flex">
                                             <select class="form-control" name="door_triger">
                                                       <option value="<?php echo $config_di[1]->triger_fb ?>"><?php echo $config_di[1]->triger_fb ?></option>
                                                       <?php
@@ -60,10 +58,10 @@
                                                         }
                                                         ?>
                                                   </select>
+                                                  <button type="submit" id="sa-success" style="margin-left:20px ;" class=" d-flex btn btn-primary"> Set&nbsp; <i class="ri-check-line"></i> </button>
                                             </div>
-                                            <div class="col-lg-1 d-flex">
-                                                <button type="submit" id="sa-success" class=" d-flex btn btn-primary"> Set&nbsp; <i class="ri-check-line"></i> </button>
-                                            </div>
+                                            <!-- <div class="col-lg-1 d-flex"> -->
+                                            <!-- </div> -->
                                         </div>
                                 </form>
                                 </div><!-- end cardbody -->

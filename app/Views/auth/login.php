@@ -30,10 +30,10 @@
                             <div class="text-center mt-sm-5 mb-4 text-white-50">
                                 <div>
                                     <a href="/" class="d-inline-block auth-logo">
-                                        <img src="/assets/images/logo-light.png" alt="" height="20">
+                                        <img src="/assets/images/text-logo.png" alt="">
                                     </a>
                                 </div>
-                                <p class="mt-3 fs-15 fw-semibold">Premium Admin & Dashboard Template</p>
+                                <!-- <p class="mt-3 fs-15 fw-semibold">Premium Admin & Dashboard Template</p> -->
                             </div>
                         </div>
                     </div>
@@ -45,8 +45,8 @@
                             
                                 <div class="card-body p-4"> 
                                     <div class="text-center mt-2">
-                                        <h5 class="text-primary">Welcome Back !</h5>
-                                        <p class="text-muted">Sign in to continue to Velzon.</p>
+                                        <!-- <h5 class="text-primary">Welcome Back !</h5>
+                                        <p class="text-muted">Sign in to continue to Velzon.</p> -->
                                     </div>
                                     <?php if(!empty(session()->getFlashdata('error'))): ?>
                                         <div class="alert alert-danger mb-xl-0" role="alert"><?= session()->getFlashdata('error') ?></div>
@@ -55,12 +55,12 @@
                                     <form action="/login/auth" method="post">
                                             <div class="mb-3">
                                                 <label for="username" class="form-label">Username</label>
-                                                <input type="text" class="form-control" id="username" name="email" placeholder="Enter email" value="">
+                                                <input type="text" class="form-control" id="username" name="name" placeholder="Enter username" value="">
                                             </div>
                                             <div class="mb-3">
-                                                <div class="float-end">
+                                                <!-- <div class="float-end">
                                                     <a href="#" class="text-muted">Forgot password?</a>
-                                                </div>
+                                                </div> -->
                                                 <label class="form-label" for="password-input">Password</label>
                                                 <div class="position-relative auth-pass-inputgroup mb-3">
                                                     <input type="password" class="form-control pe-5" placeholder="Enter password" id="password-input" name="password" value="">
@@ -111,7 +111,9 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="text-center">
-                                <p class="mb-0 text-muted">&copy; <script>document.write(new Date().getFullYear())</script> Velzon. Crafted with <i class="mdi mdi-heart text-danger"></i> by Themesbrand</p>
+                                <p class="mb-0 text-muted"><script>
+                                        document.write(new Date().getFullYear())
+                                    </script> © RDD All rights reserved.
                             </div>
                         </div>
                     </div>

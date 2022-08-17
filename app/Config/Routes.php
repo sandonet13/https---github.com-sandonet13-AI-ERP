@@ -36,7 +36,7 @@ $routes->setAutoRoute(true);
 // $routes->post('/loginCheck', 'Auth::loginCheck');
 
 // $routes->get('/register', 'MonitoringBmsController::bms1');
-$routes->get('/(:any)', 'Home::root/$1');
+// $routes->get('/(:any)', 'Home::root/$1');
 $routes->get('/', 'Login::index');
 $routes->group('', ['filter' => 'auth'], function ($routes) {
     $routes->get('/dashboard', 'Dashboard::index');
@@ -65,6 +65,7 @@ $routes->group('', ['filter' => 'auth'], function ($routes) {
     $routes->get('/ajax/a-settings-lvd', 'DashboardSettingsController::ajax_lvd');
     $routes->get('/ajax/a-settings-io', 'DashboardSettingsController::ajax_io');
     $routes->get('/ajax/a-settings-calibration', 'DashboardSettingsController::ajax_calibration');
+    $routes->get('/ajax/a-settings-voltage-calibration', 'DashboardSettingsController::ajax_voltage_calibration');
     $routes->get('/reboot', 'SiteInfoController::reboot');
     $routes->post('settanggal', 'SetDateController::settanggal');
     $routes->get('settanggal', 'SetDateController::settanggal');
@@ -87,6 +88,13 @@ $routes->group('', ['filter' => 'auth'], function ($routes) {
     $routes->get('update_lvd_vsat', 'SetLVDController::update_lvd_vsat');
     $routes->post('update_lvd_bts', 'SetLVDController::update_lvd_bts');
     $routes->get('update_lvd_bts', 'SetLVDController::update_lvd_bts');
+    $routes->add('get_data_zerobusvol', 'SetZeroSpanController::get_data_zerobusvol');  
+    $routes->add('get_data_zerobtscur', 'SetZeroSpanController::get_data_zerobtscur');
+    $routes->add('get_data_zerovsatcur', 'SetZeroSpanController::get_data_zerovsatcur');
+    $routes->add('get_data_spanbusvol', 'SetZeroSpanController::get_data_spanbusvol');
+    $routes->add('get_data_spanbtscur', 'SetZeroSpanController::get_data_spanbtscur');
+    $routes->add('get_data_spanvsatcur', 'SetZeroSpanController::get_data_spanvsatcur');
+    
 
 // Filter on route group
     $routes->get('/logout', 'Auth::logout');

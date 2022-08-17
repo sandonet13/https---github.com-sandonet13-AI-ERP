@@ -1,0 +1,158 @@
+CRITICAL - 2022-08-17 15:36:48 --> The framework needs the following extension(s) installed and loaded: curl, intl.
+#0 /var/www/rddspm/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl')
+#1 /var/www/rddspm/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/rddspm/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/rddspm/spark(45): require('/var/www/rddspm...')
+#4 {main}
+CRITICAL - 2022-08-17 15:52:29 --> The framework needs the following extension(s) installed and loaded: curl, intl.
+#0 /var/www/rddspm/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl')
+#1 /var/www/rddspm/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/rddspm/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/rddspm/spark(45): require('/var/www/rddspm...')
+#4 {main}
+CRITICAL - 2022-08-17 15:53:53 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 /var/www/rddspm/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl')
+#1 /var/www/rddspm/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/rddspm/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/rddspm/spark(45): require('/var/www/rddspm...')
+#4 {main}
+ERROR - 2022-08-17 03:55:50 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-08-17 03:55:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /var/www/rddspm/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/rddspm/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/rddspm/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/rddspm/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /var/www/rddspm/app/Controllers/Login.php(30): CodeIgniter\BaseModel->first()
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Login->auth()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#10 {main}
+ERROR - 2022-08-17 03:59:32 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-08-17 03:59:32 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /var/www/rddspm/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/rddspm/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /var/www/rddspm/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/rddspm/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin@admin.com', 'user_email', Array, NULL)
+#4 /var/www/rddspm/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'admin@admin.com', Array, Array)
+#5 /var/www/rddspm/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /var/www/rddspm/app/Controllers/Register.php(35): CodeIgniter\Controller->validate(Array)
+#7 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\Register->save()
+#8 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#9 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#11 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#12 {main}
+CRITICAL - 2022-08-17 04:01:01 --> Undefined property: stdClass::$name
+#0 /var/www/rddspm/app/Views/dashboard-rectifier.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/rddspm...', 47, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-recti...', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringDashController.php(41): view('dashboard-recti...', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringDashController->main_dashboard()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringDashController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#10 {main}
+CRITICAL - 2022-08-17 04:09:28 --> Undefined property: stdClass::$name
+#0 /var/www/rddspm/app/Views/dashboard-rectifier.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/rddspm...', 115, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-recti...', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringDashController.php(41): view('dashboard-recti...', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringDashController->main_dashboard()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringDashController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#10 {main}
+CRITICAL - 2022-08-17 04:11:31 --> Undefined property: stdClass::$name
+#0 /var/www/rddspm/app/Views/dashboard-rectifier.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/rddspm...', 115, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-recti...', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringDashController.php(41): view('dashboard-recti...', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringDashController->main_dashboard()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringDashController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#10 {main}
+CRITICAL - 2022-08-17 04:13:53 --> Undefined property: stdClass::$name
+#0 /var/www/rddspm/app/Views/dashboard-io.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/rddspm...', 35, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-io', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringDioController.php(33): view('dashboard-io', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringDioController->input_output()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringDioController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#10 {main}
+CRITICAL - 2022-08-17 04:29:10 --> syntax error, unexpected '}'
+#0 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-setti...', Array, true)
+#2 /var/www/rddspm/app/Controllers/SiteInfoController.php(51): view('dashboard-setti...', Array)
+#3 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\SiteInfoController->site_info()
+#4 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteInfoController))
+#5 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#8 {main}
+CRITICAL - 2022-08-17 04:29:33 --> syntax error, unexpected '}', expecting ',' or ';'
+#0 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-setti...', Array, true)
+#2 /var/www/rddspm/app/Controllers/SiteInfoController.php(51): view('dashboard-setti...', Array)
+#3 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\SiteInfoController->site_info()
+#4 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteInfoController))
+#5 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#8 {main}
+ERROR - 2022-08-17 08:26:37 --> Unknown column 'id' in 'where clause'
+ERROR - 2022-08-17 08:26:37 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-08-17 10:27:49 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+#0 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('ajax/a-dashboar...', Array, true)
+#2 /var/www/rddspm/app/Controllers/DashboardDioController.php(29): view('ajax/a-dashboar...', Array)
+#3 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\DashboardDioController->ajax_input_output()
+#4 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardDioController))
+#5 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#8 {main}
+CRITICAL - 2022-08-17 10:27:53 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+#0 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('ajax/a-dashboar...', Array, true)
+#2 /var/www/rddspm/app/Controllers/DashboardDioController.php(29): view('ajax/a-dashboar...', Array)
+#3 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\DashboardDioController->ajax_input_output()
+#4 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardDioController))
+#5 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#8 {main}
+CRITICAL - 2022-08-17 10:39:56 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+#0 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('ajax/a-dashboar...', Array, true)
+#2 /var/www/rddspm/app/Controllers/DashboardDioController.php(29): view('ajax/a-dashboar...', Array)
+#3 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\DashboardDioController->ajax_input_output()
+#4 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardDioController))
+#5 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#8 {main}
+CRITICAL - 2022-08-17 10:47:38 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+#0 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('ajax/a-dashboar...', Array, true)
+#2 /var/www/rddspm/app/Controllers/DashboardDioController.php(29): view('ajax/a-dashboar...', Array)
+#3 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\DashboardDioController->ajax_input_output()
+#4 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardDioController))
+#5 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#8 {main}
