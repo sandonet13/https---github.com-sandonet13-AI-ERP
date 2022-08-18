@@ -66,6 +66,7 @@ $routes->group('', ['filter' => 'auth'], function ($routes) {
     $routes->get('/ajax/a-settings-io', 'DashboardSettingsController::ajax_io');
     $routes->get('/ajax/a-settings-calibration', 'DashboardSettingsController::ajax_calibration');
     $routes->get('/ajax/a-settings-voltage-calibration', 'DashboardSettingsController::ajax_voltage_calibration');
+    $routes->get('/ajax/a-dtime', 'DashboardSettingsController::ajax_get_time');
     $routes->get('/reboot', 'SiteInfoController::reboot');
     $routes->post('settanggal', 'SetDateController::settanggal');
     $routes->get('settanggal', 'SetDateController::settanggal');

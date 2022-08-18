@@ -1,0 +1,1 @@
+<div><span class="logo-lg"><?php echo $dtime ?></span></div>

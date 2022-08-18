@@ -11,7 +11,7 @@
 <body>
 
     <!-- Begin page -->
-    <div id="layout-wrapper">
+    <div id="layout-wrapper" id="io">
 
         <?= $this->include('partials/menu') ?>
 
@@ -20,7 +20,7 @@
         <!-- ============================================================== -->
         <div class="main-content">
 
-            <div class="page-content"  id="io">
+            <div class="page-content" >
                 <div class="container-fluid">
 
                     <?php echo view('partials/page-title', array('pagetitle' => 'Dashboards', 'title' => 'Input Output')); ?>
@@ -149,7 +149,7 @@
                                     </div>
                                     <div class="d-flex align-items-end justify-content-between mt-4">
                                         <div>
-                                        <h4 class="fs-22 fw-bold ff-secondary mb-4">Status <?php if($lvd[1]->value == 0){ ?><small class="text-decoration text-success">Connect <i class="mdi mdi-check"></i></small><?php } ?><?php if($lvd[1]->value == 1){ ?><small class="text-decoration text-danger">Disconnect <i class="mdi mdi-close"></i></small> <?php } ?><?php if($lvd[1]->state_fb == 'Disable'){ ?><small class="text-decoration">Disable <i class="mdi mdi-close"></i></small> <?php } ?></h4>
+                                        <h4 class="fs-22 fw-bold ff-secondary mb-4">Status <?php if($lvd[1]->value == 0){ ?><small class="text-decoration text-success">Connect <i class="mdi mdi-check"></i></small><?php } ?><?php if($lvd[1]->value == 1){ ?><small class="text-decoration text-danger">Disconnect <i class="mdi mdi-close"></i></small> <?php } ?></h4>
                                             <a href="" class="text-decoration text-white">&nbsp;</a>
                                         </div>
                                         <div class="avatar-sm flex-shrink-0">

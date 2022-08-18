@@ -19,6 +19,10 @@
             <span class="logo-lg">
                 <img src="/assets/images/logo-light.png" alt="">
             </span>
+            <div id="dtime">
+                <div><span class="logo-lg"><?php echo $dtime ?></span></div>
+                <?php echo view('partials/refresh-dtime'); ?> 
+            </div>
         </a>
         <button type="button" class="btn btn-sm p-0 fs-20 header-item float-end btn-vertical-sm-hover" id="vertical-hover">
             <i class="ri-record-circle-line"></i>
@@ -89,6 +93,7 @@
     </div>
     <!-- Sidebar -->
 </div>
+
 
 <div class="sidebar-background"></div>
 </div>

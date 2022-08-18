@@ -143,4 +143,15 @@ class DashboardSettingsController extends BaseController
     return view('ajax/a-settings-voltage-calibration', $data);
   }
 
+  public function ajax_get_time(){
+
+		date_default_timezone_set('Asia/Jakarta');
+		$date = date('d/m/Y H:i:s', time());
+		$data['dtime'] = $date;
+
+    return view('ajax/a-dtime', $data);
+
+
+	}
+
 }

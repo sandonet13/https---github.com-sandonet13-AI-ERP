@@ -38,6 +38,9 @@ class MonitoringDashController extends BaseController
     $email = $session->get('email');
     $data['name'] = $name;
     $data['email'] = $email;
+    date_default_timezone_set('Asia/Jakarta');
+		$date = date('d/m/Y H:i:s', time());
+		$data['dtime'] = $date;
     return view('dashboard-rectifier', $data);
   }
 

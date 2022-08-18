@@ -183,6 +183,8 @@
             <?php echo view('partials/refresh-scc-pv-power'); ?>   
             <?php echo view('partials/refresh-scc-batt-power'); ?>
             <?php echo view('partials/refresh-scc-load-power'); ?> 
+        
+
  
 
                            
