@@ -19,9 +19,31 @@ class SetDateController extends BaseController
   {
 		$date = $this->request->getVar('date');
     $time = $this->request->getVar('time');
-    $data = "$date $time";
-    $result = str_replace(',', '', $data);
-    shell_exec("sudo date --set '" . $result . ":00' ");
+    $datetime = "$date $time";
+    $data = [  
+      'tgl' => $date,
+      'jam' => $time,
+      'msg' => $datetime
+    ];
+    $builder = $this->db->table('setdate');
+    $builder->update($data);
+    $postdata = http_build_query(
+      array(
+        'name' => 'Waktu',
+        'id' => '10',
+        'code' => 'W1'
+      )
+    );
+    $opts = array('http' =>
+      array(
+        'method' => 'POST',
+        'header' => 'Content-type: application/x-www-form-urlencoded',
+        'content' => $postdata
+      )
+    );
+    $context = stream_context_create($opts);
+    $base_url="http://" . $_SERVER['SERVER_NAME'] . ":1880/Waktu";
+    $result = file_get_contents($base_url, false, $context);
     return $this->response->redirect(site_url('/dashboard-settings'));
   }
 }

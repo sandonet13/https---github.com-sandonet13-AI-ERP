@@ -81,53 +81,62 @@ foreach ($scc2 as $scc2_data => $s2) {
       datasets: [
          {
          data: [],
+         pointRadius: 0,
          backgroundColor: 'rgba(0, 119, 204, 0.5)',
          label: "Vin"
          },
          {
          data: [],
+         pointRadius: 0,
          backgroundColor: 'rgba(119, 119, 204, 0.5)',
          label: "Vout"
 
          },
          {
          data: [],
+         pointRadius: 0,
          backgroundColor: 'rgba(119, 119, 0, 0.5)',
          label: "Cin"
 
          },
          {
          data: [],
+         pointRadius: 0,
          backgroundColor: 'rgba(119, 20, 204, 0.5)',
          label: "Cout"
 
          },
          {
          data: [],
+         pointRadius: 0,
          backgroundColor: 'rgba(0, 119, 20, 0.5)',
          label: "AH"
 
          },
          {
          data: [],
+         pointRadius: 0,
          backgroundColor: 'rgba(200, 140, 0, 0.5)',
          label: "kWH"
 
          },
          {
          data: [],
+         pointRadius: 0,
          backgroundColor: 'rgba(0, 12, 204, 0.5)',
          label: "Max Voc"
 
          },
          {
          data: [],
+         pointRadius: 0,
          backgroundColor: 'rgba(130, 0, 12, 0.5)',
          label: "AH Total"
 
          },
          {
          data: [],
+         pointRadius: 0,
          backgroundColor: 'rgba(119, 120, 1200, 0.5)',
          label: "kWH Total"
 
@@ -143,8 +152,8 @@ foreach ($scc2 as $scc2_data => $s2) {
       x: {
         type: 'realtime',
         realtime: {
-          duration: 60000,
-          refresh: 2000,
+          duration: 3600000,
+          refresh: 60000,
           delay: 2500,
           onRefresh: function(chart) {
             chart.data.datasets[0].data.push({
@@ -248,53 +257,62 @@ const config2 = {
     datasets: [
       {
         data: [],
+        pointRadius: 0,
         backgroundColor: 'rgba(0, 119, 204, 0.5)',
         label: "Vin"
       },
       {
         data: [],
+        pointRadius: 0,
         backgroundColor: 'rgba(119, 119, 204, 0.5)',
         label: "Vout"
 
       },
       {
         data: [],
+        pointRadius: 0,
         backgroundColor: 'rgba(119, 119, 0, 0.5)',
         label: "Cin"
 
       },
       {
         data: [],
+        pointRadius: 0,
         backgroundColor: 'rgba(119, 20, 204, 0.5)',
         label: "Cout"
 
       },
       {
         data: [],
+        pointRadius: 0,
         backgroundColor: 'rgba(0, 119, 20, 0.5)',
         label: "AH"
 
       },
       {
         data: [],
+        pointRadius: 0,
         backgroundColor: 'rgba(200, 140, 0, 0.5)',
         label: "kWH"
 
       },
       {
         data: [],
+        pointRadius: 0,
         backgroundColor: 'rgba(0, 12, 204, 0.5)',
         label: "Max Voc"
 
       },
       {
         data: [],
+        pointRadius: 0,
         backgroundColor: 'rgba(130, 0, 12, 0.5)',
         label: "AH Total"
 
       },
       {
         data: [],
+        pointRadius: 0,
         backgroundColor: 'rgba(119, 120, 1200, 0.5)',
         label: "kWH Total"
 
@@ -310,8 +328,8 @@ const config2 = {
       x: {
         type: 'realtime',
         realtime: {
-          duration: 60000,
-          refresh: 2000,
+          duration: 3600000,
+          refresh: 60000,
           delay: 2500,
           onRefresh: function(chart) {
             chart.data.datasets[0].data.push({

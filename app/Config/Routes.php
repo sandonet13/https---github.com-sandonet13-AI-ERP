@@ -43,10 +43,12 @@ $routes->group('', ['filter' => 'auth'], function ($routes) {
     $routes->get('/partials/topbar', 'Profile::profile');
     $routes->get('/dashboard-bms', 'MonitoringBmsController::bms1');
     $routes->get('/dashboard-scc-1', 'MonitoringSccController::scc1');
-    $routes->get('/dashboard-log', 'MonitoringLogController::log');
+    $routes->get('/dashboard-log', 'MonitoringLogController::index');
     $routes->get('/dashboard-io', 'MonitoringDioController::input_output');
     $routes->get('/dashboard-settings', 'SiteInfoController::site_info');
     $routes->get('/dashboard-rectifier', 'MonitoringDashController::main_dashboard');
+    $routes->add('/datalog', 'MonitoringLogController::index');
+    $routes->add('/excel', 'MonitoringLogController::DownloadToExcel');
     $routes->get('/chart/Chart-data-log', 'MonitoringLogController::log');
     $routes->get('/chart/Chart-data-scc-1', 'MonitoringSccController::scc1');
     $routes->get('/chart/Chart-data-recti', 'MonitoringDashController::main_dashboard');
@@ -73,8 +75,7 @@ $routes->group('', ['filter' => 'auth'], function ($routes) {
 
     $routes->get('/settanggal', 'SetDateController::settanggal');
     $routes->get('/export_csv', 'DataLogController::export_csv_24');
-    $routes->post('update', 'SiteInfoController::save_network');
-    $routes->get('update', 'SiteInfoController::save_network');
+    $routes->add('update', 'SiteInfoController::save_network');
     $routes->post('update_busvol_scale', 'SetScaleController::update_busvol_scale');
     $routes->get('update_busvol_scale', 'SetScaleController::update_busvol_scale');
     $routes->post('update_btscur_scale', 'SetScaleController::update_btscur_scale');
@@ -95,6 +96,10 @@ $routes->group('', ['filter' => 'auth'], function ($routes) {
     $routes->add('get_data_spanbusvol', 'SetZeroSpanController::get_data_spanbusvol');
     $routes->add('get_data_spanbtscur', 'SetZeroSpanController::get_data_spanbtscur');
     $routes->add('get_data_spanvsatcur', 'SetZeroSpanController::get_data_spanvsatcur');
+
+    $routes->add('data_io', 'SetIOController::data_io');
+    $routes->add('data_lvd', 'SetLVDController::data_lvd');
+
     
 
 // Filter on route group

@@ -14,6 +14,14 @@ class SetLVDController extends BaseController
     //$this->dashboardModel = new DashboardModel();
   }
 
+  public function data_lvd()
+  {
+    $builder = $this->db->table('config_lvd');
+    $builder->select('*');
+    $io_data = $builder->get()->getResult();
+    return json_encode($builder->get()->getResult());
+  }
+
   
   public function update_lvd_vsat()
   {

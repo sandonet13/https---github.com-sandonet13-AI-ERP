@@ -1,0 +1,1873 @@
+CRITICAL - 2022-08-24 04:57:06 --> Undefined variable: dtime
+#0 /var/www/rddspm/app/Views/partials/sidebar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 23, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/View/View.php(424): CodeIgniter\View\View->render('partials/sideba...', NULL, true)
+#4 /var/www/rddspm/app/Views/partials/menu.php(2): CodeIgniter\View\View->include('partials/sideba...')
+#5 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#6 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /var/www/rddspm/system/View/View.php(424): CodeIgniter\View\View->render('partials/menu', NULL, true)
+#8 /var/www/rddspm/app/Views/ajax/a-dashboard-io.php(1): CodeIgniter\View\View->include('partials/menu')
+#9 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#10 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('ajax/a-dashboar...', Array, true)
+#12 /var/www/rddspm/app/Controllers/DashboardDioController.php(29): view('ajax/a-dashboar...', Array)
+#13 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\DashboardDioController->ajax_input_output()
+#14 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardDioController))
+#15 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#17 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#18 {main}
+CRITICAL - 2022-08-24 05:21:58 --> Undefined variable: dtime
+#0 /var/www/rddspm/app/Views/partials/sidebar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 23, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/View/View.php(424): CodeIgniter\View\View->render('partials/sideba...', NULL, true)
+#4 /var/www/rddspm/app/Views/partials/menu.php(2): CodeIgniter\View\View->include('partials/sideba...')
+#5 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#6 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /var/www/rddspm/system/View/View.php(424): CodeIgniter\View\View->render('partials/menu', NULL, true)
+#8 /var/www/rddspm/app/Views/ajax/a-dashboard-io.php(1): CodeIgniter\View\View->include('partials/menu')
+#9 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#10 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('ajax/a-dashboar...', Array, true)
+#12 /var/www/rddspm/app/Controllers/DashboardDioController.php(29): view('ajax/a-dashboar...', Array)
+#13 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\DashboardDioController->ajax_input_output()
+#14 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardDioController))
+#15 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#17 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#18 {main}
+CRITICAL - 2022-08-24 05:23:58 --> Undefined variable: dtime
+#0 /var/www/rddspm/app/Views/partials/sidebar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 23, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/View/View.php(424): CodeIgniter\View\View->render('partials/sideba...', NULL, true)
+#4 /var/www/rddspm/app/Views/partials/menu.php(2): CodeIgniter\View\View->include('partials/sideba...')
+#5 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#6 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /var/www/rddspm/system/View/View.php(424): CodeIgniter\View\View->render('partials/menu', NULL, true)
+#8 /var/www/rddspm/app/Views/ajax/a-dashboard-io.php(1): CodeIgniter\View\View->include('partials/menu')
+#9 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#10 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('ajax/a-dashboar...', Array, true)
+#12 /var/www/rddspm/app/Controllers/DashboardDioController.php(29): view('ajax/a-dashboar...', Array)
+#13 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\DashboardDioController->ajax_input_output()
+#14 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardDioController))
+#15 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#17 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#18 {main}
+CRITICAL - 2022-08-24 05:24:00 --> Undefined variable: dtime
+#0 /var/www/rddspm/app/Views/partials/sidebar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 23, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/View/View.php(424): CodeIgniter\View\View->render('partials/sideba...', NULL, true)
+#4 /var/www/rddspm/app/Views/partials/menu.php(2): CodeIgniter\View\View->include('partials/sideba...')
+#5 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#6 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /var/www/rddspm/system/View/View.php(424): CodeIgniter\View\View->render('partials/menu', NULL, true)
+#8 /var/www/rddspm/app/Views/ajax/a-dashboard-io.php(1): CodeIgniter\View\View->include('partials/menu')
+#9 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#10 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('ajax/a-dashboar...', Array, true)
+#12 /var/www/rddspm/app/Controllers/DashboardDioController.php(29): view('ajax/a-dashboar...', Array)
+#13 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\DashboardDioController->ajax_input_output()
+#14 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardDioController))
+#15 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#17 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#18 {main}
+CRITICAL - 2022-08-24 05:24:05 --> Undefined variable: dtime
+#0 /var/www/rddspm/app/Views/partials/sidebar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 23, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/View/View.php(424): CodeIgniter\View\View->render('partials/sideba...', NULL, true)
+#4 /var/www/rddspm/app/Views/partials/menu.php(2): CodeIgniter\View\View->include('partials/sideba...')
+#5 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#6 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /var/www/rddspm/system/View/View.php(424): CodeIgniter\View\View->render('partials/menu', NULL, true)
+#8 /var/www/rddspm/app/Views/ajax/a-dashboard-io.php(1): CodeIgniter\View\View->include('partials/menu')
+#9 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#10 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('ajax/a-dashboar...', Array, true)
+#12 /var/www/rddspm/app/Controllers/DashboardDioController.php(29): view('ajax/a-dashboar...', Array)
+#13 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\DashboardDioController->ajax_input_output()
+#14 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardDioController))
+#15 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#17 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#18 {main}
+CRITICAL - 2022-08-24 19:57:01 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+#0 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('ajax/a-dashboar...', Array, true)
+#2 /var/www/rddspm/app/Controllers/DashboardDioController.php(32): view('ajax/a-dashboar...', Array)
+#3 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\DashboardDioController->ajax_input_output()
+#4 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardDioController))
+#5 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#8 {main}
+CRITICAL - 2022-08-24 19:57:04 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+#0 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('ajax/a-dashboar...', Array, true)
+#2 /var/www/rddspm/app/Controllers/DashboardDioController.php(32): view('ajax/a-dashboar...', Array)
+#3 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\DashboardDioController->ajax_input_output()
+#4 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardDioController))
+#5 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#8 {main}
+CRITICAL - 2022-08-24 19:57:12 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+#0 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('ajax/a-dashboar...', Array, true)
+#2 /var/www/rddspm/app/Controllers/DashboardDioController.php(32): view('ajax/a-dashboar...', Array)
+#3 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\DashboardDioController->ajax_input_output()
+#4 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardDioController))
+#5 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#8 {main}
+CRITICAL - 2022-08-24 19:57:17 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+#0 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('ajax/a-dashboar...', Array, true)
+#2 /var/www/rddspm/app/Controllers/DashboardDioController.php(32): view('ajax/a-dashboar...', Array)
+#3 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\DashboardDioController->ajax_input_output()
+#4 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardDioController))
+#5 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#8 {main}
+CRITICAL - 2022-08-24 19:58:24 --> syntax error, unexpected end of file
+#0 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('ajax/a-dashboar...', Array, true)
+#2 /var/www/rddspm/app/Controllers/DashboardDioController.php(32): view('ajax/a-dashboar...', Array)
+#3 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\DashboardDioController->ajax_input_output()
+#4 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardDioController))
+#5 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#8 {main}
+CRITICAL - 2022-08-24 19:58:28 --> syntax error, unexpected end of file
+#0 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('ajax/a-dashboar...', Array, true)
+#2 /var/www/rddspm/app/Controllers/DashboardDioController.php(32): view('ajax/a-dashboar...', Array)
+#3 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\DashboardDioController->ajax_input_output()
+#4 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardDioController))
+#5 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#8 {main}
+ERROR - 2022-08-24 08:33:32 --> Unknown column 'id' in 'where clause'
+ERROR - 2022-08-24 08:33:32 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-08-24 09:50:53 --> Class 'App\Controllers\DateTime' not found
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->index()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 09:51:47 --> Undefined property: App\Controllers\MonitoringLogController::$model
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/rddspm...', 58, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->index()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 09:54:40 --> Undefined property: App\Controllers\MonitoringLogController::$dataLogModel
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/rddspm...', 58, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->index()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 09:56:41 --> Call to undefined function App\Controllers\hour_datalog()
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->index()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 09:56:44 --> Call to undefined function App\Controllers\hour_datalog()
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->index()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 09:56:44 --> Call to undefined function App\Controllers\hour_datalog()
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->index()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 09:57:21 --> Call to undefined function App\Controllers\hour_datalog()
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->index()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 09:57:22 --> Call to undefined function App\Controllers\hour_datalog()
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->index()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 09:57:22 --> Call to undefined function App\Controllers\hour_datalog()
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->index()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 09:58:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(58): App\Models\DataLogModel->hour_datalog(NULL, NULL)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->index()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 10:06:09 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(58): App\Models\DataLogModel->hour_datalog(NULL, NULL)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->index()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 10:06:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(58): App\Models\DataLogModel->hour_datalog(NULL, NULL)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->index()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 10:07:08 --> Undefined variable: name
+#0 /var/www/rddspm/app/Views/partials/topbar.php(421): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 421, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/View/View.php(424): CodeIgniter\View\View->render('partials/topbar', NULL, true)
+#4 /var/www/rddspm/app/Views/partials/menu.php(1): CodeIgniter\View\View->include('partials/topbar')
+#5 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#6 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /var/www/rddspm/system/View/View.php(424): CodeIgniter\View\View->render('partials/menu', NULL, true)
+#8 /var/www/rddspm/app/Views/dashboard-log.php(16): CodeIgniter\View\View->include('partials/menu')
+#9 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#10 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-log', Array, true)
+#12 /var/www/rddspm/app/Controllers/MonitoringLogController.php(60): view('dashboard-log', Array)
+#13 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->index()
+#14 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#15 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#17 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#18 {main}
+CRITICAL - 2022-08-24 10:08:20 --> Undefined variable: name
+#0 /var/www/rddspm/app/Views/partials/topbar.php(421): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 421, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/View/View.php(424): CodeIgniter\View\View->render('partials/topbar', NULL, true)
+#4 /var/www/rddspm/app/Views/partials/menu.php(1): CodeIgniter\View\View->include('partials/topbar')
+#5 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#6 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /var/www/rddspm/system/View/View.php(424): CodeIgniter\View\View->render('partials/menu', NULL, true)
+#8 /var/www/rddspm/app/Views/dashboard-log.php(16): CodeIgniter\View\View->include('partials/menu')
+#9 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#10 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-log', Array, true)
+#12 /var/www/rddspm/app/Controllers/MonitoringLogController.php(60): view('dashboard-log', Array)
+#13 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->index()
+#14 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#15 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#17 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#18 {main}
+CRITICAL - 2022-08-24 10:08:39 --> Undefined variable: name
+#0 /var/www/rddspm/app/Views/partials/topbar.php(421): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 421, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/View/View.php(424): CodeIgniter\View\View->render('partials/topbar', NULL, true)
+#4 /var/www/rddspm/app/Views/partials/menu.php(1): CodeIgniter\View\View->include('partials/topbar')
+#5 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#6 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /var/www/rddspm/system/View/View.php(424): CodeIgniter\View\View->render('partials/menu', NULL, true)
+#8 /var/www/rddspm/app/Views/dashboard-log.php(16): CodeIgniter\View\View->include('partials/menu')
+#9 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#10 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-log', Array, true)
+#12 /var/www/rddspm/app/Controllers/MonitoringLogController.php(60): view('dashboard-log', Array)
+#13 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->index()
+#14 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#15 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#17 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#18 {main}
+CRITICAL - 2022-08-24 10:08:52 --> Undefined variable: name
+#0 /var/www/rddspm/app/Views/partials/topbar.php(421): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 421, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/View/View.php(424): CodeIgniter\View\View->render('partials/topbar', NULL, true)
+#4 /var/www/rddspm/app/Views/partials/menu.php(1): CodeIgniter\View\View->include('partials/topbar')
+#5 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#6 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /var/www/rddspm/system/View/View.php(424): CodeIgniter\View\View->render('partials/menu', NULL, true)
+#8 /var/www/rddspm/app/Views/dashboard-log.php(16): CodeIgniter\View\View->include('partials/menu')
+#9 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#10 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-log', Array, true)
+#12 /var/www/rddspm/app/Controllers/MonitoringLogController.php(60): view('dashboard-log', Array)
+#13 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->index()
+#14 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#15 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#17 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#18 {main}
+CRITICAL - 2022-08-24 10:08:55 --> Undefined variable: name
+#0 /var/www/rddspm/app/Views/partials/topbar.php(421): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 421, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/View/View.php(424): CodeIgniter\View\View->render('partials/topbar', NULL, true)
+#4 /var/www/rddspm/app/Views/partials/menu.php(1): CodeIgniter\View\View->include('partials/topbar')
+#5 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#6 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /var/www/rddspm/system/View/View.php(424): CodeIgniter\View\View->render('partials/menu', NULL, true)
+#8 /var/www/rddspm/app/Views/dashboard-log.php(16): CodeIgniter\View\View->include('partials/menu')
+#9 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#10 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-log', Array, true)
+#12 /var/www/rddspm/app/Controllers/MonitoringLogController.php(60): view('dashboard-log', Array)
+#13 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->index()
+#14 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#15 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#17 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#18 {main}
+CRITICAL - 2022-08-24 10:10:50 --> Undefined variable: from
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 21, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->index()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 10:10:55 --> Undefined variable: from
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 21, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->index()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 10:11:39 --> Undefined variable: builder
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 24, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->index()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 10:11:41 --> Undefined variable: builder
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 24, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->index()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 22:15:40 --> Undefined property: mysqli::$id
+#0 /var/www/rddspm/app/Views/dashboard-log.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/rddspm...', 94, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-log', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringLogController.php(75): view('dashboard-log', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->index()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#10 {main}
+CRITICAL - 2022-08-24 22:16:18 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 /var/www/rddspm/app/Views/dashboard-log.php(92): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/var/www/rddspm...', 92, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-log', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringLogController.php(75): view('dashboard-log', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->index()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#10 {main}
+CRITICAL - 2022-08-24 22:28:46 --> You must set the database table to be used with your query.
+#0 /var/www/rddspm/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /var/www/rddspm/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /var/www/rddspm/app/Controllers/MonitoringLogController.php(63): CodeIgniter\Model->__call('datalog', Array)
+#3 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->index()
+#4 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#5 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#8 {main}
+CRITICAL - 2022-08-24 22:32:45 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::order_by()
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(63): App\Models\DataLogModel->datalog('2022-08-22', '2022-08-23')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->index()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 22:33:39 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::order_by()
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(63): App\Models\DataLogModel->datalog('2022-08-22', '2022-08-23')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->index()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 22:34:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::order_by()
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(63): App\Models\DataLogModel->datalog('2022-08-22', '2022-08-23')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->index()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 22:37:25 --> Undefined variable: data_range
+#0 /var/www/rddspm/app/Views/dashboard-log.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 92, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-log', Array, true)
+#4 /var/www/rddspm/app/Controllers/MonitoringLogController.php(94): view('dashboard-log', Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->log()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#10 {main}
+CRITICAL - 2022-08-24 11:38:37 --> Class 'App\Controllers\WriterFactory' not found
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 11:39:34 --> Class 'WriterFactory' not found
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 11:51:57 --> Class 'Box\Spout\Writer\WriterFactory' not found
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 11:52:02 --> Class 'Box\Spout\Writer\WriterFactory' not found
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 11:52:03 --> Class 'Box\Spout\Writer\WriterFactory' not found
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 11:52:36 --> Class 'App\Controllers\WriterFactory' not found
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 11:52:38 --> Class 'App\Controllers\WriterFactory' not found
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 11:52:39 --> Class 'App\Controllers\WriterFactory' not found
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 11:53:55 --> Class 'App\Controllers\WriterFactory' not found
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 11:54:28 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/ThirdParty/spout/src/Spout/Autoloader/autoload.php' (include_path='.:/usr/share/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-24 11:54:51 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'app/ThirdParty/spout/src/Spout/Autoloader/autoload.php' (include_path='.:/usr/share/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-24 11:55:03 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/app/ThirdParty/spout/src/Spout/Autoloader/autoload.php' (include_path='.:/usr/share/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-24 11:55:12 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required './ThirdParty/spout/src/Spout/Autoloader/autoload.php' (include_path='.:/usr/share/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-24 11:55:13 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required './ThirdParty/spout/src/Spout/Autoloader/autoload.php' (include_path='.:/usr/share/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-24 11:55:19 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '../ThirdParty/spout/src/Spout/Autoloader/autoload.php' (include_path='.:/usr/share/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-24 11:55:20 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '../ThirdParty/spout/src/Spout/Autoloader/autoload.php' (include_path='.:/usr/share/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-24 11:55:20 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '../ThirdParty/spout/src/Spout/Autoloader/autoload.php' (include_path='.:/usr/share/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-24 11:55:20 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '../ThirdParty/spout/src/Spout/Autoloader/autoload.php' (include_path='.:/usr/share/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-24 11:55:21 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '../ThirdParty/spout/src/Spout/Autoloader/autoload.php' (include_path='.:/usr/share/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-24 11:55:36 --> Class 'App\Controllers\WriterFactory' not found
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 11:55:37 --> Class 'App\Controllers\WriterFactory' not found
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 11:57:32 --> Class 'App\Controllers\WriterFactory' not found
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 11:57:33 --> Class 'App\Controllers\WriterFactory' not found
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 11:57:53 --> Class 'Box\Spout\Writer\WriterFactory' not found
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 11:58:58 --> Undefined variable: data
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 135, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 11:59:25 --> Trying to get property 'name' of non-object
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/rddspm...', 138, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:00:29 --> Array to string conversion
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 136, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:00:40 --> Trying to get property 'name' of non-object
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/rddspm...', 139, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:00:55 --> Undefined index: name
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/rddspm...', 136, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:01:12 --> Object of class stdClass could not be converted to string
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(136): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/var/www/rddspm...', 136, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:01:14 --> Object of class stdClass could not be converted to string
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(136): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/var/www/rddspm...', 136, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:01:28 --> Trying to get property 'name' of non-object
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/rddspm...', 139, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:01:31 --> Trying to get property 'name' of non-object
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/rddspm...', 139, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:01:33 --> Trying to get property 'name' of non-object
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/rddspm...', 139, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:01:35 --> Trying to get property 'name' of non-object
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/rddspm...', 139, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:02:05 --> Trying to get property 'name' of non-object
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/rddspm...', 139, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:02:08 --> Trying to get property 'name' of non-object
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/rddspm...', 139, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:02:18 --> Trying to get property 'site_id' of non-object
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/rddspm...', 143, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:02:20 --> Trying to get property 'site_id' of non-object
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/rddspm...', 143, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:02:21 --> Trying to get property 'site_id' of non-object
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/rddspm...', 143, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:02:22 --> Trying to get property 'site_id' of non-object
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/rddspm...', 143, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:02:23 --> Trying to get property 'site_id' of non-object
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/rddspm...', 143, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:02:23 --> Trying to get property 'site_id' of non-object
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/rddspm...', 143, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:02:23 --> Trying to get property 'site_id' of non-object
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/rddspm...', 143, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:02:24 --> Trying to get property 'site_id' of non-object
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/rddspm...', 143, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:04:01 --> The input should be an array of Row
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(144): Box\Spout\Writer\WriterAbstract->addRows(Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:04:02 --> The input should be an array of Row
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(144): Box\Spout\Writer\WriterAbstract->addRows(Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:04:03 --> The input should be an array of Row
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(144): Box\Spout\Writer\WriterAbstract->addRows(Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:12:00 --> Class 'Box\Spout\Writer\WriterFactory' not found
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 12:12:20 --> Class 'Box\Spout\Writer\WriterFactory' not found
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 12:12:22 --> Class 'Box\Spout\Writer\WriterFactory' not found
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 12:12:23 --> Class 'Box\Spout\Writer\WriterFactory' not found
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 12:12:32 --> Class 'Box\Spout\Writer\WriterFactory' not found
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 12:12:33 --> Class 'Box\Spout\Writer\WriterFactory' not found
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 12:12:34 --> Class 'Box\Spout\Writer\WriterFactory' not found
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 12:12:35 --> Class 'Box\Spout\Writer\WriterFactory' not found
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 12:12:58 --> Class 'Box\Spout\Writer\WriterFactory' not found
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 12:12:59 --> Class 'Box\Spout\Writer\WriterFactory' not found
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 12:13:56 --> Trying to get property 'name' of non-object
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/rddspm...', 141, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:15:49 --> Array to string conversion
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 138, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:15:54 --> Array to string conversion
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 138, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:17:37 --> Cannot use object of type stdClass as array
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 12:17:38 --> Cannot use object of type stdClass as array
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 12:17:39 --> Cannot use object of type stdClass as array
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 12:17:40 --> Cannot use object of type stdClass as array
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 12:18:01 --> Cannot use object of type stdClass as array
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 12:18:02 --> Cannot use object of type stdClass as array
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 12:18:03 --> Cannot use object of type stdClass as array
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#5 {main}
+CRITICAL - 2022-08-24 12:19:32 --> Array to string conversion
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 176, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:19:33 --> Array to string conversion
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 176, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:19:34 --> Array to string conversion
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 176, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:19:34 --> Array to string conversion
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 176, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:19:34 --> Array to string conversion
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 176, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:19:34 --> Array to string conversion
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 176, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:19:36 --> Array to string conversion
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 176, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:19:55 --> Array to string conversion
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 176, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:20:07 --> Undefined property: stdClass::$names
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(140): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/rddspm...', 140, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:20:09 --> Undefined property: stdClass::$names
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(140): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/rddspm...', 140, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:20:17 --> Undefined property: stdClass::$dtimess
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/rddspm...', 168, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:20:55 --> Array to string conversion
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 161, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:21:06 --> Array to string conversion
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 161, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:21:06 --> Array to string conversion
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 161, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:21:07 --> Array to string conversion
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 161, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:21:07 --> Array to string conversion
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 161, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:21:08 --> Array to string conversion
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 161, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:21:16 --> Undefined property: stdClass::$nams
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(140): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/rddspm...', 140, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:21:28 --> Array to string conversion
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 161, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:21:29 --> Array to string conversion
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 161, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:21:30 --> Array to string conversion
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 161, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:21:30 --> Array to string conversion
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 161, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:21:30 --> Array to string conversion
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 161, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:21:31 --> Array to string conversion
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 161, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:21:42 --> Array to string conversion
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 141, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:21:42 --> Array to string conversion
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 141, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:21:43 --> Array to string conversion
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 141, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:21:43 --> Array to string conversion
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 141, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:21:51 --> Array to string conversion
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 141, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:21:52 --> Array to string conversion
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 141, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:21:52 --> Array to string conversion
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 141, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:22:00 --> Array to string conversion
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 141, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:22:11 --> Object of class stdClass could not be converted to string
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(141): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/var/www/rddspm...', 141, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:22:13 --> Object of class stdClass could not be converted to string
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(141): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/var/www/rddspm...', 141, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:23:00 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 /var/www/rddspm/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/rddspm...')
+#1 /var/www/rddspm/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/rddspm/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 /var/www/rddspm/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#9 {main}
+CRITICAL - 2022-08-24 12:23:02 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 /var/www/rddspm/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/rddspm...')
+#1 /var/www/rddspm/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/rddspm/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 /var/www/rddspm/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#9 {main}
+CRITICAL - 2022-08-24 12:23:11 --> Array to string conversion
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(177): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 177, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:24:54 --> The input should be an array of arrays
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(179): Box\Spout\Writer\AbstractWriter->addRows(Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:24:55 --> The input should be an array of arrays
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(179): Box\Spout\Writer\AbstractWriter->addRows(Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:24:56 --> The input should be an array of arrays
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(179): Box\Spout\Writer\AbstractWriter->addRows(Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:24:56 --> The input should be an array of arrays
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(179): Box\Spout\Writer\AbstractWriter->addRows(Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:24:56 --> The input should be an array of arrays
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(179): Box\Spout\Writer\AbstractWriter->addRows(Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:24:56 --> The input should be an array of arrays
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(179): Box\Spout\Writer\AbstractWriter->addRows(Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:24:57 --> The input should be an array of arrays
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(179): Box\Spout\Writer\AbstractWriter->addRows(Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:25:11 --> The input should be an array of arrays
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(179): Box\Spout\Writer\AbstractWriter->addRows(Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:25:33 --> The input should be an array of arrays
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(179): Box\Spout\Writer\AbstractWriter->addRows(Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:25:33 --> The input should be an array of arrays
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(179): Box\Spout\Writer\AbstractWriter->addRows(Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:25:34 --> The input should be an array of arrays
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(179): Box\Spout\Writer\AbstractWriter->addRows(Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:25:34 --> The input should be an array of arrays
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(179): Box\Spout\Writer\AbstractWriter->addRows(Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:25:49 --> Undefined variable: writer
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 163, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:26:03 --> The writer needs to be opened before adding row.
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(163): Box\Spout\Writer\AbstractWriter->addRow(Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:26:14 --> The input should be an array of arrays
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(179): Box\Spout\Writer\AbstractWriter->addRows(Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:26:38 --> The input should be an array of arrays
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(179): Box\Spout\Writer\AbstractWriter->addRows(Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:26:39 --> The input should be an array of arrays
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(179): Box\Spout\Writer\AbstractWriter->addRows(Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:26:39 --> The input should be an array of arrays
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(179): Box\Spout\Writer\AbstractWriter->addRows(Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:26:39 --> The input should be an array of arrays
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(179): Box\Spout\Writer\AbstractWriter->addRows(Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:26:39 --> The input should be an array of arrays
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(179): Box\Spout\Writer\AbstractWriter->addRows(Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:26:39 --> The input should be an array of arrays
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(179): Box\Spout\Writer\AbstractWriter->addRows(Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:26:40 --> The input should be an array of arrays
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(179): Box\Spout\Writer\AbstractWriter->addRows(Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:26:40 --> The input should be an array of arrays
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(179): Box\Spout\Writer\AbstractWriter->addRows(Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:26:40 --> The input should be an array of arrays
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(179): Box\Spout\Writer\AbstractWriter->addRows(Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:29:48 --> The input should be an array of arrays
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(183): Box\Spout\Writer\AbstractWriter->addRows(Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:29:49 --> The input should be an array of arrays
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(183): Box\Spout\Writer\AbstractWriter->addRows(Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:31:10 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRows() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRows('ANJAYYYY')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:31:12 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRows() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRows('ANJAYYYY')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:31:12 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRows() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRows('ANJAYYYY')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:31:13 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRows() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRows('ANJAYYYY')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:31:13 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRows() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRows('ANJAYYYY')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:31:13 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRows() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRows('ANJAYYYY')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:31:13 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRows() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRows('ANJAYYYY')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:31:13 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRows() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRows('ANJAYYYY')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:31:14 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRows() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRows('ANJAYYYY')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:31:14 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRows() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRows('ANJAYYYY')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:31:15 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRows() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRows('ANJAYYYY')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:31:15 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRows() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRows('ANJAYYYY')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:31:15 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRows() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRows('ANJAYYYY')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:31:15 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRows() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRows('ANJAYYYY')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:31:16 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRows() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRows('ANJAYYYY')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:31:37 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRow() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRow('ANJAYYYY')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:31:38 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRow() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRow('ANJAYYYY')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:31:39 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRow() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRow('ANJAYYYY')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:31:39 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRow() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRow('ANJAYYYY')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:31:39 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRow() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRow('ANJAYYYY')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:31:39 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRow() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRow('ANJAYYYY')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:31:40 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRow() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRow('ANJAYYYY')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:31:40 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRow() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRow('ANJAYYYY')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:31:40 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRow() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRow('ANJAYYYY')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:31:40 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRow() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRow('ANJAYYYY')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:31:41 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRow() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRow('ANJAYYYY')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:32:34 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRows() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRows('SITE ID')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:32:35 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRows() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRows('SITE ID')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:32:35 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRows() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRows('SITE ID')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:32:35 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRows() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRows('SITE ID')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:32:35 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRows() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRows('SITE ID')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:32:36 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRows() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRows('SITE ID')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:32:36 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRows() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRows('SITE ID')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:32:36 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRows() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRows('SITE ID')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:32:46 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRows() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRows('SITE ID', ':')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:32:47 --> Argument 1 passed to Box\Spout\Writer\AbstractWriter::addRows() must be of the type array, string given, called in /var/www/rddspm/app/Controllers/MonitoringLogController.php on line 143
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(143): Box\Spout\Writer\AbstractWriter->addRows('SITE ID', ':')
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:39:58 --> The input should be an array of arrays
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(182): Box\Spout\Writer\AbstractWriter->addRows(Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:40:01 --> The input should be an array of arrays
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(182): Box\Spout\Writer\AbstractWriter->addRows(Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-24 12:41:01 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 /var/www/rddspm/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/rddspm...')
+#1 /var/www/rddspm/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/rddspm/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 /var/www/rddspm/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#9 {main}
+CRITICAL - 2022-08-24 12:41:07 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 /var/www/rddspm/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/rddspm...')
+#1 /var/www/rddspm/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/rddspm/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 /var/www/rddspm/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#9 {main}
+CRITICAL - 2022-08-24 12:41:33 --> The input should be an array of arrays
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(182): Box\Spout\Writer\AbstractWriter->addRows(Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+ERROR - 2022-08-24 13:20:44 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-08-24 13:20:44 --> Unknown column 'id' in 'where clause'
+#0 /var/www/rddspm/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `site_in...', 0)
+#1 /var/www/rddspm/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `site_in...')
+#2 /var/www/rddspm/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `site_in...')
+#3 /var/www/rddspm/system/Database/BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `site_in...', Array, false)
+#4 /var/www/rddspm/app/Controllers/SiteInfoController.php(97): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\SiteInfoController->save_network()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteInfoController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#10 {main}
+ERROR - 2022-08-24 13:20:48 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-08-24 13:20:48 --> Unknown column 'id' in 'where clause'
+#0 /var/www/rddspm/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `site_in...', 0)
+#1 /var/www/rddspm/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `site_in...')
+#2 /var/www/rddspm/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `site_in...')
+#3 /var/www/rddspm/system/Database/BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `site_in...', Array, false)
+#4 /var/www/rddspm/app/Controllers/SiteInfoController.php(97): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\SiteInfoController->save_network()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteInfoController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#10 {main}
+ERROR - 2022-08-24 13:20:59 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-08-24 13:20:59 --> Unknown column 'id' in 'where clause'
+#0 /var/www/rddspm/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `site_in...', 0)
+#1 /var/www/rddspm/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `site_in...')
+#2 /var/www/rddspm/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `site_in...')
+#3 /var/www/rddspm/system/Database/BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `site_in...', Array, false)
+#4 /var/www/rddspm/app/Controllers/SiteInfoController.php(97): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\SiteInfoController->save_network()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteInfoController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#10 {main}
+ERROR - 2022-08-24 13:21:34 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-08-24 13:21:34 --> Unknown column 'id' in 'where clause'
+#0 /var/www/rddspm/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `site_in...', 0)
+#1 /var/www/rddspm/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `site_in...')
+#2 /var/www/rddspm/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `site_in...')
+#3 /var/www/rddspm/system/Database/BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `site_in...', Array, false)
+#4 /var/www/rddspm/app/Controllers/SiteInfoController.php(97): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\SiteInfoController->save_network()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteInfoController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#10 {main}
+ERROR - 2022-08-24 13:21:35 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-08-24 13:21:35 --> Unknown column 'id' in 'where clause'
+#0 /var/www/rddspm/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `site_in...', 0)
+#1 /var/www/rddspm/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `site_in...')
+#2 /var/www/rddspm/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `site_in...')
+#3 /var/www/rddspm/system/Database/BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `site_in...', Array, false)
+#4 /var/www/rddspm/app/Controllers/SiteInfoController.php(97): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\SiteInfoController->save_network()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteInfoController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#10 {main}
+ERROR - 2022-08-24 13:22:05 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-08-24 13:22:05 --> Unknown column 'id' in 'where clause'
+#0 /var/www/rddspm/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `site_in...', 0)
+#1 /var/www/rddspm/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `site_in...')
+#2 /var/www/rddspm/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `site_in...')
+#3 /var/www/rddspm/system/Database/BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `site_in...', Array, false)
+#4 /var/www/rddspm/app/Controllers/SiteInfoController.php(97): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\SiteInfoController->save_network()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteInfoController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#10 {main}
+ERROR - 2022-08-24 13:22:06 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-08-24 13:22:06 --> Unknown column 'id' in 'where clause'
+#0 /var/www/rddspm/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `site_in...', 0)
+#1 /var/www/rddspm/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `site_in...')
+#2 /var/www/rddspm/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `site_in...')
+#3 /var/www/rddspm/system/Database/BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `site_in...', Array, false)
+#4 /var/www/rddspm/app/Controllers/SiteInfoController.php(97): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\SiteInfoController->save_network()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteInfoController))
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#10 {main}
+ERROR - 2022-08-24 13:22:17 --> Unknown column 'id' in 'where clause'
+ERROR - 2022-08-24 13:22:17 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-08-24 23:13:17 --> Array to string conversion
+#0 /var/www/rddspm/app/Views/partials/sidebar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/rddspm...', 23, Array)
+#1 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#2 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/rddspm/system/View/View.php(424): CodeIgniter\View\View->render('partials/sideba...', NULL, true)
+#4 /var/www/rddspm/app/Views/partials/menu.php(2): CodeIgniter\View\View->include('partials/sideba...')
+#5 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#6 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /var/www/rddspm/system/View/View.php(424): CodeIgniter\View\View->render('partials/menu', NULL, true)
+#8 /var/www/rddspm/app/Views/dashboard-settings.php(18): CodeIgniter\View\View->include('partials/menu')
+#9 /var/www/rddspm/system/View/View.php(210): include('/var/www/rddspm...')
+#10 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render('dashboard-setti...', Array, true)
+#12 /var/www/rddspm/app/Controllers/SiteInfoController.php(54): view('dashboard-setti...', Array)
+#13 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\SiteInfoController->site_info()
+#14 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteInfoController))
+#15 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#17 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#18 {main}

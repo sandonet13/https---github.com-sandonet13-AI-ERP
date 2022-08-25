@@ -14,6 +14,14 @@ class SetIOController extends BaseController
     //$this->dashboardModel = new DashboardModel();
   }
 
+  public function data_io()
+  {
+    $builder = $this->db->table('config_di');
+    $builder->select('*');
+    $io_data = $builder->get()->getResult();
+    return json_encode($builder->get()->getResult());
+  }
+
   
   public function update_fan()
   {
@@ -43,7 +51,7 @@ class SetIOController extends BaseController
     $context = stream_context_create($opts);
     $base_url="http://" . $_SERVER['SERVER_NAME'] . ":1880/difan";
     $result = file_get_contents($base_url, false, $context);
-    return $this->response->redirect(site_url('/dashboard-settings'));
+    return $this->response->redirect(site_url('/dashboard-settings'), 'refresh');
   }
 
   public function update_door()

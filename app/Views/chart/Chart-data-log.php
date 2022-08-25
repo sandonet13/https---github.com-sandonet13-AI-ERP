@@ -98,23 +98,28 @@ var config = {
       datasets: [{
          label: 'Bus Voltage',
          data: data_bus_vol,
+         pointRadius: 0,
          backgroundColor: 'rgba(0, 119, 204, 0.5)'
 
       },{
          label: 'Bts Voltage',
          data: data_bts_vol,
+         pointRadius: 0,
          backgroundColor: 'rgba(119, 119, 204, 0.5)'
       },{
          label: 'Vsat Voltage',
          data: data_vsat_vol,
+         pointRadius: 0,
          backgroundColor: 'rgba(119, 0, 204, 0.5)'
       },{
          label: 'Bts Current',
          data: data_btscur,
+         pointRadius: 0,
          backgroundColor: 'rgba(119, 0, 0, 0.5)'
       },{
          label: 'Vsat Current',
          data: data_vsatcur,
+         pointRadius: 0,
          backgroundColor: 'rgba(30, 0, 0, 0.5)'
       }
     ]

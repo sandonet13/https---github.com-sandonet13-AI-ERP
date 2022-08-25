@@ -54,8 +54,39 @@
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h2 class="card-title mb-0">Data Log Table</span></h2>
-                                                <a href="<?= base_url('/export_csv') ?>" class="btn btn-success" style="float: right;">Export Data Last 24 Hour</a>
                                             </div>
+                                            <div class="flex-grow-10 ms-3">
+                                            <form id="form" action="<?php echo site_url('datalog') ?>" method="post">
+                                                <!--<div class="form-group"><label for="">Data Log To :</label> </div>-->
+                                                <div class="form-group" id="sandbox-container"  >
+                                                    <input type="date" class="form-control" placeholder="From" name="from" data-provider="flatpickr" data-date-format="Y-m-d" value="<?php if (isset($_POST['from'])) echo $_POST['from'];?>">
+                                                    <input type="date" class="form-control cuy" placeholder="To" name="to" data-provider="flatpickr" data-date-format="Y-m-d" value="<?php if (isset($_POST['to'])) echo $_POST['to'];?>">
+                                                
+
+                                                <!-- <button class="btn btn-sm btn-info hide" type="submit">Show</button> -->
+                                                <button class="btn btn-sm btn-info hide" type="submit">Shows</button>
+                                                <input type="submit" name="show" value="Show" class="btn btn-sm btn-info cuy" />
+                                                <!-- <button class="btn btn-sm " type="reset" id="btn-reset" value="Reset"><i class="fa fa-refresh"></i></button> -->
+                                                <?php if(!empty($info)){echo $info;}else{echo '';}; ?>
+                                                </div>
+                                        </form>
+                                        </div>
+                                        <div>
+                                            <form id="form" action="<?php echo site_url('excel') ?>" method="post">
+                                                <!--<div class="form-group"><label for="">Data Log To :</label> </div>-->
+                                                <div class="form-group " id="sandbox-container"  >
+                                                    <input type="date" class="form-control" placeholder="Start" name="start" data-provider="flatpickr" data-date-format="Y-m-d" value="<?php if (isset($_POST['start'])) echo $_POST['start'];?>">
+                                                    <input type="date" class="form-control cuy" placeholder="End" name="end" data-provider="flatpickr" data-date-format="Y-m-d" value="<?php if (isset($_POST['end'])) echo $_POST['end'];?>">
+                                                
+
+                                                <!-- <button class="btn btn-sm btn-info hide" type="submit">Show</button> -->
+                                                <button class="btn btn-sm btn-info hide" type="submit">Download</button>
+                                                <input type="submit" name="show" value="Download" class="btn btn-sm btn-info cuy" />
+                                                <!-- <button class="btn btn-sm " type="reset" id="btn-reset" value="Reset"><i class="fa fa-refresh"></i></button> -->
+                                                <?php if(!empty($info)){echo $info;}else{echo '';}; ?>
+                                                </div>
+                                        </form>
+                                        </div>
                                         </div>
                                     </div>
                                     <div id='x' class="card-body">
@@ -63,7 +94,7 @@
                                             <table class="table table-striped">
                                                 <thead>
                                                     <tr>
-                                                        <th scope="col" style="width: 8%;" class="text-center">ID</th>
+                                                        <th scope="col" style="width: 8%;" class="text-center">No</th>
                                                         <th scope="col" style="width: 8%;" class="text-center">Date Time</th>
                                                         <th scope="col" style="width: 8%;" class="text-center">Bus (V)</th>
                                                         <th scope="col" style="width: 8%;" class="text-center">VTS (V)</th>
@@ -73,9 +104,9 @@
                                                     </tr>
                                                 </thead>
                                                 <tbody>
-                                                    <?php foreach ($log as $datalog) { ?>
+                                                    <?php $no=1; foreach ($data_range as $datalog) { ?>
                                                         <tr>
-                                                            <td class="text-center"> <?php echo $datalog->id ?>&nbsp; </td>
+                                                            <td class="text-center"> <?php echo $no ?>&nbsp; </td>
                                                             <td class="text-center"> <?php echo $datalog->dtime ?>&nbsp; </td>
                                                             <td class="text-center"> <?php echo $datalog->bus_vol ?>&nbsp; </td>
                                                             <td class="text-center"> <?php echo $datalog->bts_vol ?>&nbsp; </td>
@@ -83,7 +114,9 @@
                                                             <td class="text-center"> <?php echo $datalog->bts_cur ?>&nbsp; </td>
                                                             <td class="text-center"> <?php echo $datalog->vsat_cur ?>&nbsp; </td>
                                                         </tr>
+                                                        <?php  $no++; ?>
                                                     <?php } ?>
+
                                                 </tbody><!-- end tbody -->
                                             </table><!-- end table -->
                                         </div><!-- end table responsive -->

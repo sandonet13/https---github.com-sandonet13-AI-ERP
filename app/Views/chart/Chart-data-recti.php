@@ -74,17 +74,20 @@ foreach ($load as $load_data => $s3) {
       datasets: [
          {
          data: [],
+         pointRadius: 0,
          backgroundColor: 'rgba(0, 119, 204, 0.5)',
          label: "PV1"
          },
          {
          data: [],
+         pointRadius: 0,
          backgroundColor: 'rgba(119, 119, 204, 0.5)',
          label: "PV2"
 
          },
          {
          data: [],
+         pointRadius: 0,
          backgroundColor: 'rgba(119, 119, 0, 0.5)',
          label: "Total PV"
 
@@ -95,13 +98,17 @@ foreach ($load as $load_data => $s3) {
     scales: {
       y : {
             min: 0,
+            display: true,
+                        title: {
+                            display: true,
+                        }
             //max: 1,
         },
       x: {
         type: 'realtime',
         realtime: {
-          duration: 60000,
-          refresh: 2000,
+          duration: 3600000,
+          refresh: 60000,
           delay: 2500,
           onRefresh: function(chart) {
             chart.data.datasets[0].data.push({
@@ -172,23 +179,27 @@ const config2 = {
     datasets: [
       {
         data: [],
+        pointRadius: 0,
         backgroundColor: 'rgba(0, 119, 204, 0.5)',
         label: "Voltage"
       },
       {
         data: [],
+        pointRadius: 0,
         backgroundColor: 'rgba(119, 119, 204, 0.5)',
         label: "Current"
 
       },
       {
         data: [],
+        pointRadius: 0,
         backgroundColor: 'rgba(119, 119, 0, 0.5)',
         label: "Power"
 
       },
       {
         data: [],
+        pointRadius: 0,
         backgroundColor: 'rgba(119, 20, 204, 0.5)',
         label: "Soc"
 
@@ -199,13 +210,17 @@ const config2 = {
     scales: {
       y : {
             min: 0,
+            display: true,
+                        title: {
+                            display: true,
+                        }
             //max: 1,
         },
       x: {
         type: 'realtime',
         realtime: {
-          duration: 60000,
-          refresh: 2000,
+          duration: 3600000,
+          refresh: 60000,
           delay: 2500,
           onRefresh: function(chart) {
             chart.data.datasets[0].data.push({
@@ -291,53 +306,62 @@ const config3 = {
     datasets: [
       {
         data: [],
+        pointRadius: 0,
         backgroundColor: 'rgba(0, 119, 204, 0.5)',
         label: "Bus Voltage"
       },
       {
         data: [],
+        pointRadius: 0,
         backgroundColor: 'rgba(119, 119, 204, 0.5)',
         label: "BTS Voltage"
 
       },
       {
         data: [],
+        pointRadius: 0,
         backgroundColor: 'rgba(119, 200, 0, 0.5)',
         label: "Vsat Voltage"
 
       },
       {
         data: [],
+        pointRadius: 0,
         backgroundColor: 'rgba(119, 20, 204, 0.5)',
         label: "BTS Current"
 
       },
       {
         data: [],
+        pointRadius: 0,
         backgroundColor: 'rgba(0, 119, 0, 0.5)',
         label: "Vsat Current"
 
       },
       {
         data: [],
+        pointRadius: 0,
         backgroundColor: 'rgba(2000, 20, 0, 0.5)',
         label: "Temperature"
 
       },
       {
         data: [],
+        pointRadius: 0,
         backgroundColor: 'rgba(32, 20, 204, 0.5)',
         label: "BTS Power"
 
       },
       {
         data: [],
+        pointRadius: 0,
         backgroundColor: 'rgba(32, 20, 204, 0.5)',
         label: "Vsat Power"
 
       },
       {
         data: [],
+        pointRadius: 0,
         backgroundColor: 'rgba(110, 20, 0, 0.5)',
         label: "Total Power"
 
@@ -348,13 +372,17 @@ const config3 = {
     scales: {
       y : {
             min: 0,
+            display: true,
+                        title: {
+                            display: true,
+                        }
             //max: 1,
         },
       x: {
         type: 'realtime',
         realtime: {
-          duration: 60000,
-          refresh: 2000,
+          duration: 3600000,
+          refresh: 60000,
           delay: 2500,
           onRefresh: function(chart) {
             chart.data.datasets[0].data.push({

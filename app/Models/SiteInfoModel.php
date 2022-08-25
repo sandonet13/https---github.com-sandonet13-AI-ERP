@@ -10,6 +10,10 @@ class SiteInfoModel extends Model
         $this->db = db_connect();
     }
 
+    public function get_site_info(){
+        
+    }
+
 //     public function save_network($siteid, $name, $address, $ipaddress, $netmask, $gateway, $mode, $ip_server, $snmp1, $trap_enable, $wifi_ssid, $wifi_password)
 //     {
 //         $data = [

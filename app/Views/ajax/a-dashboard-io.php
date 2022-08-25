@@ -1,11 +1,3 @@
-<?= $this->include('partials/menu') ?>
-
-<!-- ============================================================== -->
-<!-- Start right Content here -->
-<!-- ============================================================== -->
-<div class="main-content">
-
-    <div class="page-content" >
         <div class="container-fluid">
 
             <?php echo view('partials/page-title', array('pagetitle' => 'Dashboards', 'title' => 'Input Output')); ?>
@@ -21,13 +13,24 @@
                                 </div>
                                 <div class="flex-shrink-0">
                                     <h5 class=" fs-14 mb-0">
-                                    <?php if($di[0]->state_fb == 'Enable'){ ?><i class="mdi mdi-alarm text-success"><small class="mdi mdi-check"></i></small><?php } ?><?php if($di[0]->state_fb == 'Disable'){ ?><i class="mdi mdi-alarm text-danger"><small class="mdi mdi-close"></i></small> <?php } ?>
-                                    </h5>
+                                    <?php if($di[0]->state_fb == 'Disable'){ ?>
+                                                <i class="mdi mdi-close">Disable</i> 
+                                                <?php }else{ ?>
+                                    <?php if($di[0]->triger_fb == 'Open'){ ?><i class="mdi mdi-alarm text-success"><small class="mdi mdi-check"></i></small><?php } ?><?php if($di[0]->triger_fb == 'Close'){ ?><i class="fa fa-bell text-danger blink"></i><?php } ?>
+                                                    <?php } ?>
+                                </h5>
                                 </div>
                             </div>
                             <div class="d-flex align-items-end justify-content-between mt-4">
                                 <div>
-                                <h4 class="fs-22 fw-bold ff-secondary mb-4">Status <?php if($di[0]->value == 0){ ?><small class="text-decoration text-success">Close <i class="mdi mdi-check"></i></small><?php } ?><?php if($di[0]->value == 1){ ?><small class="text-decoration text-danger">Open <i class="mdi mdi-close"></i></small> <?php } ?></h4>
+                                    
+                                <h4 class="fs-22 fw-bold ff-secondary mb-4">Status 
+                                <?php if($di[0]->state_fb == 'Disable'){ ?>
+                                                <i class="mdi mdi-close">Disable</i> 
+                                                <?php }else{ ?>    
+                                <?php if($di[0]->value == 0){ ?><small class="text-decoration text-success">Close <i class="mdi mdi-check"></i></small><?php } ?><?php if($di[0]->value == 1){ ?><small class="text-decoration text-danger">Open <i class="mdi mdi-close"></i></small> <?php } ?>
+                                <?php } ?>
+                            </h4>
                                     <a href="" class="text-decoration text-white">&nbsp;</a>
                                 </div>
                                 <div class="avatar-sm flex-shrink-0">
@@ -50,14 +53,23 @@
                                 </div>
                                 <div class="flex-shrink-0">
                                     <h5 class=" fs-14 mb-0">
-                                            <?php if($di[1]->state_fb == 'Enable'){ ?><i class="mdi mdi-alarm text-success"><small class="mdi mdi-check"></i></small><?php } ?><?php if($di[1]->state_fb == 'Disable'){ ?><i class="mdi mdi-alarm text-danger"><small class="mdi mdi-close"></i></small> <?php } ?>
-                                    </h5>
+                                    <?php if($di[1]->state_fb == 'Disable'){ ?>
+                                                <i class="mdi mdi-close">Disable</i> 
+                                                <?php }else{ ?>
+                                    <?php if($di[1]->triger_fb == 'Open'){ ?><i class="mdi mdi-alarm text-success"><small class="mdi mdi-check"></i></small><?php } ?><?php if($di[1]->triger_fb == 'Close'){ ?><i class="fa fa-bell text-danger blink"></i><?php } ?>
+                                                    <?php } ?>
+                                </h5>
                                 </div>
                             </div>
                             <div class="d-flex align-items-end justify-content-between mt-4">
                                 <div>
-                                <h4 class="fs-22 fw-bold ff-secondary mb-4">Status <?php if($di[1]->value == 0){ ?><small class="text-decoration text-success">Close <i class="mdi mdi-check"></i></small><?php } ?><?php if($di[1]->value == 1){ ?><small class="text-decoration text-danger">Open <i class="mdi mdi-close"></i></small> <?php } ?></h4>
-                                    <a href="" class="text-decoration text-white">&nbsp;</a>
+                                <h4 class="fs-22 fw-bold ff-secondary mb-4">Status 
+                                <?php if($di[1]->state_fb == 'Disable'){ ?>
+                                                <i class="mdi mdi-close">Disable</i> 
+                                                <?php }else{ ?>    
+                                <?php if($di[1]->value == 0){ ?><small class="text-decoration text-success">Close <i class="mdi mdi-check"></i></small><?php } ?><?php if($di[1]->value == 1){ ?><small class="text-decoration text-danger">Open <i class="mdi mdi-close"></i></small> <?php } ?>
+                                <?php } ?>
+                            </h4>                                    <a href="" class="text-decoration text-white">&nbsp;</a>
                                 </div>
                                 <div class="avatar-sm flex-shrink-0">
                                     <span class="avatar-title bg-soft-dark rounded fs-3">
@@ -168,10 +180,3 @@
 
         </div>
         <!-- container-fluid -->
-    </div>
-    <!-- End Page-content -->
-
-    <?= $this->include('partials/footer') ?>
-    <?php echo view('partials/refresh-scc-io'); ?>
-</div>
-<!-- end main content-->

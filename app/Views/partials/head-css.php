@@ -8,6 +8,8 @@
 <link href="/assets/css/app.min.css" rel="stylesheet" type="text/css" />
 <!-- custom Css-->
 <link href="/assets/css/custom.min.css" rel="stylesheet" type="text/css" />
+<!-- Font-Awesome Css-->
+<link rel="stylesheet" href="/assets/css/font-awesome.min.css">
 
 
 

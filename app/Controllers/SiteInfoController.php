@@ -75,8 +75,8 @@ class SiteInfoController extends BaseController
       $gateway = $this->request->getVar('gateway');
       $mode = $this->request->getVar('mode');
       $ip_server = $this->request->getVar('ip_server');
-      $snmp1 = $this->request->getVar('snmp1');
-      $trap_enable = $this->request->getVar('trap_enable');
+      // $snmp1 = $this->request->getVar('snmp1');
+      // $trap_enable = $this->request->getVar('trap_enable');
       // $new_date = date("d M Y", strtotime($date));
       $char = '"';
 
