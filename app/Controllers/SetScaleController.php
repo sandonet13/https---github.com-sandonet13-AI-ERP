@@ -102,4 +102,13 @@ class SetScaleController extends BaseController
     return $this->response->redirect(site_url('/dashboard-settings'));
   }
 
+
+  public function data_mc()
+  {
+    $builder = $this->db->table('config_measurement');
+    $builder->select('*');
+    $mc_data = $builder->get()->getResult();
+    return json_encode($builder->get()->getResult());
+  }
+
 }

@@ -99,28 +99,33 @@ var config = {
          label: 'Bus Voltage',
          data: data_bus_vol,
          pointRadius: 0,
-         backgroundColor: 'rgba(0, 119, 204, 0.5)'
+         backgroundColor: 'rgba(0, 119, 204, 1)',
+         borderColor: 'rgba(0, 119, 204, 1)'
 
       },{
          label: 'Bts Voltage',
          data: data_bts_vol,
          pointRadius: 0,
-         backgroundColor: 'rgba(119, 119, 204, 0.5)'
+         backgroundColor: 'rgba(119, 119, 204, 1)',
+         borderColor: 'rgba(119, 119, 204, 1)',
       },{
          label: 'Vsat Voltage',
          data: data_vsat_vol,
          pointRadius: 0,
-         backgroundColor: 'rgba(119, 0, 204, 0.5)'
+         backgroundColor: 'rgba(119, 0, 204, 1)',
+         borderColor: 'rgba(119, 0, 204, 1)',
       },{
          label: 'Bts Current',
          data: data_btscur,
          pointRadius: 0,
-         backgroundColor: 'rgba(119, 0, 0, 0.5)'
+         backgroundColor: 'rgba(119, 0, 0, 1)',
+         borderColor: 'rgba(119, 0, 0, 1)',
       },{
          label: 'Vsat Current',
          data: data_vsatcur,
          pointRadius: 0,
-         backgroundColor: 'rgba(30, 0, 0, 0.5)'
+         backgroundColor: 'rgba(30, 0, 0, 1)',
+         borderColor: 'rgba(30, 0, 0, 1)',
       }
     ]
    },

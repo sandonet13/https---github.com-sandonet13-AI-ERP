@@ -61,8 +61,8 @@ foreach ($load as $load_data => $s3) {
             } = chart;
             ctx.save();
             ctx.globalCompositeOperation = 'destination-over';
-            ctx.fillStyle = 'rgba(255, 255, 255, 0.9)';
-            ctx.fillRect(0, 0, chart.width, chart.height);
+            // ctx.fillStyle = 'rgba(255, 255, 255, 0.9)';
+            // ctx.fillRect(0, 0, chart.width, chart.height);
             ctx.restore();
         }
     };
@@ -75,20 +75,26 @@ foreach ($load as $load_data => $s3) {
          {
          data: [],
          pointRadius: 0,
-         backgroundColor: 'rgba(0, 119, 204, 0.5)',
+         tension: 0.1,
+         backgroundColor: 'rgba(0, 119, 204, 1)',
+         borderColor: 'rgba(0, 119, 204, 1)',
          label: "PV1"
          },
          {
          data: [],
          pointRadius: 0,
-         backgroundColor: 'rgba(119, 119, 204, 0.5)',
+         tension: 0.1,
+         backgroundColor: 'rgba(119, 119, 204, 1)',
+         borderColor: 'rgba(119, 119, 204, 1)',
          label: "PV2"
 
          },
          {
          data: [],
          pointRadius: 0,
-         backgroundColor: 'rgba(119, 119, 0, 0.5)',
+         tension: 0.1,
+         backgroundColor: 'rgba(119, 119, 0, 1)',
+         borderColor: 'rgba(119, 119, 0, 1)',
          label: "Total PV"
 
          }
@@ -180,27 +186,31 @@ const config2 = {
       {
         data: [],
         pointRadius: 0,
-        backgroundColor: 'rgba(0, 119, 204, 0.5)',
+        backgroundColor: 'rgba(0, 119, 204, 1)',
+        borderColor: 'rgba(0, 119, 204, 1)',
         label: "Voltage"
       },
       {
         data: [],
         pointRadius: 0,
-        backgroundColor: 'rgba(119, 119, 204, 0.5)',
+        backgroundColor: 'rgba(119, 119, 204, 1)',
+        borderColor: 'rgba(119, 119, 204, 1)',
         label: "Current"
 
       },
       {
         data: [],
         pointRadius: 0,
-        backgroundColor: 'rgba(119, 119, 0, 0.5)',
+        backgroundColor: 'rgba(119, 119, 0, 1)',
+        borderColor: 'rgba(119, 119, 0, 1)',
         label: "Power"
 
       },
       {
         data: [],
         pointRadius: 0,
-        backgroundColor: 'rgba(119, 20, 204, 0.5)',
+        backgroundColor: 'rgba(119, 20, 204, 1)',
+        borderColor: 'rgba(119, 20, 204 ,1)',
         label: "Soc"
 
       }
@@ -307,62 +317,71 @@ const config3 = {
       {
         data: [],
         pointRadius: 0,
-        backgroundColor: 'rgba(0, 119, 204, 0.5)',
+        backgroundColor: 'rgba(0, 119, 204, 1)',
+        borderColor: 'rgba(0, 119, 204, 1)',
         label: "Bus Voltage"
       },
       {
         data: [],
         pointRadius: 0,
-        backgroundColor: 'rgba(119, 119, 204, 0.5)',
+        backgroundColor: 'rgba(119, 119, 204, 1)',
+        borderColor: 'rgba(119, 119, 204, 1)',
         label: "BTS Voltage"
 
       },
       {
         data: [],
         pointRadius: 0,
-        backgroundColor: 'rgba(119, 200, 0, 0.5)',
+        backgroundColor: 'rgba(119, 200, 0, 1)',
+        borderColor: 'rgba(119, 200, 0, 1)',
         label: "Vsat Voltage"
 
       },
       {
         data: [],
         pointRadius: 0,
-        backgroundColor: 'rgba(119, 20, 204, 0.5)',
+        backgroundColor: 'rgba(119, 20, 204, 1)',
+        borderColor: 'rgba(119, 20, 204, 1)',
         label: "BTS Current"
 
       },
       {
         data: [],
         pointRadius: 0,
-        backgroundColor: 'rgba(0, 119, 0, 0.5)',
+        backgroundColor: 'rgba(0, 119, 0, 1)',
+        borderColor: 'rgba(0, 119, 0, 1)',
         label: "Vsat Current"
 
       },
       {
         data: [],
         pointRadius: 0,
-        backgroundColor: 'rgba(2000, 20, 0, 0.5)',
+        backgroundColor: 'rgba(200, 20, 0, 1)',
+        borderColor: 'rgba(200, 20, 0, 1)',
         label: "Temperature"
 
       },
       {
         data: [],
         pointRadius: 0,
-        backgroundColor: 'rgba(32, 20, 204, 0.5)',
+        backgroundColor: 'rgba(32, 152, 99, 1)',
+        borderColor: 'rgba(32, 152, 99, 1)',
         label: "BTS Power"
 
       },
       {
         data: [],
         pointRadius: 0,
-        backgroundColor: 'rgba(32, 20, 204, 0.5)',
+        backgroundColor: 'rgba(32, 20, 204, 1)',
+        borderColor: 'rgba(32, 20, 204, 1)',
         label: "Vsat Power"
 
       },
       {
         data: [],
         pointRadius: 0,
-        backgroundColor: 'rgba(110, 20, 0, 0.5)',
+        backgroundColor: 'rgba(110, 20, 0, 1)',
+        borderColor: 'rgba(110, 20, 0, 1)',
         label: "Total Power"
 
       }

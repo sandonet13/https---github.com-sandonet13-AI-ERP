@@ -99,6 +99,7 @@ $routes->group('', ['filter' => 'auth'], function ($routes) {
 
     $routes->add('data_io', 'SetIOController::data_io');
     $routes->add('data_lvd', 'SetLVDController::data_lvd');
+    $routes->add('data_mc', 'SetScaleController::data_mc');
 
     
 

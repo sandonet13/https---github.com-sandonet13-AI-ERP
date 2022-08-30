@@ -132,3 +132,19 @@ CRITICAL - 2022-08-25 08:34:06 --> Undefined variable: start
 #4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
 #5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
 #6 {main}
+CRITICAL - 2022-08-25 21:08:56 --> Undefined variable: start
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 148, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
+CRITICAL - 2022-08-25 21:09:00 --> Undefined variable: start
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/rddspm...', 148, Array)
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MonitoringLogController))
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/rddspm/system/Commands/Server/rewrite.php(43): require_once('/var/www/rddspm...')
+#6 {main}
