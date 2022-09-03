@@ -86,10 +86,8 @@ $routes->group('', ['filter' => 'auth'], function ($routes) {
     $routes->get('update_fan', 'SetIOController::update_fan');
     $routes->post('update_door', 'SetIOController::update_door');
     $routes->get('update_door', 'SetIOController::update_door');
-    $routes->post('update_lvd_vsat', 'SetLVDController::update_lvd_vsat');
-    $routes->get('update_lvd_vsat', 'SetLVDController::update_lvd_vsat');
-    $routes->post('update_lvd_bts', 'SetLVDController::update_lvd_bts');
-    $routes->get('update_lvd_bts', 'SetLVDController::update_lvd_bts');
+    $routes->add('update_lvd_vsat', 'SetLVDController::update_lvd_vsat');
+    $routes->add('update_lvd_bts', 'SetLVDController::update_lvd_bts');
     $routes->add('get_data_zerobusvol', 'SetZeroSpanController::get_data_zerobusvol');  
     $routes->add('get_data_zerobtscur', 'SetZeroSpanController::get_data_zerobtscur');
     $routes->add('get_data_zerovsatcur', 'SetZeroSpanController::get_data_zerovsatcur');

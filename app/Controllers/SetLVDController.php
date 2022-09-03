@@ -30,7 +30,7 @@ class SetLVDController extends BaseController
         $lvd_vsat_state = $this->request->getVar('lvd_vsat_state');
         $data = [  
           'disconnect' => $lvd_vsat_disconnect,
-          'reconnect' => $lvd_vsat_disconnect,
+          'reconnect' => $lvd_vsat_reconnect,
           'state' => $lvd_vsat_state
         ];
         $builder = $this->db->table('config_lvd');
@@ -63,7 +63,7 @@ class SetLVDController extends BaseController
         $lvd_bts_state = $this->request->getVar('lvd_bts_state');
         $data = [  
           'disconnect' => $lvd_bts_disconnect,
-          'reconnect' => $lvd_bts_disconnect,
+          'reconnect' => $lvd_bts_reconnect,
           'state' => $lvd_bts_state
         ];
         $builder = $this->db->table('config_lvd');

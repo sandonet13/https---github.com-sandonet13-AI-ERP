@@ -402,15 +402,14 @@
                                                             <td class="text-center"><input id="lvd_vsat_disconnect_value" type="number" name="lvd_vsat_disconnect_value" value="<?php echo $config_lvd[0]->disconnect_fb ?>" class="form-control" placeholder="" readonly></td>
                                                             <td class="text-center"><input id="lvd_vsat_reconnect_value" type="number" name="lvd_vsat_reconnect_value" value="<?php echo $config_lvd[0]->reconnect_fb ?>" class="form-control" placeholder="" readonly></td>
                                                             <td class="text-left" id="lvd_vsat_enable"> <?php echo $config_lvd[0]->state_fb ?> </td>
-                                                            <td class="text-center"><input type="number" name="lvd_vsat_disconnect" class="form-control" id="nameInput" placeholder=""></td>
-                                                            <td class="text-center"><input type="number" name="lvd_vsat_reconnect" class="form-control" id="nameInput" placeholder=""></td>
+                                                            <td class="text-center"><input type="number" name="lvd_vsat_disconnect" value="<?php echo $config_lvd[0]->disconnect ?>" class="form-control" id="nameInput" placeholder=""></td>
+                                                            <td class="text-center"><input type="number" name="lvd_vsat_reconnect" value="<?php echo $config_lvd[0]->reconnect ?>" class="form-control" id="nameInput" placeholder=""></td>
                                                             <td class="text-center"><input type="text" class="form-control" value="<?php echo $config_lvd[0]->unit ?>" id="nameInput" placeholder="" readonly></td>
                                                             <td class="text-center">
                                                             <select class="form-control" name="lvd_vsat_state">
-                                                                <option>Select</option>
-                                                                        <option class="option">Enable</option>
-                                                                        <option class="option">Disable</option>
-                                                                 </select>
+                                                                    <option value="<?php echo $config_lvd[0]->state ?>"><?php echo $config_lvd[0]->state ?></option>
+                                                                    <?php if($config_lvd[0]->state == 'Enable'){echo '<option value="Disable">Disable</option>';}else{echo '<option value="Enable">Enable</option>';} ?>
+                                                            </select>
                                                             </td>
                                                             <td class="text-center"><button type="submit" id="sa-success" class="btn btn-primary"> Set&nbsp;</button></td>
                                                         </form>
@@ -421,14 +420,14 @@
                                                             <td class="text-center"><input id="lvd_bts_disconnect_value" type="number" name="lvd_bts_disconnect_value" value="<?php echo $config_lvd[1]->disconnect_fb ?>" class="form-control" placeholder="" readonly></td>
                                                             <td class="text-center"><input id="lvd_bts_reconnect_value" type="number" name="lvd_bts_reconnect_value" value="<?php echo $config_lvd[1]->reconnect_fb ?>" class="form-control" placeholder="" readonly></td>
                                                             <td class="text-left" id="lvd_bts_enable"> <?php echo $config_lvd[1]->state_fb ?> </td>
-                                                            <td class="text-center"><input type="number" name="lvd_bts_disconnect" class="form-control" id="nameInput" placeholder=""></td>
-                                                            <td class="text-center"><input type="number" name="lvd_bts_reconnect" class="form-control" id="nameInput" placeholder=""></td>
+                                                            <td class="text-center"><input type="number" value="<?php echo $config_lvd[1]->disconnect ?>"  name="lvd_bts_disconnect" class="form-control" id="nameInput" placeholder=""></td>
+                                                            <td class="text-center"><input type="number" value="<?php echo $config_lvd[1]->reconnect ?>" name="lvd_bts_reconnect" class="form-control" id="nameInput" placeholder=""></td>
                                                             <td class="text-center"><input type="text" class="form-control" value="<?php echo $config_lvd[1]->unit ?>" id="nameInput" placeholder="" readonly></td>
                                                             <td class="text-center">
                                                             <select class="form-control" name="lvd_bts_state">
-                                                                <option>Select</option>
-                                                                        <option class="option">Enable</option>
-                                                                        <option class="option">Disable</option>
+                                                            <option value="<?php echo $config_lvd[1]->state ?>"><?php echo $config_lvd[1]->state ?></option>
+                                          <?php if($config_lvd[1]->state == 'Enable'){echo '<option value="Disable">Disable</option>';}else{echo '<option value="Enable">Enable</option>';} ?>
+                                                                 
                                                                  </select>
                                                             </td>
                                                             <td class="text-center"><button type="submit" id="sa-success" class="btn btn-primary"> Set&nbsp;</button></td>
@@ -500,10 +499,10 @@ $.ajax({
     url: '<?php echo site_url() . 'data_lvd' ?>',
     success: function(data){
         response = $.parseJSON( data );  
-        $("#lvd_vsat_disconnect_value").val(response[0]['disconnect']);
-        $("#lvd_vsat_disconnect_value").val(response[1]['disconnect']);
-        $("#lvd_bts_reconnect_value").val(response[0]['reconnect']);
-        $("#lvd_bts_reconnect_value").val(response[1]['reconnect']);
+        $("#lvd_vsat_disconnect_value").val(response[0]['disconnect_fb']);
+        $("#lvd_bts_disconnect_value").val(response[1]['disconnect_fb']);
+        $("#lvd_vsat_reconnect_value").val(response[0]['reconnect_fb']);
+        $("#lvd_bts_reconnect_value").val(response[1]['reconnect_fb']);
         $("#lvd_vsat_enable").text(response[0]['state_fb']);
         $("#lvd_bts_enable").text(response[1]['state_fb']);
     },
