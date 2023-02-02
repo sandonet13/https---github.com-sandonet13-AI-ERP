@@ -1,0 +1,87 @@
+CRITICAL - 2022-09-15 00:41:42 --> Undefined constant "App\Controllers\data"
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-15 00:42:09 --> Undefined constant "App\Controllers\data"
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-09-15 04:54:57 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-09-15 04:54:57 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /var/www/rddspm/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/rddspm/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/rddspm/app/Controllers/MonitoringDashController.php(27): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringDashController->main_dashboard()
+#4 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-09-15 04:54:57 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-09-15 04:54:57 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /var/www/rddspm/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/rddspm/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/rddspm/app/Controllers/MonitoringDashController.php(27): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringDashController->main_dashboard()
+#4 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-09-15 04:54:59 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-09-15 04:54:59 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /var/www/rddspm/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/rddspm/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/rddspm/app/Controllers/MonitoringDashController.php(27): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringDashController->main_dashboard()
+#4 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-09-15 04:55:03 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-09-15 04:55:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /var/www/rddspm/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/rddspm/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/rddspm/app/Controllers/MonitoringDashController.php(27): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringDashController->main_dashboard()
+#4 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-09-15 04:55:04 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-09-15 04:55:04 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /var/www/rddspm/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/rddspm/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/rddspm/app/Controllers/MonitoringDashController.php(27): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringDashController->main_dashboard()
+#4 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-09-15 04:55:04 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-09-15 04:55:04 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /var/www/rddspm/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/rddspm/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/rddspm/app/Controllers/MonitoringDashController.php(27): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringDashController->main_dashboard()
+#4 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-15 05:00:23 --> Unclosed '[' does not match ')'
+#0 /var/www/rddspm/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/rddspm/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/rddspm/system/CodeIgniter.php(797): class_exists()
+#4 /var/www/rddspm/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}

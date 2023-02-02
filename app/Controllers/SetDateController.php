@@ -20,7 +20,7 @@ class SetDateController extends BaseController
 		$date = $this->request->getVar('date');
     $time = $this->request->getVar('time');
     $datetime = "$date $time";
-    $data = [  
+    $data = [
       'tgl' => $date,
       'jam' => $time,
       'msg' => $datetime
@@ -42,7 +42,7 @@ class SetDateController extends BaseController
       )
     );
     $context = stream_context_create($opts);
-    $base_url="http://" . $_SERVER['SERVER_NAME'] . ":1880/Waktu";
+    $base_url="http://" . $_SERVER['SERVER_NAME'] . ":2013/Waktu";
     $result = file_get_contents($base_url, false, $context);
     return $this->response->redirect(site_url('/dashboard-settings'));
   }

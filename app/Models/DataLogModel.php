@@ -19,7 +19,7 @@ class DataLogModel extends Model
         $this->db->where('dtime >=', $from);
         $this->db->where('dtime <=', $to);
         $this->db->order_by('id',"desc");
-        $this->db->limit(1000);
+        $this->db->limit(15000);
 
         return $this->db->get()->result();
     }

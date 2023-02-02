@@ -7,7 +7,7 @@
                                             <i class="ri-base-station-line display-6 text-muted"></i>
                                         </div>
                                         <div class="flex-grow-1 ms-3">
-                                            <h2 class="card-title mb-0">BTS Power</span></h2>
+                                            <h2 class="card-title mb-0">BTS & VSAT Power</span></h2>
                                         </div>
                                     </div>
                                   </div>

@@ -41,6 +41,16 @@ class MonitoringDashController extends BaseController
     date_default_timezone_set('Asia/Jakarta');
 		$date = date('d/m/Y H:i:s', time());
 		$data['dtime'] = $date;
+    $builder = $this->db->table('site_info');
+    $builder->select('*');
+    $data['site_info'] = $builder->get()->getResult();
+    $builder = $this->db->table('network');
+    $builder->select('*');
+    $data['network'] = $builder->get()->getResult();
+    $data['ip_real'] = shell_exec("ifconfig eth0 | grep 'inet ' | awk '{print $2}'");
+    $data['netmask'] = shell_exec("ifconfig eth0 | grep 'inet ' | awk '{print $4}'");
+    $data['gateway'] = shell_exec("ip r | grep ^def | awk '{print $3}'");
+
     return view('dashboard-rectifier', $data);
   }
 

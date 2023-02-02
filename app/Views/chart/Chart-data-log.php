@@ -1,5 +1,5 @@
 <?php
-// Inisialisasi nilai variabel awal 
+// Inisialisasi nilai variabel awal
 foreach ($log as $data => $s) {
     $arrBusVol[] = [$s->bus_vol];
     $arrBtsVol[] = [$s->bts_vol];
@@ -9,7 +9,7 @@ foreach ($log as $data => $s) {
     $arrDtime[] = [$s->dtime];
     $allData[] = [$s];
     //print_r($s);
-    // dd(); 
+    // dd();
 }
 ?>
 <!-- Dashboard init -->

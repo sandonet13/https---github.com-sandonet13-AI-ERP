@@ -26,7 +26,8 @@
 
 #--------------------------------------------------------------------
 
-CI_ENVIRONMENT = development
+#CI_ENVIRONMENT = development
+CI_ENVIRONMENT = production
 
 #--------------------------------------------------------------------
 

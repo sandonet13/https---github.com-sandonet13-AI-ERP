@@ -22,12 +22,12 @@ class SetIOController extends BaseController
     return json_encode($builder->get()->getResult());
   }
 
-  
+
   public function update_fan()
   {
     $fan_state = $this->request->getVar('fan_state');
     $fan_triger = $this->request->getVar('fan_triger');
-    $data = [  
+    $data = [
       'state' => $fan_state,
       'triger' => $fan_triger,
     ];
@@ -49,7 +49,7 @@ class SetIOController extends BaseController
         )
     );
     $context = stream_context_create($opts);
-    $base_url="http://" . $_SERVER['SERVER_NAME'] . ":1880/difan";
+    $base_url="http://" . $_SERVER['SERVER_NAME'] . ":2013/difan";
     $result = file_get_contents($base_url, false, $context);
     return $this->response->redirect(site_url('/dashboard-settings'), 'refresh');
   }
@@ -58,7 +58,7 @@ class SetIOController extends BaseController
   {
     $door_state = $this->request->getVar('door_state');
     $door_triger = $this->request->getVar('door_triger');
-    $data = [  
+    $data = [
       'state' => $door_state,
       'triger' => $door_triger,
     ];
@@ -80,7 +80,7 @@ class SetIOController extends BaseController
         )
     );
     $context = stream_context_create($opts);
-    $base_url="http://" . $_SERVER['SERVER_NAME'] . ":1880/didoor";
+    $base_url="http://" . $_SERVER['SERVER_NAME'] . ":2013/didoor";
     $result = file_get_contents($base_url, false, $context);
     return $this->response->redirect(site_url('/dashboard-settings'));
   }

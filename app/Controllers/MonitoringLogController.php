@@ -137,7 +137,8 @@ class MonitoringLogController extends BaseController
         $data['site_info'] = $builder->get()->getResult();
 
         $writer = WriterFactory::create(Type::XLSX);
-        $writer->openToBrowser('Log_Data_log.xlsx');
+        $writer->openToBrowser($data['site_info'][0]->site_id.':'.$data['site_info'][0]->name.'_DataLog.xlsx');
+        // $writer->openToFile('/home/log/Log_Data_log.xlsx');
         // echo $logs[0];
 
 
@@ -145,7 +146,8 @@ class MonitoringLogController extends BaseController
         $writer->addRows(array(0=>array('SITE NAME',':',$data['site_info'][0]->name)));
         $writer->addRows(array(0=>array('SITE ADDRESS',':',$data['site_info'][0]->address)));
         $writer->addRows(array(0=>array('MODEL',':',$data['site_info'][0]->model)));
-        $writer->addRows(array(0=>array('PERIODE',':',$start.'-'.$end)));
+        $writer->addRows(array(0=>array('PERIODE',':',$from.' to '.$to)));
+
 
         $empty = [''];
         $empty2 = [''];
@@ -159,7 +161,22 @@ class MonitoringLogController extends BaseController
             'BTS (V)',
             'MW/VSAT (V)',
             'BTS (A)',
-            'MW/VSAT (A)'
+            'MW/VSAT (A)',
+            'LVD1 STATE',
+            'LVD2 STATE',
+            'SCC1 Vin',
+            'SCC1 Vout',
+            'SCC1 Current In',
+            'SCC1 Current Out',
+            'SCC1 State',
+            'SCC2 Vin',
+            'SCC2 Vout',
+            'SCC2 Current In',
+            'SCC2 Current Out',
+            'SCC2 State',
+            'Cabinet Temperature',
+            'Cabinet Fan',
+            'Cabinet Door'
         ];
 
         $writer->addRow($header);
@@ -174,7 +191,22 @@ class MonitoringLogController extends BaseController
                 $content->bts_vol,
                 $content->vsat_vol,
                 $content->bts_cur,
-                $content->vsat_cur
+                $content->vsat_cur,
+                $content->lvd1,
+                $content->lvd2,
+                $content->cc1_vin,
+                $content->cc1_vout,
+                $content->cc1_cin,
+                $content->cc1_cout,
+                $content->cc1_state,
+                $content->cc2_vin,
+                $content->cc2_vout,
+                $content->cc2_cin,
+                $content->cc2_cout,
+                $content->cc2_state,
+                $content->temp,
+                $content->fan,
+                $content->door
             ]
             ];
     //     echo json_encode($rows);
@@ -184,4 +216,5 @@ class MonitoringLogController extends BaseController
     $writer->close();
 
 }
+
 }

@@ -1,0 +1,12 @@
+ERROR - 2022-11-10 12:18:25 --> MySQL server has gone away
+CRITICAL - 2022-11-10 12:18:25 --> MySQL server has gone away
+#0 /var/www/rddspm/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/rddspm/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/rddspm/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/rddspm/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/rddspm/app/Controllers/MonitoringDashController.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringDashController->main_dashboard()
+#6 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}

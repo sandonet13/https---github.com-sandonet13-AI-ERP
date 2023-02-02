@@ -1,0 +1,170 @@
+ERROR - 2022-11-02 01:41:29 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-11-02 01:41:29 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /var/www/rddspm/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/rddspm/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/rddspm/app/Controllers/MonitoringDashController.php(27): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringDashController->main_dashboard()
+#4 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-02 14:03:17 --> syntax error, unexpected token ";"
+#0 /var/www/rddspm/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/rddspm/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/rddspm/app/Controllers/MonitoringSccController.php(34): view()
+#3 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringSccController->scc1()
+#4 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-02 02:41:31 --> date_add(): Argument #1 ($object) must be of type DateTime, string given
+#0 /var/www/rddspm/app/Models/DataLogModel.php(42): date_add()
+#1 /var/www/rddspm/app/Controllers/MonitoringLogController.php(134): App\Models\DataLogModel->datalog()
+#2 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#3 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-02 02:42:53 --> date_add(): Argument #1 ($object) must be of type DateTime, string given
+#0 /var/www/rddspm/app/Models/DataLogModel.php(42): date_add()
+#1 /var/www/rddspm/app/Controllers/MonitoringLogController.php(134): App\Models\DataLogModel->datalog()
+#2 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#3 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-11-02 14:43:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`=` = '2022-11-02'
+ LIMIT 1000' at line 4
+CRITICAL - 2022-11-02 14:43:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`=` = '2022-11-02'
+ LIMIT 1000' at line 4
+#0 /var/www/rddspm/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/rddspm/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/rddspm/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/rddspm/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/rddspm/app/Models/DataLogModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/rddspm/app/Controllers/MonitoringLogController.php(75): App\Models\DataLogModel->datalog()
+#6 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->index()
+#7 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-11-02 02:43:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`=` = '2022-11-02'
+ LIMIT 1000' at line 4
+CRITICAL - 2022-11-02 02:43:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`=` = '2022-11-02'
+ LIMIT 1000' at line 4
+#0 /var/www/rddspm/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/rddspm/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/rddspm/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/rddspm/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/rddspm/app/Models/DataLogModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/rddspm/app/Controllers/MonitoringLogController.php(134): App\Models\DataLogModel->datalog()
+#6 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#7 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-11-02 14:43:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`=` = '2022-11-02'
+ LIMIT 1000' at line 4
+CRITICAL - 2022-11-02 14:43:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`=` = '2022-11-02'
+ LIMIT 1000' at line 4
+#0 /var/www/rddspm/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/rddspm/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/rddspm/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/rddspm/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/rddspm/app/Models/DataLogModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/rddspm/app/Controllers/MonitoringLogController.php(75): App\Models\DataLogModel->datalog()
+#6 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->index()
+#7 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-11-02 14:43:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`=` = '2022-11-02'
+ LIMIT 1000' at line 4
+CRITICAL - 2022-11-02 14:43:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`=` = '2022-11-02'
+ LIMIT 1000' at line 4
+#0 /var/www/rddspm/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/rddspm/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/rddspm/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/rddspm/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/rddspm/app/Models/DataLogModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/rddspm/app/Controllers/MonitoringLogController.php(75): App\Models\DataLogModel->datalog()
+#6 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->index()
+#7 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-11-02 14:43:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`=` = '2022-11-02'
+ LIMIT 1000' at line 4
+CRITICAL - 2022-11-02 14:43:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`=` = '2022-11-02'
+ LIMIT 1000' at line 4
+#0 /var/www/rddspm/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/rddspm/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/rddspm/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/rddspm/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/rddspm/app/Models/DataLogModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/rddspm/app/Controllers/MonitoringLogController.php(75): App\Models\DataLogModel->datalog()
+#6 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->index()
+#7 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-11-02 02:43:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`=` = '2022-11-02'
+ LIMIT 1000' at line 4
+CRITICAL - 2022-11-02 02:43:51 --> Call to a member function getResult() on bool
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(134): App\Models\DataLogModel->datalog()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-11-02 14:43:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`=` = '2022-11-02'
+ LIMIT 1000' at line 4
+CRITICAL - 2022-11-02 14:43:57 --> Call to a member function getResult() on bool
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(75): App\Models\DataLogModel->datalog()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->index()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-11-02 14:44:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`=` = '2022-11-02'
+ LIMIT 1000' at line 4
+CRITICAL - 2022-11-02 14:44:03 --> Call to a member function getResult() on bool
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(75): App\Models\DataLogModel->datalog()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->index()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-11-02 02:46:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`=` = '2022-11-02'
+ LIMIT 1000' at line 4
+CRITICAL - 2022-11-02 02:46:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`=` = '2022-11-02'
+ LIMIT 1000' at line 4
+#0 /var/www/rddspm/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/rddspm/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/rddspm/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/rddspm/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/rddspm/app/Models/DataLogModel.php(45): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/rddspm/app/Controllers/MonitoringLogController.php(134): App\Models\DataLogModel->datalog()
+#6 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#7 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-11-02 02:48:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+ LIMIT 1000' at line 3
+CRITICAL - 2022-11-02 02:48:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+ LIMIT 1000' at line 3
+#0 /var/www/rddspm/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/rddspm/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/rddspm/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/rddspm/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/rddspm/app/Models/DataLogModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/rddspm/app/Controllers/MonitoringLogController.php(134): App\Models\DataLogModel->datalog()
+#6 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#7 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}

@@ -53,6 +53,7 @@ $routes->group('', ['filter' => 'auth'], function ($routes) {
     $routes->get('/chart/Chart-data-scc-1', 'MonitoringSccController::scc1');
     $routes->get('/chart/Chart-data-recti', 'MonitoringDashController::main_dashboard');
     $routes->get('/ajax/a-dashboard-bms', 'MonitoringBmsController::ajax_bms1');
+    $routes->get('/csv', 'DataLogController::export_csv_24');
     // $routes->get('/public/assets/js/pages/chartjs-data-log.init.js', 'MonitoringLogController::log');
 
     // ========= Index Dashboard =========
@@ -88,7 +89,7 @@ $routes->group('', ['filter' => 'auth'], function ($routes) {
     $routes->get('update_door', 'SetIOController::update_door');
     $routes->add('update_lvd_vsat', 'SetLVDController::update_lvd_vsat');
     $routes->add('update_lvd_bts', 'SetLVDController::update_lvd_bts');
-    $routes->add('get_data_zerobusvol', 'SetZeroSpanController::get_data_zerobusvol');  
+    $routes->add('get_data_zerobusvol', 'SetZeroSpanController::get_data_zerobusvol');
     $routes->add('get_data_zerobtscur', 'SetZeroSpanController::get_data_zerobtscur');
     $routes->add('get_data_zerovsatcur', 'SetZeroSpanController::get_data_zerovsatcur');
     $routes->add('get_data_spanbusvol', 'SetZeroSpanController::get_data_spanbusvol');
@@ -99,7 +100,7 @@ $routes->group('', ['filter' => 'auth'], function ($routes) {
     $routes->add('data_lvd', 'SetLVDController::data_lvd');
     $routes->add('data_mc', 'SetScaleController::data_mc');
 
-    
+
 
 // Filter on route group
     $routes->get('/logout', 'Auth::logout');

@@ -32,7 +32,7 @@ class SiteInfoController extends BaseController
     $data['ip_real'] = shell_exec("ifconfig eth0 | grep 'inet ' | awk '{print $2}'");
     $data['netmask'] = shell_exec("ifconfig eth0 | grep 'inet ' | awk '{print $4}'");
     $data['gateway'] = shell_exec("ip r | grep ^def | awk '{print $3}'");
-    
+
     $builder = $this->db->table('measurement');
     $builder->select('*');
     $id = [1,4,5];
@@ -54,13 +54,17 @@ class SiteInfoController extends BaseController
     return view('dashboard-settings', $data);
   }
 
-  
+
 
 
   public function reboot()
   {
-    shell_exec(" reboot -h now ");
-    return view('dashboard-settings');
+    // shell_exec("reboot -h now ");
+    shell_exec("sh /var/www/rddspm/reboot.sh");
+    // echo "<script>window.close();</script>";
+    // exit();
+    return redirect()->to('dashboard-settings'); 
+    // return view('dashboard-settings');
   }
 
 
@@ -80,13 +84,13 @@ class SiteInfoController extends BaseController
       // $new_date = date("d M Y", strtotime($date));
       $char = '"';
 
-      $data = [  
+      $data = [
         'site_id' => $site_id,
         'name'  => $name,
         'address'  => $address,
       ];
 
-      $data_network = [  
+      $data_network = [
         'ipaddress' => $ipaddress,
         'netmask'  => $netmask,
         'gateway'  => $gateway,
@@ -100,7 +104,7 @@ class SiteInfoController extends BaseController
       $builder->where('id', 1);
       $builder->update($data_network);
 
-      shell_exec(" echo > /var/www/rddspm/interfaces_temp ");
+      shell_exec("echo > /var/www/rddspm/interfaces_temp ");
       shell_exec("echo '' >> /var/www/rddspm/interfaces_temp ");
       shell_exec("echo 'source /etc/network/interfaces.d/*' >> /var/www/rddspm/interfaces_temp ");
       shell_exec("echo '' >> /var/www/rddspm/interfaces_temp ");
@@ -126,8 +130,7 @@ class SiteInfoController extends BaseController
       shell_exec("echo '  netmask 255.255.255.0' >> /var/www/rddspm/interfaces_temp ");
       shell_exec("echo '' >> /var/www/rddspm/interfaces_temp ");
       shell_exec("cp /var/www/rddspm/interfaces_temp /etc/network/interfaces ");
-
-
+      // copy("/var/www/rddspm/interfaces_temp","/etc/network/interfaces");
       return $this->response->redirect(site_url('/dashboard-settings'));
       // $localIP = shell_exec("/sbin/ifconfig eth0| grep 'inet addr:'");
       // echo $localIP;

@@ -22,13 +22,13 @@ class SetLVDController extends BaseController
     return json_encode($builder->get()->getResult());
   }
 
-  
+
   public function update_lvd_vsat()
   {
         $lvd_vsat_disconnect = $this->request->getVar('lvd_vsat_disconnect');
         $lvd_vsat_reconnect = $this->request->getVar('lvd_vsat_reconnect');
         $lvd_vsat_state = $this->request->getVar('lvd_vsat_state');
-        $data = [  
+        $data = [
           'disconnect' => $lvd_vsat_disconnect,
           'reconnect' => $lvd_vsat_reconnect,
           'state' => $lvd_vsat_state
@@ -51,7 +51,7 @@ class SetLVDController extends BaseController
             )
         );
         $context = stream_context_create($opts);
-        $base_url="http://" . $_SERVER['SERVER_NAME'] . ":1880/lvdvsat";
+        $base_url="http://" . $_SERVER['SERVER_NAME'] . ":2013/lvdvsat";
         $result = file_get_contents($base_url, false, $context);
         return $this->response->redirect(site_url('/dashboard-settings'));
   }
@@ -61,7 +61,7 @@ class SetLVDController extends BaseController
         $lvd_bts_disconnect = $this->request->getVar('lvd_bts_disconnect');
         $lvd_bts_reconnect = $this->request->getVar('lvd_bts_reconnect');
         $lvd_bts_state = $this->request->getVar('lvd_bts_state');
-        $data = [  
+        $data = [
           'disconnect' => $lvd_bts_disconnect,
           'reconnect' => $lvd_bts_reconnect,
           'state' => $lvd_bts_state
@@ -84,7 +84,7 @@ class SetLVDController extends BaseController
             )
         );
         $context = stream_context_create($opts);
-        $base_url="http://" . $_SERVER['SERVER_NAME'] . ":1880/lvdbts";
+        $base_url="http://" . $_SERVER['SERVER_NAME'] . ":2013/lvdbts";
         $result = file_get_contents($base_url, false, $context);
         return $this->response->redirect(site_url('/dashboard-settings'));
   }

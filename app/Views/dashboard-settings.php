@@ -145,7 +145,7 @@
                                 </div><!-- end cardbody -->
                             </div><!-- end card -->
                         </div><!-- end col -->
-                        
+
                         <div class="col-xxl-8" id="calibration_refresh" <?php if($name == 'maintenance'){echo("hidden");}else{"";}?>>
                             <div class="card card-height-100">
                                 <div class="card-header align-items-center d-flex">
@@ -169,9 +169,9 @@
                                                         <tr>
                                                         <form class="bs-example form-horizontal" method="post" action="<?php echo site_url('/update_busvol_scale') ?>">
                                                             <td class="text-left"> Bus Voltage </td>
-                                                            <td class="text-center"><input type="number" class="form-control" value="<?php echo $load[0]->value ?>" id="busvol_value" placeholder="" readonly></td>
+                                                            <td class="text-center"><input type="number" class="form-control" id="bus_volt_eu" value="value" placeholder="" readonly></td>
                                                             <td class="text-center"><input type="text" class="form-control" value="<?php echo $load[0]->unit ?>" id="nameInput" placeholder="" readonly></td>
-                                                            <td class="text-center"><input type="number" class="form-control" value="<?php echo $config_load[0]->scale ?>" id="nameInput" placeholder="" readonly></td>
+                                                            <td class="text-center"><input type="number" class="form-control"  id="bus_volt_scale_fb" value="value" placeholder="" readonly></td>
                                                             <td class="text-center"><input type="number" min="0" max="2" step="0.01" class="form-control" id="nameInput" name="busvol_scale" placeholder="Set Scale Factor"></td>
                                                             <td class="text-center"><button type="submit" id="sa-success" class="btn btn-primary"> Set&nbsp; <i class="ri-check-line"></i> </button></td>
                                                         </form>
@@ -179,9 +179,9 @@
                                                         <tr>
                                                         <form class="bs-example form-horizontal" method="post" action="<?php echo site_url('/update_btscur_scale') ?>">
                                                             <td class="text-left"> BTS Current </td>
-                                                            <td class="text-center"><input type="number" class="form-control" value="<?php echo $load[1]->value ?>" id="btscur_value" placeholder="" readonly></td>
+                                                            <td class="text-center"><input type="number" class="form-control" id="bts_curr_eu" value="value" placeholder="" readonly></td>
                                                             <td class="text-center"><input type="text" class="form-control" value="<?php echo $load[1]->unit ?>" id="nameInput" placeholder="" readonly></td>
-                                                            <td class="text-center"><input type="number" class="form-control" value="<?php echo $config_load[1]->scale ?>" id="nameInput" placeholder="" readonly></td>
+                                                            <td class="text-center"><input type="number" class="form-control" id="bts_curr_scale_fb" value="value" placeholder="" readonly></td>
                                                             <td class="text-center"><input type="number" min="0" max="2" step="0.01" class="form-control" id="nameInput" name="btscur_scale" placeholder="Set Scale Factor"></td>
                                                             <td class="text-center"><button type="submit" id="sa-success" class="btn btn-primary"> Set&nbsp; <i class="ri-check-line"></i> </button></td>
                                                         </form>
@@ -189,16 +189,16 @@
                                                         <tr>
                                                         <form class="bs-example form-horizontal" method="post" action="<?php echo site_url('/update_vsatcur_scale') ?>">
                                                             <td class="text-left"> MW/VSAT Current </td>
-                                                            <td class="text-center"><input type="number" class="form-control" value="<?php echo $load[2]->value ?>" id="mwvsatcur_value" placeholder="" readonly></td>
+                                                            <td class="text-center"><input type="number" class="form-control" id="vsat_curr_eu" value="value" placeholder="" readonly></td>
                                                             <td class="text-center"><input type="text" class="form-control" value="<?php echo $load[2]->unit ?>" id="nameInput" placeholder="" readonly></td>
-                                                            <td class="text-center"><input type="number" class="form-control" value="<?php echo $config_load[2]->scale ?>" id="nameInput" placeholder="" readonly></td>
+                                                            <td class="text-center"><input type="number" class="form-control" id="vsat_curr_scale_fb" value="value" placeholder="" readonly></td>
                                                             <td class="text-center"><input type="number" min="0" max="2" step="0.01" class="form-control" id="nameInput" name="vsatcur_scale" placeholder="Set Scale Factor"></td>
                                                             <td class="text-center"><button type="submit" id="sa-success" class="btn btn-primary"> Set&nbsp; <i class="ri-check-line"></i> </button></td>
                                                         </form>
                                                         </tr>
 
                                                 </tbody><!-- end tbody -->
-                                                
+
                                             </table><!-- end table -->
                                         </div><!-- end table responsive -->
                                 </div><!-- end cardbody -->
@@ -230,12 +230,12 @@
                                                         <tr>
                                                         <form class="bs-example form-horizontal" method="post" action="<?php echo site_url('/update_busvol_scale') ?>">
                                                             <td class="text-left"> Bus Voltage </td>
-                                                            <td class="text-center"><input type="number" class="form-control" value="<?php echo $config_load[0]->min ?>" id="nameInput" placeholder="" readonly></td>
-                                                            <td class="text-center"><input type="number" class="form-control" value="<?php echo $load[0]->value ?>" id="nameInput" placeholder="" readonly></td>
+                                                            <td class="text-center"><input type="number" class="form-control" id="bus_volt_raw" value="value" placeholder="" readonly></td>
+                                                            <td class="text-center"><input type="number" class="form-control" id="bus_volt_eu_maint" value="value" placeholder="" readonly></td>
                                                             <td class="text-center"><input type="text" class="form-control" value="<?php echo $load[0]->unit ?>" id="nameInput" placeholder="" readonly></td>
-                                                            <td class="text-center"><input type="number" class="form-control" value="<?php echo $config_load[0]->scale ?>" id="nameInput" placeholder="" readonly></td>
+                                                            <td class="text-center"><input type="number" class="form-control"  id="bus_volt_scale_fb_maint" value="value" placeholder="" readonly></td>
                                                             <td class="text-center"><input type="number" min="0" max="2" step="0.01" class="form-control" id="nameInput" name="busvol_scale" placeholder="Set Scale Factor"></td>
-                                                            <td class="text-center"><button type="submit" id="sa-success" class="btn btn-primary"> Set&nbsp;</button></td>
+                                                            <td class="text-center"><button type="submit" id="sa-success" class="btn btn-primary"> Set&nbsp; <i class="ri-check-line"></i> </button></td>
                                                         </form>
                                                         <td class="text-center">
                                                             <form class="bs-example form-horizontal" method="post" action="<?php echo site_url('/get_data_zerobusvol') ?>">
@@ -251,12 +251,12 @@
                                                         <tr>
                                                         <form class="bs-example form-horizontal" method="post" action="<?php echo site_url('/update_btscur_scale') ?>">
                                                             <td class="text-left"> BTS Current </td>
-                                                            <td class="text-center"><input type="number" class="form-control" value="<?php echo $config_load[1]->min ?>" id="nameInput" placeholder="" readonly></td>
-                                                            <td class="text-center"><input type="number" class="form-control" value="<?php echo $load[1]->value ?>" id="nameInput" placeholder="" readonly></td>
+                                                            <td class="text-center"><input type="number" class="form-control" id="bts_curr_raw" value="value" placeholder="" placeholder="" readonly></td>
+                                                            <td class="text-center"><input type="number" class="form-control" id="bts_curr_eu_maint" value="value" placeholder="" readonly></td>
                                                             <td class="text-center"><input type="text" class="form-control" value="<?php echo $load[1]->unit ?>" id="nameInput" placeholder="" readonly></td>
-                                                            <td class="text-center"><input type="number" class="form-control" value="<?php echo $config_load[1]->scale ?>" id="nameInput" placeholder="" readonly></td>
+                                                            <td class="text-center"><input type="number" class="form-control" id="bts_curr_scale_fb_maint" value="value" placeholder="" readonly></td>
                                                             <td class="text-center"><input type="number" min="0" max="2" step="0.01" class="form-control" id="nameInput" name="btscur_scale" placeholder="Set Scale Factor"></td>
-                                                            <td class="text-center"><button type="submit" id="sa-success" class="btn btn-primary"> Set&nbsp; </button></td>
+                                                            <td class="text-center"><button type="submit" id="sa-success" class="btn btn-primary"> Set&nbsp; <i class="ri-check-line"></i> </button></td>
                                                         </form>
                                                         <td class="text-center">
                                                             <form class="bs-example form-horizontal" method="post" action="<?php echo site_url('/get_data_zerobtscur') ?>">
@@ -272,12 +272,12 @@
                                                         <tr>
                                                         <form class="bs-example form-horizontal" method="post" action="<?php echo site_url('/update_vsatcur_scale') ?>">
                                                             <td class="text-left"> MW/VSAT Current </td>
-                                                            <td class="text-center"><input type="number" class="form-control" value="<?php echo $config_load[2]->min ?>" id="nameInput" placeholder="" readonly></td>
-                                                            <td class="text-center"><input type="number" class="form-control" value="<?php echo $load[2]->value ?>" id="nameInput" placeholder="" readonly></td>
+                                                            <td class="text-center"><input type="number" class="form-control" id="vsat_curr_raw" value="value" placeholder="" readonly></td>
+                                                            <td class="text-center"><input type="number" class="form-control" id="vsat_curr_eu_maint" value="value" placeholder="" readonly></td>
                                                             <td class="text-center"><input type="text" class="form-control" value="<?php echo $load[2]->unit ?>" id="nameInput" placeholder="" readonly></td>
-                                                            <td class="text-center"><input type="number" class="form-control" value="<?php echo $config_load[2]->scale ?>" id="nameInput" placeholder="" readonly></td>
+                                                            <td class="text-center"><input type="number" class="form-control" id="vsat_curr_scale_fb_maint" value="value" placeholder="" readonly></td>
                                                             <td class="text-center"><input type="number" min="0" max="2" step="0.01" class="form-control" id="nameInput" name="vsatcur_scale" placeholder="Set Scale Factor"></td>
-                                                            <td class="text-center"><button type="submit" id="sa-success" class="btn btn-primary"> Set&nbsp; </button></td>
+                                                            <td class="text-center"><button type="submit" id="sa-success" class="btn btn-primary"> Set&nbsp; <i class="ri-check-line"></i> </button></td>
                                                         </form>
                                                         <td class="text-center">
                                                             <form class="bs-example form-horizontal" method="post" action="<?php echo site_url('/get_data_zerovsatcur') ?>">
@@ -292,13 +292,13 @@
                                                         </tr>
 
                                                 </tbody><!-- end tbody -->
-                                                
+
                                             </table><!-- end table -->
                                         </div><!-- end table responsive -->
                                 </div>
                             </div><!-- end card -->
                         </div><!-- end col -->
-                        
+
                         <div class="col-xxl-8" id="io">
                             <div class="card card-height-100">
                             <div class="card-header align-items-center d-flex">
@@ -322,8 +322,8 @@
                                                         <tr>
                                                         <form class="bs-example form-horizontal" method="post" action="<?php echo site_url('/update_fan') ?>">
                                                             <td class="text-left"> <?php echo $config_di[0]->parameter ?> </td>
-                                                            <td class="text-left" id="state_fb"></td>
-                                                            <td class="text-left" id="triger_fb"></td>
+                                                            <td class="text-left" id="di_fan_enable_fb"></td>
+                                                            <td class="text-left" id="di_fan_trigger_fb"></td>
                                                             <td class="text-center">
                                                                 <select class="form-control" name="fan_state">
                                                                 <option>Select</option>
@@ -344,8 +344,8 @@
                                                         <tr>
                                                         <form class="bs-example form-horizontal" method="post" action="<?php echo site_url('/update_door') ?>">
                                                             <td class="text-left"> <?php echo $config_di[1]->parameter ?> </td>
-                                                            <td class="text-left" id="door_state_fb"></td>
-                                                            <td class="text-left" id="door_triger_fb"></td>
+                                                            <td class="text-left" id="di_door_enable_fb"></td>
+                                                            <td class="text-left" id="di_door_trigger_fb"></td>
                                                             <td class="text-center">
                                                             <select class="form-control" name="door_state">
                                                                 <option>Select</option>
@@ -365,13 +365,13 @@
                                                         </tr>
 
                                                 </tbody><!-- end tbody -->
-                                                
+
                                             </table><!-- end table -->
                                         </div><!-- end table responsive -->
                                         </div>
                             </div><!-- end card -->
                         </div><!-- end col -->
-                        
+
                         <div class="col-xxl-8" id="lvd_refresh">
                             <div class="card card-height-100">
                             <div class="card-header align-items-center d-flex">
@@ -399,11 +399,11 @@
                                                         <tr>
                                                         <form class="bs-example form-horizontal" method="post" action="<?php echo site_url('/update_lvd_vsat') ?>">
                                                             <td class="text-left"> <?php echo $config_lvd[0]->parameter ?> </td>
-                                                            <td class="text-center"><input id="lvd_vsat_disconnect_value" type="number" name="lvd_vsat_disconnect_value" value="<?php echo $config_lvd[0]->disconnect_fb ?>" class="form-control" placeholder="" readonly></td>
-                                                            <td class="text-center"><input id="lvd_vsat_reconnect_value" type="number" name="lvd_vsat_reconnect_value" value="<?php echo $config_lvd[0]->reconnect_fb ?>" class="form-control" placeholder="" readonly></td>
+                                                            <td class="text-center"><input type="number" name="lvd_vsat_disconnect_value" id="lvd_vsat_disconn_fb" value="value" class="form-control" placeholder="" readonly></td>
+                                                            <td class="text-center"><input type="number" name="lvd_vsat_reconnect_value" id="lvd_vsat_reconn_fb" value="value" class="form-control" placeholder="" readonly></td>
                                                             <td class="text-left" id="lvd_vsat_enable"> <?php echo $config_lvd[0]->state_fb ?> </td>
-                                                            <td class="text-center"><input type="number" name="lvd_vsat_disconnect" value="<?php echo $config_lvd[0]->disconnect ?>" class="form-control" id="nameInput" placeholder=""></td>
-                                                            <td class="text-center"><input type="number" name="lvd_vsat_reconnect" value="<?php echo $config_lvd[0]->reconnect ?>" class="form-control" id="nameInput" placeholder=""></td>
+                                                            <td class="text-center"><input type="number" step="any" name="lvd_vsat_disconnect" value="<?php echo $config_lvd[0]->disconnect ?>" class="form-control" id="nameInput" placeholder=""></td>
+                                                            <td class="text-center"><input type="number" step="any" name="lvd_vsat_reconnect" value="<?php echo $config_lvd[0]->reconnect ?>" class="form-control" id="nameInput" placeholder=""></td>
                                                             <td class="text-center"><input type="text" class="form-control" value="<?php echo $config_lvd[0]->unit ?>" id="nameInput" placeholder="" readonly></td>
                                                             <td class="text-center">
                                                             <select class="form-control" name="lvd_vsat_state">
@@ -417,25 +417,24 @@
                                                         <tr>
                                                         <form class="bs-example form-horizontal" method="post" action="<?php echo site_url('/update_lvd_bts') ?>">
                                                             <td class="text-left"> <?php echo $config_lvd[1]->parameter ?> </td>
-                                                            <td class="text-center"><input id="lvd_bts_disconnect_value" type="number" name="lvd_bts_disconnect_value" value="<?php echo $config_lvd[1]->disconnect_fb ?>" class="form-control" placeholder="" readonly></td>
-                                                            <td class="text-center"><input id="lvd_bts_reconnect_value" type="number" name="lvd_bts_reconnect_value" value="<?php echo $config_lvd[1]->reconnect_fb ?>" class="form-control" placeholder="" readonly></td>
+                                                            <td class="text-center"><input type="number" name="lvd_bts_disconnect_value" id="lvd_bts_disconn_fb" value="value" class="form-control" placeholder="" readonly></td>
+                                                            <td class="text-center"><input type="number" name="lvd_bts_reconnect_value" id="lvd_bts_reconn_fb" value="value" class="form-control" placeholder="" readonly></td>
                                                             <td class="text-left" id="lvd_bts_enable"> <?php echo $config_lvd[1]->state_fb ?> </td>
-                                                            <td class="text-center"><input type="number" value="<?php echo $config_lvd[1]->disconnect ?>"  name="lvd_bts_disconnect" class="form-control" id="nameInput" placeholder=""></td>
-                                                            <td class="text-center"><input type="number" value="<?php echo $config_lvd[1]->reconnect ?>" name="lvd_bts_reconnect" class="form-control" id="nameInput" placeholder=""></td>
+                                                            <td class="text-center"><input type="number" step="any" value="<?php echo $config_lvd[1]->disconnect ?>"  name="lvd_bts_disconnect" class="form-control" id="nameInput" placeholder=""></td>
+                                                            <td class="text-center"><input type="number" step="any" value="<?php echo $config_lvd[1]->reconnect ?>" name="lvd_bts_reconnect" class="form-control" id="nameInput" placeholder=""></td>
                                                             <td class="text-center"><input type="text" class="form-control" value="<?php echo $config_lvd[1]->unit ?>" id="nameInput" placeholder="" readonly></td>
                                                             <td class="text-center">
                                                             <select class="form-control" name="lvd_bts_state">
-                                                            <option value="<?php echo $config_lvd[1]->state ?>"><?php echo $config_lvd[1]->state ?></option>
-                                          <?php if($config_lvd[1]->state == 'Enable'){echo '<option value="Disable">Disable</option>';}else{echo '<option value="Enable">Enable</option>';} ?>
-                                                                 
-                                                                 </select>
+                                                                  <option value="<?php echo $config_lvd[1]->state ?>"><?php echo $config_lvd[1]->state ?></option>
+                                                                  <?php if($config_lvd[1]->state == 'Enable'){echo '<option value="Disable">Disable</option>';}else{echo '<option value="Enable">Enable</option>';} ?>
+                                                            </select>
                                                             </td>
                                                             <td class="text-center"><button type="submit" id="sa-success" class="btn btn-primary"> Set&nbsp;</button></td>
                                                         </form>
                                                         </tr>
 
                                                 </tbody><!-- end tbody -->
-                                                
+
                                             </table><!-- end table -->
                                         </div><!-- end table responsive -->
                                 </div>
@@ -452,7 +451,7 @@
 
             <?= $this->include('partials/footer') ?>
             <script src="/assets/js/jquery-3.6.0.min.js"></script>
-        
+
         </div>
         <!-- end main content-->
 
@@ -463,7 +462,9 @@
 
 
     <?= $this->include('partials/vendor-scripts') ?>
-                                         
+    <?php echo view('partials/settings_payload'); ?>
+    <?php echo view('partials/dido_conf_payload'); ?>
+
     <!-- apexcharts -->
     <script src="/assets/libs/apexcharts/apexcharts.min.js"></script>
 
@@ -482,44 +483,44 @@
 </html>
 
 <script>
-function requestData() {
-$.ajax({
-    type: "GET",
-    url: '<?php echo site_url() . 'data_io' ?>',
-    success: function(data){
-        response = $.parseJSON( data );  
-        $("#state_fb").text(response[0]['state_fb']);
-        $("#triger_fb").text(response[0]['triger_fb']);
-        $("#door_state_fb").text(response[1]['state_fb']);
-        $("#door_triger_fb").text(response[1]['triger_fb']);
-    },
-})
-$.ajax({
-    type: "GET",
-    url: '<?php echo site_url() . 'data_lvd' ?>',
-    success: function(data){
-        response = $.parseJSON( data );  
-        $("#lvd_vsat_disconnect_value").val(response[0]['disconnect_fb']);
-        $("#lvd_bts_disconnect_value").val(response[1]['disconnect_fb']);
-        $("#lvd_vsat_reconnect_value").val(response[0]['reconnect_fb']);
-        $("#lvd_bts_reconnect_value").val(response[1]['reconnect_fb']);
-        $("#lvd_vsat_enable").text(response[0]['state_fb']);
-        $("#lvd_bts_enable").text(response[1]['state_fb']);
-    },
-})
-$.ajax({
-    type: "GET",
-    url: '<?php echo site_url() . 'data_mc' ?>',
-    success: function(data){
-        response = $.parseJSON( data );  
-        $("#busvol_value").val(response[0]['max']);
-        $("#btscur_value").val(response[3]['max']);
-        $("#mwvsatcur_value").val(response[4]['max']);
-    },
-})    
-};
-
-requestData();
-                                       
-setInterval(requestData, (2000));
+// function requestData() {
+// $.ajax({
+//     type: "GET",
+//     url: '<?php //echo site_url() . 'data_io' ?>',
+//     success: function(data){
+//         response = $.parseJSON( data );
+//         $("#state_fb").text(response[0]['state_fb']);
+//         $("#triger_fb").text(response[0]['triger_fb']);
+//         $("#door_state_fb").text(response[1]['state_fb']);
+//         $("#door_triger_fb").text(response[1]['triger_fb']);
+//     },
+// })
+// $.ajax({
+//     type: "GET",
+//     url: '<?php //echo site_url() . 'data_lvd' ?>',
+//     success: function(data){
+//         response = $.parseJSON( data );
+//         $("#lvd_vsat_disconnect_value").val(response[0]['disconnect_fb']);
+//         $("#lvd_bts_disconnect_value").val(response[1]['disconnect_fb']);
+//         $("#lvd_vsat_reconnect_value").val(response[0]['reconnect_fb']);
+//         $("#lvd_bts_reconnect_value").val(response[1]['reconnect_fb']);
+//         $("#lvd_vsat_enable").text(response[0]['state_fb']);
+//         $("#lvd_bts_enable").text(response[1]['state_fb']);
+//     },
+// })
+// $.ajax({
+//     type: "GET",
+//     url: '<?php //echo site_url() . 'data_mc' ?>',
+//     success: function(data){
+//         response = $.parseJSON( data );
+//         $("#busvol_value").val(response[0]['max']);
+//         $("#btscur_value").val(response[3]['max']);
+//         $("#mwvsatcur_value").val(response[4]['max']);
+//     },
+// })
+// };
+//
+// requestData();
+//
+// setInterval(requestData, (2000));
 </script>

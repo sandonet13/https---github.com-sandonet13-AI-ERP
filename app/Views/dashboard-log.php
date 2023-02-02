@@ -61,7 +61,7 @@
                                                 <div class="form-group" id="sandbox-container"  >
                                                     <input type="date" class="form-control" placeholder="From" name="from" data-provider="flatpickr" data-date-format="Y-m-d" value="<?php if (isset($_POST['from'])) echo $_POST['from'];?>">
                                                     <input type="date" class="form-control cuy" placeholder="To" name="to" data-provider="flatpickr" data-date-format="Y-m-d" value="<?php if (isset($_POST['to'])) echo $_POST['to'];?>">
-                                                
+
 
                                                 <!-- <button class="btn btn-sm btn-info hide" type="submit">Show</button> -->
                                                 <button class="btn btn-sm btn-info hide" type="submit">Shows</button>
@@ -77,7 +77,7 @@
                                                 <div class="form-group " id="sandbox-container"  >
                                                     <input type="date" class="form-control" placeholder="Start" name="start" data-provider="flatpickr" data-date-format="Y-m-d" value="<?php if (isset($_POST['start'])) echo $_POST['start'];?>">
                                                     <input type="date" class="form-control cuy" placeholder="End" name="end" data-provider="flatpickr" data-date-format="Y-m-d" value="<?php if (isset($_POST['end'])) echo $_POST['end'];?>">
-                                                
+
 
                                                 <!-- <button class="btn btn-sm btn-info hide" type="submit">Show</button> -->
                                                 <button class="btn btn-sm btn-info hide" type="submit">Download</button>
@@ -91,16 +91,24 @@
                                     </div>
                                     <div id='x' class="card-body">
                                         <div class="table-responsive">
-                                            <table class="table table-striped">
+                                            <table class="table table-bordered" id="users-list">
                                                 <thead>
                                                     <tr>
-                                                        <th scope="col" style="width: 8%;" class="text-center">No</th>
-                                                        <th scope="col" style="width: 8%;" class="text-center">Date Time</th>
-                                                        <th scope="col" style="width: 8%;" class="text-center">Bus (V)</th>
-                                                        <th scope="col" style="width: 8%;" class="text-center">VTS (V)</th>
-                                                        <th scope="col" style="width: 8%;" class="text-center">MW/VSAT (V)</th>
-                                                        <th scope="col" style="width: 8%;" class="text-center">VTS (A)</th>
-                                                        <th scope="col" style="width: 8%;" class="text-center">MW/VSAT (A)</th>
+                                                        <th scope="col" style="width: 3%;" class="text-center">No</th>
+                                                        <th scope="col" style="width: 10%;" class="text-center">Date Time</th>
+                                                        <th scope="col" style="width: 6%;" class="text-center">Bus (V)</th>
+                                                        <th scope="col" style="width: 6%;" class="text-center">BTS (V)</th>
+                                                        <th scope="col" style="width: 6%;" class="text-center">VSAT V (V)</th>
+                                                        <th scope="col" style="width: 6%;" class="text-center">BTS (A)</th>
+                                                        <th scope="col" style="width: 6%;" class="text-center">VSAT (A)</th>
+                                                        <th scope="col" style="width: 6%;" class="text-center">CC1 Vin (V)</th>
+                                                        <th scope="col" style="width: 6%;" class="text-center">CC1 Vout (V)</th>
+                                                        <th scope="col" style="width: 6%;" class="text-center">CC1 Iin (A)</th>
+                                                        <th scope="col" style="width: 6%;" class="text-center">CC1 Iout (A)</th>
+                                                        <th scope="col" style="width: 6%;" class="text-center">CC2 Vin (V)</th>
+                                                        <th scope="col" style="width: 6%;" class="text-center">CC2 Vout (V)</th>
+                                                        <th scope="col" style="width: 6%;" class="text-center">CC2 Iin (A)</th>
+                                                        <th scope="col" style="width: 6%;" class="text-center">CC2 Iout (A)</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
@@ -113,13 +121,23 @@
                                                             <td class="text-center"> <?php echo $datalog->vsat_vol ?>&nbsp; </td>
                                                             <td class="text-center"> <?php echo $datalog->bts_cur ?>&nbsp; </td>
                                                             <td class="text-center"> <?php echo $datalog->vsat_cur ?>&nbsp; </td>
+                                                            <td class="text-center"> <?php echo $datalog->cc1_vin ?>&nbsp; </td>
+                                                            <td class="text-center"> <?php echo $datalog->cc1_vout ?>&nbsp; </td>
+                                                            <td class="text-center"> <?php echo $datalog->cc1_cin ?>&nbsp; </td>
+                                                            <td class="text-center"> <?php echo $datalog->cc1_cout ?>&nbsp; </td>
+                                                            <td class="text-center"> <?php echo $datalog->cc2_vin ?>&nbsp; </td>
+                                                            <td class="text-center"> <?php echo $datalog->cc2_vout ?>&nbsp; </td>
+                                                            <td class="text-center"> <?php echo $datalog->cc2_cin ?>&nbsp; </td>
+                                                            <td class="text-center"> <?php echo $datalog->cc2_cout ?>&nbsp; </td>
                                                         </tr>
                                                         <?php  $no++; ?>
                                                     <?php } ?>
 
-                                                </tbody><!-- end tbody -->
-                                            </table><!-- end table -->
-                                        </div><!-- end table responsive -->
+                                                </tbody>
+                                            </table>
+                                            <!-- end table -->
+                                        </div>
+                                        <!-- end table responsive -->
                                     </div><!-- end card body -->
                                 </div><!-- end card body -->
                             </div><!-- end card -->
@@ -136,6 +154,11 @@
     <!-- END layout-wrapper -->
     <?= $this->include('partials/vendor-scripts') ?>
     <?= $this->include('chart/Chart-data-log') ?>
+    <script>
+        $(document).ready( function () {
+        $('#users-list').DataTable();
+    } );
+    </script>
 
 </body>
 

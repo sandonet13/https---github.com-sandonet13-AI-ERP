@@ -40,7 +40,7 @@
                     </div>
                     <div class="dropdown-menu dropdown-menu-lg" id="search-dropdown">
                         <div data-simplebar style="max-height: 320px;">
-                            
+
                             <div class="dropdown-header">
                                 <h6 class="text-overflow text-muted mb-0 text-uppercase">Recent Searches</h6>
                             </div>
@@ -49,36 +49,36 @@
                                 <a href="/" class="btn btn-soft-secondary btn-sm btn-rounded">how to setup <i class="mdi mdi-magnify ms-1"></i></a>
                                 <a href="/" class="btn btn-soft-secondary btn-sm btn-rounded">buttons <i class="mdi mdi-magnify ms-1"></i></a>
                             </div>
-                            
+
                             <div class="dropdown-header mt-2">
                                 <h6 class="text-overflow text-muted mb-1 text-uppercase">Pages</h6>
                             </div>
 
-                            
+
                             <a href="javascript:void(0);" class="dropdown-item notify-item">
                                 <i class="ri-bubble-chart-line align-middle fs-18 text-muted me-2"></i>
                                 <span>Analytics Dashboard</span>
                             </a>
 
-                            
+
                             <a href="javascript:void(0);" class="dropdown-item notify-item">
                                 <i class="ri-lifebuoy-line align-middle fs-18 text-muted me-2"></i>
                                 <span>Help Center</span>
                             </a>
 
-                            
+
                             <a href="javascript:void(0);" class="dropdown-item notify-item">
                                 <i class="ri-user-settings-line align-middle fs-18 text-muted me-2"></i>
                                 <span>My account settings</span>
                             </a>
 
-                            
+
                             <div class="dropdown-header mt-2">
                                 <h6 class="text-overflow text-muted mb-2 text-uppercase">Members</h6>
                             </div>
 
                             <div class="notification-list">
-                                
+
                                 <a href="javascript:void(0);" class="dropdown-item notify-item py-2">
                                     <div class="d-flex">
                                         <img src="/assets/images/users/avatar-2.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic">
@@ -88,7 +88,7 @@
                                         </div>
                                     </div>
                                 </a>
-                                
+
                                 <a href="javascript:void(0);" class="dropdown-item notify-item py-2">
                                     <div class="d-flex">
                                         <img src="/assets/images/users/avatar-3.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic">
@@ -98,7 +98,7 @@
                                         </div>
                                     </div>
                                 </a>
-                                
+
                                 <a href="javascript:void(0);" class="dropdown-item notify-item py-2">
                                     <div class="d-flex">
                                         <img src="/assets/images/users/avatar-5.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic">
@@ -424,7 +424,7 @@
                         </span>
                     </button>
                     <div class="dropdown-menu dropdown-menu-end">
-                        
+
                         <h6 class="dropdown-header">Welcome <?php echo $name ?></h6>
                         <!-- <a class="dropdown-item" href="pages-profile"><i class="mdi mdi-account-circle text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Profile</span></a> -->
                         <!-- <a class="dropdown-item" href="pages-profile-settings"><i class="mdi mdi-cog-outline text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Settings</span></a> -->

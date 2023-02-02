@@ -1,0 +1,362 @@
+CRITICAL - 2022-09-14 08:25:40 --> Undefined variable $start
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(148): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-14 08:34:53 --> Class "App\Controllers\DataLogModel" not found
+#0 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\DataLogController->export_csv_log()
+#1 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-14 08:37:31 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/rddspm/app/Controllers/MonitoringLogController.php(217): fputcsv()
+#2 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->export_csv_log()
+#3 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-14 08:40:38 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/rddspm/app/Controllers/MonitoringLogController.php(217): fputcsv()
+#2 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->export_csv_log()
+#3 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-14 08:43:09 --> basename(): Passing null to parameter #2 ($suffix) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/rddspm/app/ThirdParty/Spout/Common/Helper/GlobalFunctionsHelper.php(240): basename()
+#2 /var/www/rddspm/app/ThirdParty/Spout/Writer/AbstractWriter.php(136): Box\Spout\Common\Helper\GlobalFunctionsHelper->basename()
+#3 /var/www/rddspm/app/Controllers/MonitoringLogController.php(140): Box\Spout\Writer\AbstractWriter->openToBrowser()
+#4 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#5 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-14 08:43:44 --> basename(): Passing null to parameter #2 ($suffix) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/rddspm/app/ThirdParty/Spout/Common/Helper/GlobalFunctionsHelper.php(240): basename()
+#2 /var/www/rddspm/app/ThirdParty/Spout/Writer/AbstractWriter.php(136): Box\Spout\Common\Helper\GlobalFunctionsHelper->basename()
+#3 /var/www/rddspm/app/Controllers/MonitoringLogController.php(140): Box\Spout\Writer\AbstractWriter->openToBrowser()
+#4 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#5 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-14 08:47:52 --> Undefined variable $start
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(148): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-14 08:50:33 --> syntax error, unexpected token ";", expecting ")"
+#0 /var/www/rddspm/app/ThirdParty/Spout/Autoloader/Psr4Autoloader.php(126): Box\Spout\Autoloader\Psr4Autoloader->requireFile()
+#1 /var/www/rddspm/app/ThirdParty/Spout/Autoloader/Psr4Autoloader.php(86): Box\Spout\Autoloader\Psr4Autoloader->loadMappedFile()
+#2 /var/www/rddspm/app/ThirdParty/Spout/Writer/AbstractMultiSheetsWriter.php(13): Box\Spout\Autoloader\Psr4Autoloader->loadClass()
+#3 /var/www/rddspm/app/ThirdParty/Spout/Autoloader/Psr4Autoloader.php(145): require('...')
+#4 /var/www/rddspm/app/ThirdParty/Spout/Autoloader/Psr4Autoloader.php(126): Box\Spout\Autoloader\Psr4Autoloader->requireFile()
+#5 /var/www/rddspm/app/ThirdParty/Spout/Autoloader/Psr4Autoloader.php(86): Box\Spout\Autoloader\Psr4Autoloader->loadMappedFile()
+#6 /var/www/rddspm/app/ThirdParty/Spout/Writer/XLSX/Writer.php(15): Box\Spout\Autoloader\Psr4Autoloader->loadClass()
+#7 /var/www/rddspm/app/ThirdParty/Spout/Autoloader/Psr4Autoloader.php(145): require('...')
+#8 /var/www/rddspm/app/ThirdParty/Spout/Autoloader/Psr4Autoloader.php(126): Box\Spout\Autoloader\Psr4Autoloader->requireFile()
+#9 /var/www/rddspm/app/ThirdParty/Spout/Autoloader/Psr4Autoloader.php(86): Box\Spout\Autoloader\Psr4Autoloader->loadMappedFile()
+#10 /var/www/rddspm/app/ThirdParty/Spout/Writer/WriterFactory.php(35): Box\Spout\Autoloader\Psr4Autoloader->loadClass()
+#11 /var/www/rddspm/app/Controllers/MonitoringLogController.php(139): Box\Spout\Writer\WriterFactory::create()
+#12 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#13 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#14 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#15 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2022-09-14 08:51:08 --> Undefined variable $start
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(148): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-14 08:52:39 --> Undefined variable $start
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(148): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-14 08:53:01 --> Undefined variable $start
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(148): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-14 08:53:25 --> Undefined variable $start
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(148): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-14 08:53:51 --> Undefined variable $start
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(148): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-14 08:56:49 --> syntax error, unexpected variable "$writer"
+#0 /var/www/rddspm/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/rddspm/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/rddspm/system/CodeIgniter.php(797): class_exists()
+#4 /var/www/rddspm/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-14 08:56:51 --> syntax error, unexpected variable "$writer"
+#0 /var/www/rddspm/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/rddspm/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/rddspm/system/CodeIgniter.php(797): class_exists()
+#4 /var/www/rddspm/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-14 08:57:00 --> syntax error, unexpected variable "$writer"
+#0 /var/www/rddspm/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/rddspm/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/rddspm/system/CodeIgniter.php(797): class_exists()
+#4 /var/www/rddspm/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-14 08:57:22 --> fopen(/var/www/rddspm/Log_Data_log.xlsx): Failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/rddspm/app/ThirdParty/Spout/Common/Helper/GlobalFunctionsHelper.php(25): fopen()
+#2 /var/www/rddspm/app/ThirdParty/Spout/Writer/AbstractWriter.php(114): Box\Spout\Common\Helper\GlobalFunctionsHelper->fopen()
+#3 /var/www/rddspm/app/Controllers/MonitoringLogController.php(141): Box\Spout\Writer\AbstractWriter->openToFile()
+#4 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#5 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-14 08:58:56 --> fopen(/var/www/rddspm/Log_Data_log.xlsx): Failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/rddspm/app/ThirdParty/Spout/Common/Helper/GlobalFunctionsHelper.php(25): fopen()
+#2 /var/www/rddspm/app/ThirdParty/Spout/Writer/AbstractWriter.php(114): Box\Spout\Common\Helper\GlobalFunctionsHelper->fopen()
+#3 /var/www/rddspm/app/Controllers/MonitoringLogController.php(141): Box\Spout\Writer\AbstractWriter->openToFile()
+#4 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#5 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-14 08:59:34 --> fopen(/var/www/rddspm/Log_Data_log.xlsx): Failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/rddspm/app/ThirdParty/Spout/Common/Helper/GlobalFunctionsHelper.php(25): fopen()
+#2 /var/www/rddspm/app/ThirdParty/Spout/Writer/AbstractWriter.php(114): Box\Spout\Common\Helper\GlobalFunctionsHelper->fopen()
+#3 /var/www/rddspm/app/Controllers/MonitoringLogController.php(141): Box\Spout\Writer\AbstractWriter->openToFile()
+#4 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#5 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-14 09:00:31 --> fopen(/home/Log_Data_log.xlsx): Failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/rddspm/app/ThirdParty/Spout/Common/Helper/GlobalFunctionsHelper.php(25): fopen()
+#2 /var/www/rddspm/app/ThirdParty/Spout/Writer/AbstractWriter.php(114): Box\Spout\Common\Helper\GlobalFunctionsHelper->fopen()
+#3 /var/www/rddspm/app/Controllers/MonitoringLogController.php(141): Box\Spout\Writer\AbstractWriter->openToFile()
+#4 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#5 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-14 09:03:42 --> basename(): Passing null to parameter #2 ($suffix) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/rddspm/app/ThirdParty/Spout/Common/Helper/GlobalFunctionsHelper.php(240): basename()
+#2 /var/www/rddspm/app/ThirdParty/Spout/Writer/AbstractWriter.php(136): Box\Spout\Common\Helper\GlobalFunctionsHelper->basename()
+#3 /var/www/rddspm/app/Controllers/MonitoringLogController.php(140): Box\Spout\Writer\AbstractWriter->openToBrowser()
+#4 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#5 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-14 09:05:45 --> Undefined variable $start
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(149): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-14 09:05:58 --> Undefined variable $start
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(149): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-14 09:06:14 --> Undefined variable $start
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(149): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-14 09:06:57 --> Undefined variable $start
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(149): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-14 09:08:01 --> basename(): Passing null to parameter #2 ($suffix) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/rddspm/app/ThirdParty/Spout/Common/Helper/GlobalFunctionsHelper.php(240): basename()
+#2 /var/www/rddspm/app/ThirdParty/Spout/Writer/AbstractWriter.php(136): Box\Spout\Common\Helper\GlobalFunctionsHelper->basename()
+#3 /var/www/rddspm/app/Controllers/MonitoringLogController.php(140): Box\Spout\Writer\AbstractWriter->openToBrowser()
+#4 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#5 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-14 09:08:36 --> Unclosed '{' on line 14 does not match ')'
+#0 /var/www/rddspm/app/ThirdParty/Spout/Autoloader/Psr4Autoloader.php(126): Box\Spout\Autoloader\Psr4Autoloader->requireFile()
+#1 /var/www/rddspm/app/ThirdParty/Spout/Autoloader/Psr4Autoloader.php(86): Box\Spout\Autoloader\Psr4Autoloader->loadMappedFile()
+#2 /var/www/rddspm/app/ThirdParty/Spout/Writer/WriterFactory.php(44): Box\Spout\Autoloader\Psr4Autoloader->loadClass()
+#3 /var/www/rddspm/app/Controllers/MonitoringLogController.php(139): Box\Spout\Writer\WriterFactory::create()
+#4 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#5 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-14 09:08:50 --> Undefined variable $start
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(149): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-14 09:09:09 --> Undefined variable $start
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(149): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-14 20:01:55 --> Undefined variable $start
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(149): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-14 20:02:58 --> Undefined variable $start
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(149): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-14 20:05:45 --> Undefined variable $start
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(149): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-14 20:06:18 --> Undefined variable $start
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(149): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-14 20:19:46 --> The writer needs to be opened before adding row.
+#0 /var/www/rddspm/app/ThirdParty/Spout/Writer/AbstractWriter.php(278): Box\Spout\Writer\AbstractWriter->addRow()
+#1 /var/www/rddspm/app/Controllers/MonitoringLogController.php(145): Box\Spout\Writer\AbstractWriter->addRows()
+#2 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#3 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-14 20:20:16 --> The writer needs to be opened before adding row.
+#0 /var/www/rddspm/app/ThirdParty/Spout/Writer/AbstractWriter.php(278): Box\Spout\Writer\AbstractWriter->addRow()
+#1 /var/www/rddspm/app/Controllers/MonitoringLogController.php(145): Box\Spout\Writer\AbstractWriter->addRows()
+#2 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#3 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-14 20:21:48 --> fopen(/home/rddspm/Log_Data_log.xlsx): Failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/rddspm/app/ThirdParty/Spout/Common/Helper/GlobalFunctionsHelper.php(23): fopen()
+#2 /var/www/rddspm/app/ThirdParty/Spout/Writer/AbstractWriter.php(114): Box\Spout\Common\Helper\GlobalFunctionsHelper->fopen()
+#3 /var/www/rddspm/app/Controllers/MonitoringLogController.php(141): Box\Spout\Writer\AbstractWriter->openToFile()
+#4 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#5 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-14 20:23:39 --> Undefined variable $start
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(149): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-14 20:25:33 --> syntax error, unexpected token ".", expecting ")"
+#0 /var/www/rddspm/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/rddspm/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/rddspm/system/CodeIgniter.php(797): class_exists()
+#4 /var/www/rddspm/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-14 20:25:39 --> syntax error, unexpected token ".", expecting ")"
+#0 /var/www/rddspm/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/rddspm/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/rddspm/system/CodeIgniter.php(797): class_exists()
+#4 /var/www/rddspm/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-09-14 22:35:46 --> Incorrect DATETIME value: ''
+CRITICAL - 2022-09-14 22:35:46 --> Call to a member function getResult() on bool
+#0 /var/www/rddspm/app/Controllers/MonitoringLogController.php(134): App\Models\DataLogModel->datalog()
+#1 /var/www/rddspm/system/CodeIgniter.php(832): App\Controllers\MonitoringLogController->DownloadToExcel()
+#2 /var/www/rddspm/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-14 23:48:46 --> syntax error, unexpected single-quoted string "LVD1 STATE", expecting "]"
+#0 /var/www/rddspm/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/rddspm/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/rddspm/system/CodeIgniter.php(797): class_exists()
+#4 /var/www/rddspm/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-14 23:48:49 --> syntax error, unexpected single-quoted string "LVD1 STATE", expecting "]"
+#0 /var/www/rddspm/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/rddspm/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/rddspm/system/CodeIgniter.php(797): class_exists()
+#4 /var/www/rddspm/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-14 23:49:05 --> syntax error, unexpected single-quoted string "LVD1 STATE", expecting "]"
+#0 /var/www/rddspm/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/rddspm/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/rddspm/system/CodeIgniter.php(797): class_exists()
+#4 /var/www/rddspm/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 /var/www/rddspm/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/rddspm/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}

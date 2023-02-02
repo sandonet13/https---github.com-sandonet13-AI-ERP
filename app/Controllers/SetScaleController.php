@@ -14,11 +14,11 @@ class SetScaleController extends BaseController
     //$this->dashboardModel = new DashboardModel();
   }
 
-  
+
   public function update_busvol_scale()
   {
     $busvol_scale = $this->request->getVar('busvol_scale');
-    $data = [  
+    $data = [
       'scale' => $busvol_scale
     ];
     $builder = $this->db->table('config_measurement');
@@ -39,7 +39,7 @@ class SetScaleController extends BaseController
         )
     );
     $context = stream_context_create($opts);
-    $base_url="http://" . $_SERVER['SERVER_NAME'] . ":1880/vbusscale";
+    $base_url="http://" . $_SERVER['SERVER_NAME'] . ":2013/vbusscale";
     $result = file_get_contents($base_url, false, $context);
     return $this->response->redirect(site_url('/dashboard-settings'));
   }
@@ -47,7 +47,7 @@ class SetScaleController extends BaseController
   public function update_btscur_scale()
   {
     $btscur_scale = $this->request->getVar('btscur_scale');
-    $data = [  
+    $data = [
       'scale' => $btscur_scale
     ];
     $builder = $this->db->table('config_measurement');
@@ -68,7 +68,7 @@ class SetScaleController extends BaseController
       )
     );
     $context = stream_context_create($opts);
-    $base_url="http://" . $_SERVER['SERVER_NAME'] . ":1880/btscurrscale";
+    $base_url="http://" . $_SERVER['SERVER_NAME'] . ":2013/btscurrscale";
     $result = file_get_contents($base_url, false, $context);
     return $this->response->redirect(site_url('/dashboard-settings'));
   }
@@ -76,7 +76,7 @@ class SetScaleController extends BaseController
   public function update_vsatcur_scale()
   {
     $vsatcur_scale = $this->request->getVar('vsatcur_scale');
-    $data = [  
+    $data = [
       'scale' => $vsatcur_scale
     ];
     $builder = $this->db->table('config_measurement');
@@ -97,7 +97,7 @@ class SetScaleController extends BaseController
       )
     );
     $context = stream_context_create($opts);
-    $base_url="http://" . $_SERVER['SERVER_NAME'] . ":1880/vsatcurrscale";
+    $base_url="http://" . $_SERVER['SERVER_NAME'] . ":2013/vsatcurrscale";
     $result = file_get_contents($base_url, false, $context);
     return $this->response->redirect(site_url('/dashboard-settings'));
   }

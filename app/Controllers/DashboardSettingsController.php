@@ -32,7 +32,7 @@ class DashboardSettingsController extends BaseController
     $data['ip_real'] = shell_exec("ifconfig eth0 | grep 'inet ' | awk '{print $2}'");
     $data['netmask'] = shell_exec("ifconfig eth0 | grep 'inet ' | awk '{print $4}'");
     $data['gateway'] = shell_exec("ip r | grep ^def | awk '{print $3}'");
-    
+
     $builder = $this->db->table('measurement');
     $builder->select('*');
     $id = [1,4,5];
@@ -64,7 +64,7 @@ class DashboardSettingsController extends BaseController
     $data['ip_real'] = shell_exec("ifconfig eth0 | grep 'inet ' | awk '{print $2}'");
     $data['netmask'] = shell_exec("ifconfig eth0 | grep 'inet ' | awk '{print $4}'");
     $data['gateway'] = shell_exec("ip r | grep ^def | awk '{print $3}'");
-    
+
     $builder = $this->db->table('measurement');
     $builder->select('*');
     $id = [1,4,5];
@@ -96,7 +96,7 @@ class DashboardSettingsController extends BaseController
     $data['ip_real'] = shell_exec("ifconfig eth0 | grep 'inet ' | awk '{print $2}'");
     $data['netmask'] = shell_exec("ifconfig eth0 | grep 'inet ' | awk '{print $4}'");
     $data['gateway'] = shell_exec("ip r | grep ^def | awk '{print $3}'");
-    
+
     $builder = $this->db->table('measurement');
     $builder->select('*');
     $id = [1,4,5];
@@ -128,7 +128,7 @@ class DashboardSettingsController extends BaseController
     $data['ip_real'] = shell_exec("ifconfig eth0 | grep 'inet ' | awk '{print $2}'");
     $data['netmask'] = shell_exec("ifconfig eth0 | grep 'inet ' | awk '{print $4}'");
     $data['gateway'] = shell_exec("ip r | grep ^def | awk '{print $3}'");
-    
+
     $builder = $this->db->table('measurement');
     $builder->select('*');
     $id = [1,4,5];

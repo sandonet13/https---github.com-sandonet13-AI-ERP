@@ -39,18 +39,106 @@
                                         </div>
                                     </div>
                                     <div class="row row-cols-xxl-5 row-cols-md-3 row-cols-1 g-0">
-                                        <?php foreach ($scc1 as $scc1_data) { ?>
                                             <div class="col">
                                                 <div class="mt-3 mt-md-0 py-4 px-3">
-                                                    <h5 class="text-muted text-uppercase fs-13"><?php echo $scc1_data->name; ?></h5>
+                                                    <h5 class="text-muted text-uppercase fs-13">VOLTAGE IN</h5>
                                                     <div class="d-flex align-items-center">
                                                         <div class="flex-grow-1 ms-3">
-                                                        <h2 class="mb-0"><?php echo $scc1_data->value; ?></h2>
+                                                        <h2 class="mb-0" id="scc1_vin"></h2>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div><!-- end col -->
-                                        <?php } ?>
+                                            <div class="col">
+                                                <div class="mt-3 mt-md-0 py-4 px-3">
+                                                    <h5 class="text-muted text-uppercase fs-13">VOLTAGE OUT</h5>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="flex-grow-1 ms-3">
+                                                        <h2 class="mb-0" id="scc1_vout"></h2>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!-- end col -->
+                                            <div class="col">
+                                                <div class="mt-3 mt-md-0 py-4 px-3">
+                                                    <h5 class="text-muted text-uppercase fs-13">CURRENT IN</h5>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="flex-grow-1 ms-3">
+                                                        <h2 class="mb-0" id="scc1_iin"></h2>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!-- end col -->
+                                            <div class="col">
+                                                <div class="mt-3 mt-md-0 py-4 px-3">
+                                                    <h5 class="text-muted text-uppercase fs-13">CURRENT OUT</h5>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="flex-grow-1 ms-3">
+                                                        <h2 class="mb-0" id="scc1_iout"></h2>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!-- end col -->
+                                            <div class="col">
+                                                <div class="mt-3 mt-md-0 py-4 px-3">
+                                                    <h5 class="text-muted text-uppercase fs-13">CHARGING STATE</h5>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="flex-grow-1 ms-3">
+                                                        <h2 class="mb-0" id="scc1_state"></h2>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!-- end col -->
+                                            <div class="col">
+                                                <div class="mt-3 mt-md-0 py-4 px-3">
+                                                    <h5 class="text-muted text-uppercase fs-13">AMPERE HOUR</h5>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="flex-grow-1 ms-3">
+                                                        <h2 class="mb-0" id="scc1_ah"></h2>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!-- end col -->
+                                            <div class="col">
+                                                <div class="mt-3 mt-md-0 py-4 px-3">
+                                                    <h5 class="text-muted text-uppercase fs-13">KWH</h5>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="flex-grow-1 ms-3">
+                                                        <h2 class="mb-0" id="scc1_kwh"></h2>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!-- end col -->
+                                            <div class="col">
+                                                <div class="mt-3 mt-md-0 py-4 px-3">
+                                                    <h5 class="text-muted text-uppercase fs-13">MAX VOC</h5>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="flex-grow-1 ms-3">
+                                                        <h2 class="mb-0" id="scc1_max_voc"></h2>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!-- end col -->
+                                            <div class="col">
+                                                <div class="mt-3 mt-md-0 py-4 px-3">
+                                                    <h5 class="text-muted text-uppercase fs-13">AH TOTAL</h5>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="flex-grow-1 ms-3">
+                                                        <h2 class="mb-0" id="scc1_ah_total"></h2>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!-- end col -->
+                                            <div class="col">
+                                                <div class="mt-3 mt-md-0 py-4 px-3">
+                                                    <h5 class="text-muted text-uppercase fs-13">KWH TOTAL</h5>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="flex-grow-1 ms-3">
+                                                        <h2 class="mb-0" id="scc1_kwh_total"></h2>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!-- end col -->
                                     </div><!-- end row -->
                                 </div><!-- end card body -->
                             </div><!-- end card -->
@@ -73,18 +161,106 @@
                                         </div>
                                     </div>
                                     <div class="row row-cols-xxl-5 row-cols-md-3 row-cols-1 g-0">
-                                        <?php foreach ($scc2 as $scc2_data) { ?>
-                                            <div class="col">
-                                                <div class="mt-3 mt-md-0 py-4 px-3">
-                                                    <h5 class="text-muted text-uppercase fs-13"><?php echo $scc2_data->name; ?></h5>
-                                                    <div class="d-flex align-items-center">
-                                                        <div class="flex-grow-1 ms-3">
-                                                            <h2 class="mb-0"><?php echo $scc2_data->value; ?></h2>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div><!-- end col -->
-                                        <?php } ?>
+                                              <div class="col">
+                                                  <div class="mt-3 mt-md-0 py-4 px-3">
+                                                      <h5 class="text-muted text-uppercase fs-13">VOLTAGE IN</h5>
+                                                      <div class="d-flex align-items-center">
+                                                          <div class="flex-grow-1 ms-3">
+                                                          <h2 class="mb-0" id="scc2_vin"></h2>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                              </div><!-- end col -->
+                                              <div class="col">
+                                                  <div class="mt-3 mt-md-0 py-4 px-3">
+                                                      <h5 class="text-muted text-uppercase fs-13">VOLTAGE OUT</h5>
+                                                      <div class="d-flex align-items-center">
+                                                          <div class="flex-grow-1 ms-3">
+                                                          <h2 class="mb-0" id="scc2_vout"></h2>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                              </div><!-- end col -->
+                                              <div class="col">
+                                                  <div class="mt-3 mt-md-0 py-4 px-3">
+                                                      <h5 class="text-muted text-uppercase fs-13">CURRENT IN</h5>
+                                                      <div class="d-flex align-items-center">
+                                                          <div class="flex-grow-1 ms-3">
+                                                          <h2 class="mb-0" id="scc2_iin"></h2>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                              </div><!-- end col -->
+                                              <div class="col">
+                                                  <div class="mt-3 mt-md-0 py-4 px-3">
+                                                      <h5 class="text-muted text-uppercase fs-13">CURRENT OUT</h5>
+                                                      <div class="d-flex align-items-center">
+                                                          <div class="flex-grow-1 ms-3">
+                                                          <h2 class="mb-0" id="scc2_iout"></h2>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                              </div><!-- end col -->
+                                              <div class="col">
+                                                  <div class="mt-3 mt-md-0 py-4 px-3">
+                                                      <h5 class="text-muted text-uppercase fs-13">CHARGING STATE</h5>
+                                                      <div class="d-flex align-items-center">
+                                                          <div class="flex-grow-1 ms-3">
+                                                          <h2 class="mb-0" id="scc2_state"></h2>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                              </div><!-- end col -->
+                                              <div class="col">
+                                                  <div class="mt-3 mt-md-0 py-4 px-3">
+                                                      <h5 class="text-muted text-uppercase fs-13">AMPERE HOUR</h5>
+                                                      <div class="d-flex align-items-center">
+                                                          <div class="flex-grow-1 ms-3">
+                                                          <h2 class="mb-0" id="scc2_ah"></h2>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                              </div><!-- end col -->
+                                              <div class="col">
+                                                  <div class="mt-3 mt-md-0 py-4 px-3">
+                                                      <h5 class="text-muted text-uppercase fs-13">KWH</h5>
+                                                      <div class="d-flex align-items-center">
+                                                          <div class="flex-grow-1 ms-3">
+                                                          <h2 class="mb-0" id="scc2_kwh"></h2>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                              </div><!-- end col -->
+                                              <div class="col">
+                                                  <div class="mt-3 mt-md-0 py-4 px-3">
+                                                      <h5 class="text-muted text-uppercase fs-13">MAX VOC</h5>
+                                                      <div class="d-flex align-items-center">
+                                                          <div class="flex-grow-1 ms-3">
+                                                          <h2 class="mb-0" id="scc2_max_voc"></h2>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                              </div><!-- end col -->
+                                              <div class="col">
+                                                  <div class="mt-3 mt-md-0 py-4 px-3">
+                                                      <h5 class="text-muted text-uppercase fs-13">AH TOTAL</h5>
+                                                      <div class="d-flex align-items-center">
+                                                          <div class="flex-grow-1 ms-3">
+                                                          <h2 class="mb-0" id="scc2_ah_total"></h2>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                              </div><!-- end col -->
+                                              <div class="col">
+                                                  <div class="mt-3 mt-md-0 py-4 px-3">
+                                                      <h5 class="text-muted text-uppercase fs-13">KWH TOTAL</h5>
+                                                      <div class="d-flex align-items-center">
+                                                          <div class="flex-grow-1 ms-3">
+                                                          <h2 class="mb-0" id="scc2_kwh_total"></h2>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                              </div><!-- end col -->
                                     </div><!-- end row -->
                                 </div><!-- end card body -->
                             </div><!-- end card -->
@@ -92,7 +268,7 @@
                     </div><!-- end row -->
 
                     <!-- ===================== Chart ====================== -->
-                    <!-- <div class="row"> -->
+                    <!-- <div class="row">
                         <div class="row">
                             <div class="col-xl-12">
                                 <div class="card">
@@ -103,22 +279,22 @@
                                         <canvas id="myChart1" class="chartjs-chart"></canvas>
                                 </div>
                                 </div>
-                            </div> <!-- end col -->
-                        </div>
-                        <div class="row">
-                            <div class="col-xl-12">
-                                <div class="card">
-                                    <div class="card-header">
-                                        <h4 class="card-title mb-0">Chart SCC 2</h4>
-                                    </div>
-                                    <div class="card-body">
-                                        <canvas id="myChart2" class="chartjs-chart"></canvas>
-                                </div>
-                                </div>
-                            </div> <!-- end col -->
-                        </div>
+                            </div>
+                         </div> -->
+                        <!-- <div class="row"> -->
+                            <!-- <div class="col-xl-12"> -->
+                                <!-- <div class="card"> -->
+                                    <!-- <div class="card-header"> -->
+                                        <!-- <h4 class="card-title mb-0">Chart SCC 2</h4> -->
+                                    <!-- </div> -->
+                                    <!-- <div class="card-body"> -->
+                                        <!-- <canvas id="myChart2" class="chartjs-chart"></canvas> -->
+                                <!-- </div> -->
+                                <!-- </div> -->
+                            <!-- </div> <! end col -->
+                        <!-- </div> -->
                         <!-- container-fluid -->
-                    </div>
+                    <!-- </div> -->
 
                     <?= $this->include('partials/footer') ?>
 
@@ -131,9 +307,10 @@
 
 
             <?= $this->include('partials/vendor-scripts') ?>
-            <?php echo view('partials/refresh-scc-1'); ?>
-            <?php echo view('partials/refresh-scc-2'); ?>
-            <?= $this->include('chart/Chart-data-scc-1') ?>
+            <?php //echo view('partials/refresh-scc-1'); ?>
+            <?php //echo view('partials/refresh-scc-2'); ?>
+            <?php echo view('partials/scc_payload'); ?>
+
 
 
 

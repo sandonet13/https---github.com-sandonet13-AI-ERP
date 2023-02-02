@@ -22,49 +22,40 @@
 
             <div class="page-content"  id="io">
                 <div class="container-fluid">
-                
+
                     <?php echo view('partials/page-title', array('pagetitle' => 'Dashboards', 'title' => 'Input Output')); ?>
 
                     <div class="row">
-                <div class="col-xl-5 col-md-6 ">
-                    <!-- card -->
-                    <div class="card card-animate">
-                        <div class="card-body">
-                            <div class="d-flex align-items-center">
-                                <div class="flex-grow-1 overflow-hidden">
-                                    <p class="text-uppercase fw-bold -60 text-truncate mb-0"><?php echo $di[0]->name ?> </p>
+                    <div class="col-xl-5 col-md-6">
+                        <!-- card -->
+                        <div class="card card-animate">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-grow-1 overflow-hidden">
+                                        <p class="text-uppercase fw-bold -60 text-truncate mb-0"> <?php echo $di[0]->name ?> </p>
+                                    </div>
+                                    <div class="flex-shrink-0">
+                                        <h5 class=" fs-14 mb-0">
+                                              <i id="di_fan_ena_class"></i><i id="di_fan_ena"></i><i id="di_fan_alm_class"></i>
+                                              <!-- <i class="mdi mdi-alarm text-success"><small class="mdi mdi-check"></i></small> -->
+                                        </h5>
+                                    </div>
                                 </div>
-                                <div class="flex-shrink-0">
-                                    <h5 class=" fs-14 mb-0">
-                                    <?php if($di[0]->state_fb == 'Disable'){ ?>
-                                                <i class="mdi mdi-close">Disable</i> 
-                                                <?php }else{ ?>
-                                    <?php if($di[0]->triger_fb == 'Open'){ ?><i class="mdi mdi-alarm text-success"><small class="mdi mdi-check"></i></small><?php } ?><?php if($di[0]->triger_fb == 'Close'){ ?><i class="fa fa-bell text-danger blink"></i><?php } ?>
-                                                    <?php } ?>
-                                </h5>
+                                <div class="d-flex align-items-end justify-content-between mt-4">
+                                    <div>
+                                      <h4 class="fs-22 fw-bold ff-secondary mb-4">Status
+                                          <i id="di_fan_ena_class_1"></i><i id="di_fan_ena_1"></i><i id="di_fan_state"></i>
+                                      </h4>
+                                    </div>
+                                    <div class="avatar-sm flex-shrink-0">
+                                        <span class="avatar-title bg-soft-dark rounded fs-3">
+                                            <i class="mdi mdi-fan"></i>
+                                        </span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="d-flex align-items-end justify-content-between mt-4">
-                                <div>
-                                    
-                                <h4 class="fs-22 fw-bold ff-secondary mb-4">Status 
-                                <?php if($di[0]->state_fb == 'Disable'){ ?>
-                                                <i class="mdi mdi-close">Disable</i> 
-                                                <?php }else{ ?>    
-                                <?php if($di[0]->value == 0){ ?><small class="text-decoration text-success">Close <i class="mdi mdi-check"></i></small><?php } ?><?php if($di[0]->value == 1){ ?><small class="text-decoration text-danger">Open <i class="mdi mdi-close"></i></small> <?php } ?>
-                                <?php } ?>
-                            </h4>
-                                    <a href="" class="text-decoration text-white">&nbsp;</a>
-                                </div>
-                                <div class="avatar-sm flex-shrink-0">
-                                    <span class="avatar-title bg-soft-dark rounded fs-3">
-                                        <i class="mdi mdi-fan"></i>
-                                    </span>
-                                </div>
-                            </div>
-                        </div><!-- end card body -->
-                    </div><!-- end card -->
-                </div><!-- end col -->
+                            </div><!-- end card body -->
+                        </div><!-- end card -->
+                    </div><!-- end col -->
 
                 <div class="col-xl-5 col-md-6">
                     <!-- card -->
@@ -76,23 +67,16 @@
                                 </div>
                                 <div class="flex-shrink-0">
                                     <h5 class=" fs-14 mb-0">
-                                    <?php if($di[1]->state_fb == 'Disable'){ ?>
-                                                <i class="mdi mdi-close">Disable</i> 
-                                                <?php }else{ ?>
-                                    <?php if($di[1]->triger_fb == 'Open'){ ?><i class="mdi mdi-alarm text-success"><small class="mdi mdi-check"></i></small><?php } ?><?php if($di[1]->triger_fb == 'Close'){ ?><i class="fa fa-bell text-danger blink"></i><?php } ?>
-                                                    <?php } ?>
-                                </h5>
+                                          <i id="di_door_ena_class"></i><i id="di_door_ena"></i><i id="di_door_alm_class"></i>
+                                          <!-- <i class="mdi mdi-alarm text-success"><small class="mdi mdi-check"></i></small> -->
+                                    </h5>
                                 </div>
                             </div>
                             <div class="d-flex align-items-end justify-content-between mt-4">
                                 <div>
-                                <h4 class="fs-22 fw-bold ff-secondary mb-4">Status 
-                                <?php if($di[1]->state_fb == 'Disable'){ ?>
-                                                <i class="mdi mdi-close">Disable</i> 
-                                                <?php }else{ ?>    
-                                <?php if($di[1]->value == 0){ ?><small class="text-decoration text-success">Close <i class="mdi mdi-check"></i></small><?php } ?><?php if($di[1]->value == 1){ ?><small class="text-decoration text-danger">Open <i class="mdi mdi-close"></i></small> <?php } ?>
-                                <?php } ?>
-                            </h4>                                    <a href="" class="text-decoration text-white">&nbsp;</a>
+                                  <h4 class="fs-22 fw-bold ff-secondary mb-4">Status
+                                      <i id="di_door_ena_class_1"></i><i id="di_door_ena_1"></i><i id="di_door_state"></i>
+                                  </h4>
                                 </div>
                                 <div class="avatar-sm flex-shrink-0">
                                     <span class="avatar-title bg-soft-dark rounded fs-3">
@@ -122,8 +106,9 @@
                                     </div>
                                     <div class="d-flex align-items-end justify-content-between mt-4">
                                         <div>
-                                        <h4 class="fs-22 fw-bold ff-secondary mb-4">Status <?php if($lvd[0]->value == 0){ ?><small class="text-decoration text-success">Connect <i class="mdi mdi-check"></i></small><?php } ?><?php if($lvd[0]->value == 1){ ?><small class="text-decoration text-danger">Disconnect <i class="mdi mdi-close"></i></small> <?php } ?></h4>
-                                        <a href="" class="text-decoration text-white">&nbsp;</a>
+                                          <h4 class="fs-22 fw-bold ff-secondary mb-4">Status
+                                                <i id="di_vsat_alm_class"></i><i id="di_vsat_alm"></i><i id="di_vsat_alm_class_1"></i>
+                                          </h4>
                                         </div>
                                         <div class="avatar-sm flex-shrink-0">
                                             <span class="avatar-title bg-soft-dark rounded fs-3">
@@ -143,9 +128,8 @@
                                                 </thead>
                                                 <tbody>
                                                         <tr>
-                                                            <td class="text-center"> <?php echo $lvd[0]->disconnect . '&nbsp;' . $lvd[0]->unit ?></td>
-                                                            <td class="text-center"> <?php echo $lvd[0]->reconnect . '&nbsp;' . $lvd[0]->unit ?></td>
-
+                                                            <td class="text-center" id="lvd_vsat_disconnect"></td>
+                                                            <td class="text-center" id="lvd_vsat_reconnect"> </td>
                                                         </tr>
                                                 </tbody><!-- end tbody -->
                                             </table><!-- end table -->
@@ -168,10 +152,11 @@
                                         </div>
                                     </div>
                                     <div class="d-flex align-items-end justify-content-between mt-4">
-                                        <div>
-                                        <h4 class="fs-22 fw-bold ff-secondary mb-4">Status <?php if($lvd[1]->value == 0){ ?><small class="text-decoration text-success">Connect <i class="mdi mdi-check"></i></small><?php } ?><?php if($lvd[1]->value == 1){ ?><small class="text-decoration text-danger">Disconnect <i class="mdi mdi-close"></i></small> <?php } ?></h4>
-                                            <a href="" class="text-decoration text-white">&nbsp;</a>
-                                        </div>
+                                      <div>
+                                        <h4 class="fs-22 fw-bold ff-secondary mb-4">Status
+                                              <i id="di_bts_alm_class"></i><i id="di_bts_alm"></i><i id="di_bts_alm_class_1"></i>
+                                        </h4>
+                                      </div>
                                         <div class="avatar-sm flex-shrink-0">
                                             <span class="avatar-title bg-soft-dark rounded fs-3">
                                                 <i class="ri-base-station-line"></i>
@@ -190,9 +175,8 @@
                                                 </thead>
                                                 <tbody>
                                                         <tr>
-                                                            <td class="text-center"> <?php echo $lvd[1]->disconnect . '&nbsp;' . $lvd[1]->unit ?></td>
-                                                            <td class="text-center"> <?php echo $lvd[1]->reconnect . '&nbsp;' . $lvd[1]->unit ?></td>
-
+                                                          <td class="text-center" id="lvd_bts_disconnect"></td>
+                                                          <td class="text-center" id="lvd_bts_reconnect"> </td>
                                                         </tr>
                                                 </tbody><!-- end tbody -->
                                             </table><!-- end table -->
@@ -207,7 +191,8 @@
             <!-- End Page-content -->
 
             <?= $this->include('partials/footer') ?>
-            <?php echo view('partials/refresh-scc-io'); ?>
+            <?php //echo view('partials/refresh-scc-io'); ?>
+            <?php echo view('partials/dido_alm_payload'); ?>
         </div>
         <!-- end main content-->
 

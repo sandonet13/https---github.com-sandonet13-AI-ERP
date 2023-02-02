@@ -14,20 +14,20 @@
                                 <div class="flex-shrink-0">
                                     <h5 class=" fs-14 mb-0">
                                     <?php if($di[0]->state_fb == 'Disable'){ ?>
-                                                <i class="mdi mdi-close">Disable</i> 
+                                                <i class="mdi mdi-close">Disable</i>
                                                 <?php }else{ ?>
-                                    <?php if($di[0]->triger_fb == 'Open'){ ?><i class="mdi mdi-alarm text-success"><small class="mdi mdi-check"></i></small><?php } ?><?php if($di[0]->triger_fb == 'Close'){ ?><i class="fa fa-bell text-danger blink"></i><?php } ?>
+                                    <?php if($di[0]->alarm == 0){ ?><i class="mdi mdi-alarm text-success"><small class="mdi mdi-check"></i></small><?php } ?><?php if($di[0]->alarm == 1){ ?><i class="fa fa-bell text-danger blink"></i><?php } ?>
                                                     <?php } ?>
                                 </h5>
                                 </div>
                             </div>
                             <div class="d-flex align-items-end justify-content-between mt-4">
                                 <div>
-                                    
-                                <h4 class="fs-22 fw-bold ff-secondary mb-4">Status 
+
+                                <h4 class="fs-22 fw-bold ff-secondary mb-4">Status
                                 <?php if($di[0]->state_fb == 'Disable'){ ?>
-                                                <i class="mdi mdi-close">Disable</i> 
-                                                <?php }else{ ?>    
+                                                <i class="mdi mdi-close">Disable</i>
+                                                <?php }else{ ?>
                                 <?php if($di[0]->value == 0){ ?><small class="text-decoration text-success">Close <i class="mdi mdi-check"></i></small><?php } ?><?php if($di[0]->value == 1){ ?><small class="text-decoration text-danger">Open <i class="mdi mdi-close"></i></small> <?php } ?>
                                 <?php } ?>
                             </h4>
@@ -54,19 +54,19 @@
                                 <div class="flex-shrink-0">
                                     <h5 class=" fs-14 mb-0">
                                     <?php if($di[1]->state_fb == 'Disable'){ ?>
-                                                <i class="mdi mdi-close">Disable</i> 
+                                                <i class="mdi mdi-close">Disable</i>
                                                 <?php }else{ ?>
-                                    <?php if($di[1]->triger_fb == 'Open'){ ?><i class="mdi mdi-alarm text-success"><small class="mdi mdi-check"></i></small><?php } ?><?php if($di[1]->triger_fb == 'Close'){ ?><i class="fa fa-bell text-danger blink"></i><?php } ?>
+                                    <?php if($di[1]->alarm == 0){ ?><i class="mdi mdi-alarm text-success"><small class="mdi mdi-check"></i></small><?php } ?><?php if($di[1]->alarm == 1){ ?><i class="fa fa-bell text-danger blink"></i><?php } ?>
                                                     <?php } ?>
                                 </h5>
                                 </div>
                             </div>
                             <div class="d-flex align-items-end justify-content-between mt-4">
                                 <div>
-                                <h4 class="fs-22 fw-bold ff-secondary mb-4">Status 
+                                <h4 class="fs-22 fw-bold ff-secondary mb-4">Status
                                 <?php if($di[1]->state_fb == 'Disable'){ ?>
-                                                <i class="mdi mdi-close">Disable</i> 
-                                                <?php }else{ ?>    
+                                                <i class="mdi mdi-close">Disable</i>
+                                                <?php }else{ ?>
                                 <?php if($di[1]->value == 0){ ?><small class="text-decoration text-success">Close <i class="mdi mdi-check"></i></small><?php } ?><?php if($di[1]->value == 1){ ?><small class="text-decoration text-danger">Open <i class="mdi mdi-close"></i></small> <?php } ?>
                                 <?php } ?>
                             </h4>                                    <a href="" class="text-decoration text-white">&nbsp;</a>

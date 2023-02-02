@@ -22,9 +22,9 @@ class DataLogController extends BaseController
             ->where('dtime > now() - interval 24 hour')
             ->get()->getResultArray();
     //$data_log_parsing = json_encode($data_log);
-    $filename = 'Last_24_Hours '.date('Y-m-d').'.csv'; 
-        header("Content-Description: File Transfer"); 
-        header("Content-Disposition: attachment; filename=$filename"); 
+    $filename = 'Last_24_Hours '.date('Y-m-d').'.csv';
+        header("Content-Description: File Transfer");
+        header("Content-Disposition: attachment; filename=$filename");
         header("Content-Type: application/csv; ");
         $headers = ["ID", "Date Time", "Bus (V)", "BTS (V)","VSAT (V)", "BTS (A)", "VSAT (A)"];
         $handle = fopen('php://output', 'w');
@@ -36,6 +36,8 @@ class DataLogController extends BaseController
             }
                 fclose($handle);
             exit;
-          }
+    }
+
+
     //print_r($data_log);
 }

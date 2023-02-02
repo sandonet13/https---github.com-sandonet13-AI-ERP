@@ -17,11 +17,11 @@
                 <img src="/assets/images/logo-sm.png" alt="" height="22">
             </span>
             <span class="logo-lg">
-                <img src="/assets/images/logo-light.png" alt="">
+                <img src="/assets/images/elmos-white.png" alt="">
             </span>
             <div id="dtime">
                 <div><span class="logo-lg"><?php echo $dtime ?></span></div>
-                <?php echo view('partials/refresh-dtime'); ?> 
+                <?php echo view('partials/refresh-dtime'); ?>
             </div>
         </a>
         <button type="button" class="btn btn-sm p-0 fs-20 header-item float-end btn-vertical-sm-hover" id="vertical-hover">
@@ -68,9 +68,9 @@
                         <li class="nav-item">
                             <a href="dashboard-io" class="nav-link" data-key="t-rectifier"> Input Output </a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a href="dashboard-bms" class="nav-link" data-key="t-rectifier"> Battery Monitoring </a>
-                        </li>
+                        </li> -->
                     </ul>
                     <!-- end Dashboard Config -->
                 </div>

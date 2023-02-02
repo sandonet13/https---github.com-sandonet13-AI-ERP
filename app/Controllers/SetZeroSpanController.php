@@ -32,7 +32,7 @@ class SetZeroSpanController extends BaseController
       )
   );
     $context = stream_context_create($opts);
-    $base_url="http://" . $_SERVER['SERVER_NAME'] . ":1880/zerobusvol";
+    $base_url="http://" . $_SERVER['SERVER_NAME'] . ":2013/zerobusvol";
     $result = file_get_contents($base_url, false, $context);
     return $this->response->redirect(site_url('/dashboard-settings'));
   }
@@ -54,7 +54,7 @@ $opts = array('http' =>
     )
 );
 $context = stream_context_create($opts);
-$base_url="http://" . $_SERVER['SERVER_NAME'] . ":1880/zerobtscur";
+$base_url="http://" . $_SERVER['SERVER_NAME'] . ":2013/zerobtscur";
 $result = file_get_contents($base_url, false, $context);
 return $this->response->redirect(site_url('/dashboard-settings'));
 }
@@ -76,7 +76,7 @@ $opts = array('http' =>
     )
 );
 $context = stream_context_create($opts);
-$base_url="http://" . $_SERVER['SERVER_NAME'] . ":1880/zerovsatcur";
+$base_url="http://" . $_SERVER['SERVER_NAME'] . ":2013/zerovsatcur";
 $result = file_get_contents($base_url, false, $context);
 return $this->response->redirect(site_url('/dashboard-settings'));
 }
@@ -98,7 +98,7 @@ $opts = array('http' =>
     )
 );
 $context = stream_context_create($opts);
-$base_url="http://" . $_SERVER['SERVER_NAME'] . ":1880/spanbusvol";
+$base_url="http://" . $_SERVER['SERVER_NAME'] . ":2013/spanbusvol";
 $result = file_get_contents($base_url, false, $context);
 return $this->response->redirect(site_url('/dashboard-settings'));
 }
@@ -120,7 +120,7 @@ $opts = array('http' =>
     )
 );
 $context = stream_context_create($opts);
-$base_url="http://" . $_SERVER['SERVER_NAME'] . ":1880/spanbtscur";
+$base_url="http://" . $_SERVER['SERVER_NAME'] . ":2013/spanbtscur";
 $result = file_get_contents($base_url, false, $context);
 return $this->response->redirect(site_url('/dashboard-settings'));
 }
@@ -142,7 +142,7 @@ $opts = array('http' =>
     )
 );
 $context = stream_context_create($opts);
-$base_url="http://" . $_SERVER['SERVER_NAME'] . ":1880/spanvsatcur";
+$base_url="http://" . $_SERVER['SERVER_NAME'] . ":2013/spanvsatcur";
 $result = file_get_contents($base_url, false, $context);
 return $this->response->redirect(site_url('/dashboard-settings'));
 }
